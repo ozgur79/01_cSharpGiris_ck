@@ -107,7 +107,22 @@ derste tanıtıldığını gösteren tek/iki satır yeter. Dersin **kendi yeni**
 // (kısa, net; cevap YOK — cevap cozumler/ckXXXX_isim/ altında)
 ```
 
-`ck0010`'dan sonraki bir derste, o dersin kendine özgü yeni bir kara kutusu yoksa:
+`ck0010`'dan sonraki bir derste, o dersin kendine özgü yeni bir kara kutusu yoksa, kısa
+referans kullanılır — **ama statik durmaz, kademeli ön izleme taşır:**
+
+**Kademeli ön izleme.** Kısa referans "hiç değinmeden sonraki büyük açılışı bekle" demek
+değildir. Her Console dersinde, henüz açılmamış kara kutulardan **birine** dair tek
+cümlelik bir ön izleme eklenir, sırayla döner: `using` → `namespace` → `class Program` →
+`static Main` → (tekrar başa). Kurallar:
+- Ön izleme KAVRAM'ı değiştirmez, sadece kara kutu satırına eklenir; terim resmi
+  öğretilmiş sayılmaz, o kutunun "açılacağı ders" değişmez.
+- Dersin kendi yeni bir dil kavramı varsa (çoğu ders) ön izleme tek cümle kalır.
+- Dersin kendi yeni bir dil kavramı **yoksa** (saf pekiştirme dersi — aynı operatörü/yapıyı
+  farklı bir problemde tekrar kullanmak gibi), o dersin boş kapasitesi bu ön izlemeyi
+  derinleştirmek için kullanılır — birkaç cümlelik daha ayrıntılı bir açıklama olur.
+  Yine terim resmi öğretilmez, sadece sezgi kurulur.
+- Hangi derste hangi kutuya ne söylendiği `mufredat.md`'nin kara kutu tablosundaki
+  "ön izleme günlüğü" sütununa işlenir — rotasyon kaybolmasın, aynı şey tekrar edilmesin.
 
 ```csharp
 // ck0020 — ...
@@ -116,6 +131,8 @@ derste tanıtıldığını gösteren tek/iki satır yeter. Dersin **kendi yeni**
 //
 // Şimdilik kara kutu (ck0010'da tanıtıldı, henüz açılmadı):
 //   VS2013 iskeleti (using'ler + namespace + class Program + Main) + Console.ReadKey();
+//   Ön izleme: using satırları, C#'ın hazır kütüphanelerinden bazılarını projene dahil
+//   eder — ileride (ckXXXX) ne işe yaradıklarını göreceğiz.
 ```
 
 Kaynak bilgisi (`arsiv/`deki hangi dosya/parça) `kod.cs`'e yazılmaz — öğrenciye gitmeyecek

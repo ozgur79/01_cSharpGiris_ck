@@ -4,6 +4,8 @@
 //
 // Şimdilik kara kutu (ck0010'da tanıtıldı, henüz açılmadı):
 //   VS2013 iskeleti (using'ler + namespace + class Program + Main) + Console.ReadKey();
+//   Ön izleme: C#'ta yazdığın her kod bir class'ın (sınıf) içinde yaşar — class Program,
+//   şu anki projenin ana sınıfı. Sınıf ne demek, OOP dersinde (ckXXXX) göreceğiz.
 
 // --- KAVRAM ---
 int x, y; // int tipinde iki değişken tanımlandı

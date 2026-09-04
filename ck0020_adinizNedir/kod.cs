@@ -5,6 +5,8 @@
 //
 // Şimdilik kara kutu (ck0010'da tanıtıldı, henüz açılmadı):
 //   VS2013 iskeleti (using'ler + namespace + class Program + Main) + Console.ReadKey();
+//   Ön izleme: using satırları, C#'ın hazır kütüphanelerinden bazılarını projene dahil
+//   eder — ileride (ckXXXX) ne işe yaradıklarını göreceğiz.
 
 // --- KAVRAM ---
 string isim; // isim adında bir metin (string) değişkeni tanımlandı

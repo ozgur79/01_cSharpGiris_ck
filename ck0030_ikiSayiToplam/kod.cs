@@ -6,6 +6,8 @@
 //
 // Şimdilik kara kutu (ck0010'da tanıtıldı, henüz açılmadı):
 //   VS2013 iskeleti (using'ler + namespace + class Program + Main) + Console.ReadKey();
+//   Ön izleme: namespace, kodlarını bir isim altında gruplayan bir "klasör" gibidir —
+//   projeler büyüyünce aynı isimli şeylerin çakışmasını önler, ileride (ckXXXX) açacağız.
 
 // --- KAVRAM ---
 int s1, s2, toplam; // int tipinde üç değişken tanımlandı

@@ -14,12 +14,14 @@ Ders listesi ve kara kutu takip tablosu. Her onaylanan derste bu dosya güncelle
 
 ## Kara kutu takip tablosu
 
-Hangi yapı hangi derste ilk göründü, hangi derste açılacak (öğretilecek).
+Hangi yapı hangi derste ilk göründü, hangi derste açılacak (öğretilecek). "Ön izleme
+günlüğü" — hangi derste o kutuya dair ne söylendi, rotasyon kaybolmasın diye tutulur.
+Rotasyon sırası: `using` → `namespace` → `class Program` → `static Main` → (başa dön).
 
-| yapı | ilk göründüğü ders | açılacağı ders | not |
-|------|----------------------|-------------------|-----|
-| `using System;` / `using System.Collections.Generic;` / `using System.Linq;` / `using System.Text;` / `using System.Threading.Tasks;` | ck0010 | ckXXXX | [iskelet-bağımlı] — VS2013'ün her yeni Console projesine otomatik eklediği satırlar |
-| `namespace <proje adın>` | ck0010 | ckXXXX | [iskelet-bağımlı] — VS'in proje adına göre otomatik oluşturduğu ad, OOP dersine kadar açılmayacak |
-| `class Program` | ck0010 | ckXXXX | [iskelet-bağımlı] — OOP dersine kadar açılmayacak |
-| `static void Main(string[] args)` | ck0010 | ckXXXX | [iskelet-bağımlı] — OOP dersine kadar açılmayacak |
-| `Console.ReadKey();` | ck0010 | ckXXXX | konsolun neden açık kaldığını o zaman göreceğiz |
+| yapı | ilk göründüğü ders | açılacağı ders | ön izleme günlüğü | not |
+|------|----------------------|-------------------|----------------------|-----|
+| `using System;` / `using System.Collections.Generic;` / `using System.Linq;` / `using System.Text;` / `using System.Threading.Tasks;` | ck0010 | ckXXXX | ck0020: "hazır kütüphaneleri projene dahil eder" | [iskelet-bağımlı] — VS2013'ün her yeni Console projesine otomatik eklediği satırlar |
+| `namespace <proje adın>` | ck0010 | ckXXXX | ck0030: "kodları isim altında gruplayan 'klasör' gibidir, çakışmayı önler" | [iskelet-bağımlı] — VS'in proje adına göre otomatik oluşturduğu ad, OOP dersine kadar açılmayacak |
+| `class Program` | ck0010 | ckXXXX | ck0040: "her kod bir class içinde yaşar, Program ana sınıf" | [iskelet-bağımlı] — OOP dersine kadar açılmayacak |
+| `static void Main(string[] args)` | ck0010 | ckXXXX | ck0050: "programın başladığı yer, 'Başlat'a basınca çalışan ilk satır" (pekiştirme dersi olduğu için daha ayrıntılı) | [iskelet-bağımlı] — OOP dersine kadar açılmayacak |
+| `Console.ReadKey();` | ck0010 | ckXXXX | — (rotasyon dışı, ayrı ele alınıyor) | konsolun neden açık kaldığını o zaman göreceğiz |
