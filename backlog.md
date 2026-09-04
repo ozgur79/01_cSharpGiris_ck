@@ -2,9 +2,10 @@
 
 Canlı durum. Biten madde silinir, `backlog-log.md`'ye taşınır.
 
-- **ck0020_adinizNedir onay bekliyor** — arsiv/01cSharpÇekirdekKodlar.txt parça 2
-  (string değişken, Console.ReadLine, + ile birleştirme). `dotnet run` ile doğrulandı
-  (piped girdiyle). Geçerse commit + push, parça 3'e (iki sayının toplamı) geçilecek.
-- `arsiv/01cSharpÇekirdekKodlar.txt` içindeki parça 1-2 işlendi. Parça 3-5 sırada
-  (toplam, iki katı, kare — hepsinde arşiv `Convert.ToInt16` kullanıyor, kurala göre
-  `Convert.ToInt32`'ye düzeltilecek, kaynak notunda belirtilecek).
+- **ck0030_ikiSayiToplam onay bekliyor** — arsiv/01cSharpÇekirdekKodlar.txt parça 3
+  (int değişken, Convert.ToInt32, sayısal toplama). Arşivde `Convert.ToInt16` vardı,
+  kurala göre `Convert.ToInt32`'ye düzeltildi (mufredat.md'de not var). `dotnet run` ile
+  piped girdiyle (7+5=12) doğrulandı. Geçerse commit + push, parça 4'e (sayının iki katı)
+  geçilecek.
+- `arsiv/01cSharpÇekirdekKodlar.txt` içindeki parça 1-3 işlendi. Parça 4-5 sırada
+  (iki katı, kare — parça 4'te de `Convert.ToInt16` var, aynı şekilde düzeltilecek).

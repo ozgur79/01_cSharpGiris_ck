@@ -20,6 +20,7 @@ kod parçaları. Proje her zaman sizin kendi Visual Studio'nuzda oluşturulur.
 | # | proje adı | konu | durum |
 |---|-----------|------|-------|
 | 1 | ck0010_merhabaDunya | Ekrana yazı yazdırma (Console.Write / Console.WriteLine) | yayında |
-| 2 | ck0020_adinizNedir | Klavyeden yazı (string) okuma | onay bekliyor |
+| 2 | ck0020_adinizNedir | Klavyeden yazı (string) okuma | yayında |
+| 3 | ck0030_ikiSayiToplam | Klavyeden sayı okuma, toplama (int, Convert.ToInt32) | onay bekliyor |
 
 Bu tablo her yeni ders eklendiğinde güncellenir. "Sırada ne var" diye buraya bakın.
