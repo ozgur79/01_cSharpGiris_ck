@@ -6,7 +6,8 @@ Ders listesi ve kara kutu takip tablosu. Her onaylanan derste bu dosya güncelle
 
 | ders | konu | tür | zincir (dil) | zincir (arayüz) | kaynak | durum |
 |------|------|-----|---------------|-------------------|--------|-------|
-| ck0010_merhabaDunya | Console.Write / Console.WriteLine, satır sonu farkı | Console | çıktı (giriş öncesi) | Console | arsiv/01cSharpÇekirdekKodlar.txt (parça 1) | onay bekliyor |
+| ck0010_merhabaDunya | Console.Write / Console.WriteLine, satır sonu farkı | Console | çıktı (giriş öncesi) | Console | arsiv/01cSharpÇekirdekKodlar.txt (parça 1) | onaylandı |
+| ck0020_adinizNedir | string değişken, Console.ReadLine ile klavyeden yazı okuma, + ile birleştirme | Console | değişken (string) + girdi | Console | arsiv/01cSharpÇekirdekKodlar.txt (parça 2) | onay bekliyor |
 
 ## Kara kutu takip tablosu
 

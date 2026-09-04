@@ -2,11 +2,9 @@
 
 Canlı durum. Biten madde silinir, `backlog-log.md`'ye taşınır.
 
-- **ck0010_merhabaDunya onay bekliyor** — Özgür gerçek VS2013'te çalıştırıp doğruladı
-  ("kod.cs çalıştı"), kaynak satırı kaldırıldı ve kara kutu bloğu tam VS iskeletini
-  (5 using + namespace + class Program + Main) kapsayacak şekilde genişletildi. Son onay
-  bekleniyor — geçerse commit + push, arsiv/01cSharpÇekirdekKodlar.txt'deki 2-5 numaralı
-  parçalara (string değişken/girdi, toplam, iki katı, kare) geçilecek.
-- `dotnet` SDK 10.0.400 bu oturumda kuruldu (winget) — artık ck kendi doğrulamasını
-  yapabiliyor, önceki blocker kapandı.
-- `arsiv/01cSharpÇekirdekKodlar.txt` içindeki parça 1 işlendi (ck0010). Parça 2-5 sırada.
+- **ck0020_adinizNedir onay bekliyor** — arsiv/01cSharpÇekirdekKodlar.txt parça 2
+  (string değişken, Console.ReadLine, + ile birleştirme). `dotnet run` ile doğrulandı
+  (piped girdiyle). Geçerse commit + push, parça 3'e (iki sayının toplamı) geçilecek.
+- `arsiv/01cSharpÇekirdekKodlar.txt` içindeki parça 1-2 işlendi. Parça 3-5 sırada
+  (toplam, iki katı, kare — hepsinde arşiv `Convert.ToInt16` kullanıyor, kurala göre
+  `Convert.ToInt32`'ye düzeltilecek, kaynak notunda belirtilecek).
