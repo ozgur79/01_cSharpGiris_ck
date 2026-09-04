@@ -2,13 +2,8 @@
 // NASIL: VS2013'te yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: * ile çarpma yapmak (bir önceki derste + ile toplama görmüştük)
 //
-// Şimdilik kara kutu (sonra açacağız):
-//   using System; / using System.Collections.Generic; / using System.Linq; /
-//   using System.Text; / using System.Threading.Tasks;      -> ckXXXX
-//   namespace <proje adın>  (VS'in otomatik oluşturduğu ad) -> ckXXXX (OOP'a gelince)
-//   class Program                                            -> ckXXXX (OOP'a gelince)
-//   static void Main(string[] args)                          -> ckXXXX (OOP'a gelince)
-//   Console.ReadKey();  -> ckXXXX (konsol penceresinin neden kapanmadan beklediğini o zaman göreceğiz)
+// Şimdilik kara kutu (ck0010'da tanıtıldı, henüz açılmadı):
+//   VS2013 iskeleti (using'ler + namespace + class Program + Main) + Console.ReadKey();
 
 // --- KAVRAM ---
 int x, y; // int tipinde iki değişken tanımlandı

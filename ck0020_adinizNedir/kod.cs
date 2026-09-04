@@ -3,13 +3,8 @@
 // Ne öğreneceğiz: string değişken tanımlamak, Console.ReadLine ile klavyeden yazı okumak,
 //                  + ile iki yazıyı birleştirmek
 //
-// Şimdilik kara kutu (sonra açacağız):
-//   using System; / using System.Collections.Generic; / using System.Linq; /
-//   using System.Text; / using System.Threading.Tasks;      -> ckXXXX
-//   namespace <proje adın>  (VS'in otomatik oluşturduğu ad) -> ckXXXX (OOP'a gelince)
-//   class Program                                            -> ckXXXX (OOP'a gelince)
-//   static void Main(string[] args)                          -> ckXXXX (OOP'a gelince)
-//   Console.ReadKey();  -> ckXXXX (konsol penceresinin neden kapanmadan beklediğini o zaman göreceğiz)
+// Şimdilik kara kutu (ck0010'da tanıtıldı, henüz açılmadı):
+//   VS2013 iskeleti (using'ler + namespace + class Program + Main) + Console.ReadKey();
 
 // --- KAVRAM ---
 string isim; // isim adında bir metin (string) değişkeni tanımlandı

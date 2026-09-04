@@ -2,12 +2,10 @@
 
 Canlı durum. Biten madde silinir, `backlog-log.md`'ye taşınır.
 
-- **ck0040_sayininIkiKati onay bekliyor** — arsiv/01cSharpÇekirdekKodlar.txt parça 4
-  (çarpma operatörü *). Arşivde yine `Convert.ToInt16` vardı, `Convert.ToInt32`'ye
-  düzeltildi. `dotnet run` ile piped girdiyle (9→18) doğrulandı; ek olarak değerlendirme
-  sorusundaki "atanmamış değişken kullanımı" iddiasını da ayrı bir test ile doğruladım
-  (CS0165 hatası). Geçerse commit + push, parça 5'e (sayının karesi) geçilecek — bu arşiv
-  dosyasının son parçası.
-- `arsiv/01cSharpÇekirdekKodlar.txt` içindeki parça 1-4 işlendi. Parça 5 sırada (kare).
-  Parça 5 sonrası arşivde başka dosya kalmıyor — Özgür'den yeni bir arsiv parçası
-  istenecek.
+- `arsiv/01cSharpÇekirdekKodlar.txt`'nin 5 parçası da işlendi (ck0010-ck0050), hepsi
+  onaylandı — bu dosyada başka parça kalmadı. **Özgür'den yeni bir arsiv parçası
+  bekleniyor.**
+- Kara kutu bloğu tekrarı kısaltıldı: ck0010'da tam açıklama kalıyor, ck0020-ck0050
+  kısa referans formuna ("ck0010'da tanıtıldı, henüz açılmadı") geçirildi. Kural
+  CLAUDE.md/AGENTS.md'ye işlendi — bundan sonraki her ders, o dersin kendine özgü yeni
+  kara kutusu yoksa bu kısa formu kullanacak.

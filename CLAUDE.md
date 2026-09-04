@@ -77,6 +77,14 @@ bu zincirlerden biri yüzünden erken/geç olabilir — ikisine birden bakılır
 
 ### Console `kod.cs` şablonu (istisnasız — Main() içine gidecek parçadır, tam dosya değil)
 
+**İlk göründüğü derste tam açıklama, sonrasında kısa referans.** VS iskeletinin
+kara kutuları (using'ler, namespace, class Program, Main, Console.ReadKey) hemen her
+Console dersinde tekrar eder. Tam altı satırlık açıklamayı yüzlerce dosyada birebir
+kopyalamak yerine: **bir kara kutu ilk tanıtıldığı derste tam açıklamayla yazılır**
+(bkz. `ck0010`'daki hâli), **sonraki derslerde sadece kısa referans** kullanılır — hangi
+derste tanıtıldığını gösteren tek/iki satır yeter. Dersin **kendi yeni** kara kutusu varsa
+(bu derste ilk kez görülen bir yapı) o, her zaman tam açıklamayla yazılır.
+
 ```csharp
 // ck0010 — İlk program: ekrana yazı yaz
 // NASIL: VS2013'te yeni Console Application aç, aşağıdakini Main() içine yapıştır.
@@ -97,6 +105,17 @@ bu zincirlerden biri yüzünden erken/geç olabilir — ikisine birden bakılır
 
 // --- SEN YAP ---
 // (kısa, net; cevap YOK — cevap cozumler/ckXXXX_isim/ altında)
+```
+
+`ck0010`'dan sonraki bir derste, o dersin kendine özgü yeni bir kara kutusu yoksa:
+
+```csharp
+// ck0020 — ...
+// NASIL: ...
+// Ne öğreneceğiz: ...
+//
+// Şimdilik kara kutu (ck0010'da tanıtıldı, henüz açılmadı):
+//   VS2013 iskeleti (using'ler + namespace + class Program + Main) + Console.ReadKey();
 ```
 
 Kaynak bilgisi (`arsiv/`deki hangi dosya/parça) `kod.cs`'e yazılmaz — öğrenciye gitmeyecek
