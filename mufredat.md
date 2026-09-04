@@ -12,6 +12,7 @@ Ders listesi ve kara kutu takip tablosu. Her onaylanan derste bu dosya güncelle
 | ck0040_sayininIkiKati | * ile çarpma | Console | operatör (*) | Console | arsiv/01cSharpÇekirdekKodlar.txt (parça 4, `ToInt16`→`ToInt32` düzeltildi) | onaylandı |
 | ck0050_sayininKaresi | bir sayıyı kendisiyle çarpma (kare alma) | Console | operatör (*) pekiştirme | Console | arsiv/01cSharpÇekirdekKodlar.txt (parça 5) | onaylandı |
 | ck0060_tamSayiBolmesi | int bölmesinin küsuratı atması, float/double tipleri | Console | operatör (/) + veri tipi (float, double) | Console | arsiv/02cSharpÇekirdekKodlar.txt (madde 6) | onaylandı |
+| ck0070_metotVeSinif | "metot" ve "sınıf" terimleri, Console.WriteLine örneğiyle (IntelliSense) | Console | terim (metot, sınıf) | Console | arsiv/02cSharpÇekirdekKodlar.txt (madde 7) | onaylandı |
 
 ## Kara kutu takip tablosu
 
@@ -26,3 +27,4 @@ Rotasyon sırası: `using` → `namespace` → `class Program` → `static Main`
 | `class Program` | ck0010 | ckXXXX | ck0040: "her kod bir class içinde yaşar, Program ana sınıf" | [iskelet-bağımlı] — OOP dersine kadar açılmayacak |
 | `static void Main(string[] args)` | ck0010 | ckXXXX | ck0050: "programın başladığı yer, 'Başlat'a basınca çalışan ilk satır" (pekiştirme dersi olduğu için daha ayrıntılı) | [iskelet-bağımlı] — OOP dersine kadar açılmayacak |
 | `Console.ReadKey();` | ck0010 | ckXXXX | — (rotasyon dışı, ayrı ele alınıyor) | konsolun neden açık kaldığını o zaman göreceğiz |
+| `Console.WriteLine`/`Write` (metot), `Console` (sınıf) terimleri | ck0010 | ck0070 | ck0070: "void ile başlayan her şey metot, Console bir sınıf" | rotasyon dışı — VS iskeletinden bağımsız, Console zaten var olan hazır bir sınıf |

@@ -25,5 +25,6 @@ kod parçaları. Proje her zaman sizin kendi Visual Studio'nuzda oluşturulur.
 | 4 | ck0040_sayininIkiKati | Çarpma operatörü (*) | yayında |
 | 5 | ck0050_sayininKaresi | Sayının karesini alma (pekiştirme) | yayında |
 | 6 | ck0060_tamSayiBolmesi | int bölmesinde küsurat kaybı, float/double | yayında |
+| 7 | ck0070_metotVeSinif | "metot" ve "sınıf" terimleri (Console örneğiyle) | yayında |
 
 Bu tablo her yeni ders eklendiğinde güncellenir. "Sırada ne var" diye buraya bakın.

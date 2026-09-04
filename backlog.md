@@ -3,10 +3,9 @@
 Canlı durum. Biten madde silinir, `backlog-log.md`'ye taşınır.
 
 - **ck0060_tamSayiBolmesi onaylandı**, commit edildi.
-- **`arsiv/02cSharpÇekirdekKodlar.txt`'den 4 madde daha işlenecek** (madde 7, 8, 9, 10),
+- **ck0070_metotVeSinif onaylandı**, commit edilecek.
+- **`arsiv/02cSharpÇekirdekKodlar.txt`'den 3 madde daha işlenecek** (madde 8, 9, 10),
   sırayla:
-  - madde 7: Console.WriteLine'ın metot, Console'un sınıf olduğu (IntelliSense üzerinden) —
-    "metot" teriminin karşılığıyla ilk kez tanıtıldığı ders olabilir.
   - madde 8: Özgür'ün notuyla ("senaryolayıp bölebilirsin") birden fazla alt senaryo içeriyor
     — isim selamlama kısmı ck0020 ile örtüşüyor (muhtemelen atlanır), string toplamanın
     neden çalışmadığını gösteren kısım yeni bir pekiştirme dersi olabilir, `Convert.ToInt16`
