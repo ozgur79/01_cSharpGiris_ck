@@ -4,7 +4,8 @@
 //                  (aynı * operatörü, önceki derste bir sayıyı sabitle çarpmıştık,
 //                  burada değişkeni kendisiyle çarpıyoruz)
 //
-// Kara kutu (ck0010): using'ler + namespace + class Program + Main + Console.ReadKey
+// Kara kutu (ck0010'da tanıtıldı, henüz açılmadı): using'ler + namespace + class Program
+// + Main + Console.ReadKey
 // Ön izleme: static void Main(string[] args), programın başladığı yerdir — VS'te
 // "Başlat"a basınca çalışan ilk satır. Ayrıntısı OOP dersinde (ckXXXX) açılır.
 

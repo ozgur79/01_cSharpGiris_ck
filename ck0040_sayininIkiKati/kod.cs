@@ -2,7 +2,8 @@
 // NASIL: VS2013'te yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: * ile çarpma yapmak (bir önceki derste + ile toplama görmüştük)
 //
-// Kara kutu (ck0010): using'ler + namespace + class Program + Main + Console.ReadKey
+// Kara kutu (ck0010'da tanıtıldı, henüz açılmadı): using'ler + namespace + class Program
+// + Main + Console.ReadKey
 // Ön izleme: her kod bir class'ın (sınıf) içinde yaşar — class Program, projenin ana
 // sınıfı, OOP dersinde (ckXXXX) açılır.
 

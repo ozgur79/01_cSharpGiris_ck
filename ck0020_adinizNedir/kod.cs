@@ -3,7 +3,8 @@
 // Ne öğreneceğiz: string değişken tanımlamak, Console.ReadLine ile klavyeden yazı okumak,
 //                  + ile iki yazıyı birleştirmek
 //
-// Kara kutu (ck0010): using'ler + namespace + class Program + Main + Console.ReadKey
+// Kara kutu (ck0010'da tanıtıldı, henüz açılmadı): using'ler + namespace + class Program
+// + Main + Console.ReadKey
 // Ön izleme: using satırları hazır kütüphaneleri projene dahil eder, ileride (ckXXXX)
 // ne işe yaradıklarını göreceğiz.
 

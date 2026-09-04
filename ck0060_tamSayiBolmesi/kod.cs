@@ -4,7 +4,8 @@
 //                  sonucu float ya da double tipinde bir değişkene atasak bile fark etmez,
 //                  çünkü bölme işlemi int'ler arasında, atamadan ÖNCE yapılır.
 //
-// Kara kutu (ck0010): using'ler + namespace + class Program + Main + Console.ReadKey
+// Kara kutu (ck0010'da tanıtıldı, henüz açılmadı): using'ler + namespace + class Program
+// + Main + Console.ReadKey
 // Ön izleme: her using satırı ayrı bir "araç kutusu" — hangisi ne işe yarar ckXXXX'te
 // tek tek göreceğiz.
 

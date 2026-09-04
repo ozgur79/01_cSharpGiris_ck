@@ -141,17 +141,19 @@ cümlelik bir ön izleme eklenir, sırayla döner: `using` → `namespace` → `
 // ck0020 — ...
 // NASIL: ...
 // Ne öğreneceğiz: ...
-// Kara kutu (ck0010): using'ler + namespace + class Program + Main + Console.ReadKey
+// Kara kutu (ck0010'da tanıtıldı, henüz açılmadı): using'ler + namespace + class Program
+// + Main + Console.ReadKey
 // Ön izleme: using satırları hazır kütüphaneleri projene dahil eder, ileride (ckXXXX)
 // ne işe yaradıklarını göreceğiz.
 ```
 
-İlk satır her zaman kutuların **listesini** taşır (sadece "VS iskeleti" gibi belirsiz bir
-referans değil) — hangi ders bunları önce gördüyse parantez içinde tek numara yeter. Ön
-izleme varsa ikinci satır, en fazla iki satır sürer; yoksa (dersin kendi yeni kara kutusu
-varsa zaten tam açıklama yazılıyor) ilk satırla biter. "Pekiştirme dersi" gibi meta-etiket
-eklenmez — derinleştirilmiş ön izleme sadece içerik olarak uzar, gerekçesi yorum satırına
-yazılmaz.
+İlk satır iki şeyi birden taşır: **çerçeve** ("ck0010'da tanıtıldı, henüz açılmadı" —
+sadece parantez içi numara değil, ne anlama geldiği de yazar) ve kutuların **listesi**
+(sadece "VS iskeleti" gibi belirsiz bir referans değil). Ön izleme varsa ayrı bir satır,
+yoksa (dersin kendi yeni kara kutusu varsa zaten tam açıklama yazılıyor) ilk satırla biter.
+"Pekiştirme dersi" gibi meta-etiket eklenmez — derinleştirilmiş ön izleme sadece içerik
+olarak uzar, gerekçesi yorum satırına yazılmaz. "Şimdilik kara kutu:" gibi ayrı bir başlık
+satırı da açılmaz — çerçeve cümlesi doğrudan "Kara kutu (...)" ile aynı satırda başlar.
 
 Kaynak bilgisi (`arsiv/`deki hangi dosya/parça) `kod.cs`'e yazılmaz — öğrenciye gitmeyecek
 bir iç kayıt, `mufredat.md` ders listesindeki `kaynak` sütununda tutulur.

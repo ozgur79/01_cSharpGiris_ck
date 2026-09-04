@@ -4,7 +4,8 @@
 //                  sayıya dönüştürmek, sayılarda + ile toplama yapmak
 //                  (bir önceki derste + iki yazıyı birleştiriyordu, burada iki sayıyı toplar)
 //
-// Kara kutu (ck0010): using'ler + namespace + class Program + Main + Console.ReadKey
+// Kara kutu (ck0010'da tanıtıldı, henüz açılmadı): using'ler + namespace + class Program
+// + Main + Console.ReadKey
 // Ön izleme: namespace, kodlarını bir isim altında gruplayan "klasör" gibidir, çakışmayı
 // önler — ileride (ckXXXX) açacağız.
 
