@@ -141,12 +141,15 @@ cümlelik bir ön izleme eklenir, sırayla döner: `using` → `namespace` → `
 // ck0020 — ...
 // NASIL: ...
 // Ne öğreneceğiz: ...
-//
-// Şimdilik kara kutu (ck0010'da tanıtıldı, henüz açılmadı):
-//   VS2013 iskeleti (using'ler + namespace + class Program + Main) + Console.ReadKey();
-//   Ön izleme: using satırları, C#'ın hazır kütüphanelerinden bazılarını projene dahil
-//   eder — ileride (ckXXXX) ne işe yaradıklarını göreceğiz.
+// Kara kutu: VS iskeleti + Console.ReadKey (ck0010). Ön izleme: using satırları hazır
+// kütüphaneleri projene dahil eder, ileride (ckXXXX) ne işe yaradıklarını göreceğiz.
 ```
+
+Tek satıra sığmıyorsa iki satıra taşar, ama üçüncü satıra geçmez. Ön izleme yoksa
+(dersin kendi kara kutusu varsa zaten tam açıklama yazılıyor) sadece ilk cümle kalır:
+`// Kara kutu: VS iskeleti + Console.ReadKey (ck0010)`. "Pekiştirme dersi" gibi
+meta-etiket eklenmez — derinleştirilmiş ön izleme sadece içerik olarak uzar, gerekçesi
+yorum satırına yazılmaz.
 
 Kaynak bilgisi (`arsiv/`deki hangi dosya/parça) `kod.cs`'e yazılmaz — öğrenciye gitmeyecek
 bir iç kayıt, `mufredat.md` ders listesindeki `kaynak` sütununda tutulur.

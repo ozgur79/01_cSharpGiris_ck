@@ -4,11 +4,8 @@
 //                  sonucu float ya da double tipinde bir değişkene atasak bile fark etmez,
 //                  çünkü bölme işlemi int'ler arasında, atamadan ÖNCE yapılır.
 //
-// Şimdilik kara kutu (ck0010'da tanıtıldı, henüz açılmadı):
-//   VS2013 iskeleti (using'ler + namespace + class Program + Main) + Console.ReadKey();
-//   Ön izleme: using satırlarının her biri ayrı bir "araç kutusu" gibi düşün — System,
-//   System.Collections.Generic, System.Linq... her biri farklı hazır araçlar taşır,
-//   hangisinin ne işe yaradığını ckXXXX'te tek tek açacağız.
+// Kara kutu: VS iskeleti + Console.ReadKey (ck0010). Ön izleme: her using satırı ayrı bir
+// "araç kutusu" — hangisi ne işe yarar ckXXXX'te tek tek göreceğiz.
 
 // --- KAVRAM ---
 int x = 10, y = 4;

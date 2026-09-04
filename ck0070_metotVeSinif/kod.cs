@@ -2,8 +2,7 @@
 // NASIL: VS2013'te yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: "metot" ve "sınıf" terimleri, Console.WriteLine örneğiyle
 //
-// Şimdilik kara kutu (ck0010'da tanıtıldı, henüz açılmadı):
-//   VS2013 iskeleti (using'ler + namespace + class Program + Main) + Console.ReadKey();
+// Kara kutu: VS iskeleti + Console.ReadKey (ck0010)
 
 // --- KAVRAM ---
 // "Console." yazıp "WriteLine" üzerine gelince açılan kutuda "void..." yazar.
