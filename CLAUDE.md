@@ -71,6 +71,19 @@ Her ders, Özgür'ün verdiği **tek bir** `arsiv/` parçası üzerinden üretil
 son iki basamak ders sırası, 10'ar artar (00, 10, 20...) (boş numara bırakmak serbest,
 tavan değil varsayılan). Örn. `ck0010_merhabaDunya` = ünite 00, ders sırası 10.
 
+Numara, **Özgür'ün script'i ne zaman verdiğine değil, dersin ünite + dil-zinciri
+konumuna** göre atanır. İki durum:
+- **İki mevcut ders arasına düşen bir konu** (örn. ck0030 ile ck0040 arası): aradaki boş
+  bir sayı kullanılır (ck0035 gibi) — 10'ar artış varsayılan, tavan değil.
+- **Kronolojik olarak çok sonra verilse bile içerik olarak erken bir üniteye ait bir
+  script** (örn. 100. dersten sonra temel giriş/çıktı seviyesinde bir parça): yine o
+  ünitenin numara aralığına (örn. `ck00XX`) yerleştirilir, o an kaçıncı derste
+  olunduğuna bakılmaz (Tasarım Karar 9'un doğal sonucu).
+
+Bu yüzden **`mufredat.md` ders listesi ve kök `README.md` ders sırası tabloları ck
+numarasına göre sıralı tutulur** — yeni satır tablonun sonuna değil, doğru numaralar
+arasına eklenir.
+
 **İki denetim zinciri:** dil zinciri (değişken → operatör → karar yapısı → döngü → dizi →
 fonksiyon → OOP) ve arayüz zinciri (Console → WinForms → event → kontrol üretimi). Bir ders
 bu zincirlerden biri yüzünden erken/geç olabilir — ikisine birden bakılır.
