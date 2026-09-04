@@ -24,5 +24,6 @@ kod parçaları. Proje her zaman sizin kendi Visual Studio'nuzda oluşturulur.
 | 3 | ck0030_ikiSayiToplam | Klavyeden sayı okuma, toplama (int, Convert.ToInt32) | yayında |
 | 4 | ck0040_sayininIkiKati | Çarpma operatörü (*) | yayında |
 | 5 | ck0050_sayininKaresi | Sayının karesini alma (pekiştirme) | yayında |
+| 6 | ck0060_tamSayiBolmesi | int bölmesinde küsurat kaybı, float/double | yayında |
 
 Bu tablo her yeni ders eklendiğinde güncellenir. "Sırada ne var" diye buraya bakın.
