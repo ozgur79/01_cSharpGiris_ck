@@ -4,8 +4,9 @@
 //                  sonucu float ya da double tipinde bir değişkene atasak bile fark etmez,
 //                  çünkü bölme işlemi int'ler arasında, atamadan ÖNCE yapılır.
 //
-// Kara kutu: VS iskeleti + Console.ReadKey (ck0010). Ön izleme: her using satırı ayrı bir
-// "araç kutusu" — hangisi ne işe yarar ckXXXX'te tek tek göreceğiz.
+// Kara kutu (ck0010): using'ler + namespace + class Program + Main + Console.ReadKey
+// Ön izleme: her using satırı ayrı bir "araç kutusu" — hangisi ne işe yarar ckXXXX'te
+// tek tek göreceğiz.
 
 // --- KAVRAM ---
 int x = 10, y = 4;

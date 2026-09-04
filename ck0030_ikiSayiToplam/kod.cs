@@ -4,8 +4,9 @@
 //                  sayıya dönüştürmek, sayılarda + ile toplama yapmak
 //                  (bir önceki derste + iki yazıyı birleştiriyordu, burada iki sayıyı toplar)
 //
-// Kara kutu: VS iskeleti + Console.ReadKey (ck0010). Ön izleme: namespace, kodlarını bir
-// isim altında gruplayan "klasör" gibidir, çakışmayı önler — ileride (ckXXXX) açacağız.
+// Kara kutu (ck0010): using'ler + namespace + class Program + Main + Console.ReadKey
+// Ön izleme: namespace, kodlarını bir isim altında gruplayan "klasör" gibidir, çakışmayı
+// önler — ileride (ckXXXX) açacağız.
 
 // --- KAVRAM ---
 int s1, s2, toplam; // int tipinde üç değişken tanımlandı

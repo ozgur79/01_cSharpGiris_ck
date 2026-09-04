@@ -4,9 +4,9 @@
 //                  (aynı * operatörü, önceki derste bir sayıyı sabitle çarpmıştık,
 //                  burada değişkeni kendisiyle çarpıyoruz)
 //
-// Kara kutu: VS iskeleti + Console.ReadKey (ck0010). Ön izleme: static void Main(string[]
-// args), programın başladığı yerdir — VS'te "Başlat"a basınca çalışan ilk satır. "static"
-// ve "string[] args" ne demek, OOP dersinde (ckXXXX) açılır.
+// Kara kutu (ck0010): using'ler + namespace + class Program + Main + Console.ReadKey
+// Ön izleme: static void Main(string[] args), programın başladığı yerdir — VS'te
+// "Başlat"a basınca çalışan ilk satır. Ayrıntısı OOP dersinde (ckXXXX) açılır.
 
 // --- KAVRAM ---
 int sayi; // sayı için değişken
