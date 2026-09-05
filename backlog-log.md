@@ -58,3 +58,21 @@ Append-only. Hiçbir şey silinmez, sadece eklenir.
   birlikte andığı cümleyle tutarlı olsun diye), mufredat.md kara kutu tablosuna
   "tur / emekli" sütunu eklendi, mufredat.md başına winforms-plan.md'ye işaret eden
   bir not eklendi. Commit atılmadı, onay bekleniyor.
+
+## 2026-09-05 (devam) — repo bölünmesi, arşiv tükendi
+
+- Ortak üzerinden: WinForms ders şablonu onaylandı (`ornek/ck0530_butonuBuyutSakla/`
+  numunesi), sonra proje ikiye bölündü. `D:\Atolye\cSharp\CLAUDE.md`/`AGENTS.md` (üst
+  klasör, YENİ) ortak kimliği ve kara kutu doktrinini taşıyor; bu repo (`01_cSharpGiris_ck`)
+  artık sadece Console (ck0000-0499, ünite 00-04); `02_cSharpForm_ck` (YENİ kardeş klasör)
+  WinForms+OOP (ck0500-0999, ünite 05-09). `winforms-plan.md` ve `ornek/` 02'ye taşındı,
+  `Test-Gunlugu.md` de (01'de WinForms dersi yok). Numaralandırma sıfırlanmadı — 02 ck0500'den
+  başlıyor, "ünite 07'de açacağız" sözü hâlâ geçerli.
+- ck0100_veriTipleriTanisma üretildi (madde 10, arşivin son maddesi): byte/bool/char
+  tanıtımı, int/double/string recap. Arşivdeki örnekte geçen gerçek isim ("Özgür") repo
+  public olduğu için "Ahmet" ile değiştirildi. Merak Köşesi bu derste atlandı (üç yeni tip
+  aynı anda — ders yüklü, günlüğe işlendi). `dotnet run` ile çıktı doğrulandı.
+  `arsiv/01cSharpÇekirdekKodlar.txt` ve `arsiv/02cSharpÇekirdekKodlar.txt` bu maddeyle
+  tamamen tükendi.
+- Özgür ck0090 ve ck0100'ü onayladı. mufredat.md/README.md durumu "onaylandı"/"yayında"
+  yapıldı, commit+push edildi.

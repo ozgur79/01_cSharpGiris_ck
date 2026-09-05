@@ -18,7 +18,8 @@ tablosu formatında) girecek.
 | ck0060_tamSayiBolmesi | int bölmesinin küsuratı atması, float/double tipleri | Console | operatör (/) + veri tipi (float, double) | Console | arsiv/02cSharpÇekirdekKodlar.txt (madde 6) | onaylandı |
 | ck0070_metotVeSinif | "metot" ve "sınıf" terimleri, Console.WriteLine örneğiyle (IntelliSense) | Console | terim (metot, sınıf) | Console | arsiv/02cSharpÇekirdekKodlar.txt (madde 7) | onaylandı |
 | ck0080_stringToplamaTuzagi | string + string'in birleştirme yaptığı, sayısal toplama olmadığı | Console | operatör (+) string vs sayı, pekiştirme | Console | arsiv/02cSharpÇekirdekKodlar.txt (madde 8, kısım b) | onaylandı |
-| ck0090_tekKarakterOkuma | Console.Read() ile tek karakter okuma, int (ASCII kod) döndürmesi | Console | metot çeşitliliği (Read vs ReadLine) | Console | arsiv/02cSharpÇekirdekKodlar.txt (madde 9) | taslak |
+| ck0090_tekKarakterOkuma | Console.Read() ile tek karakter okuma, int (ASCII kod) döndürmesi | Console | metot çeşitliliği (Read vs ReadLine) | Console | arsiv/02cSharpÇekirdekKodlar.txt (madde 9) | onaylandı |
+| ck0100_veriTipleriTanisma | byte, bool, char tiplerinin tanıtımı (int/double/string recap ile bir arada) | Console | veri tipi çeşitliliği | Console | arsiv/02cSharpÇekirdekKodlar.txt (madde 10) | onaylandı |
 
 ## Kara kutu takip tablosu
 
@@ -28,6 +29,9 @@ sırası: `using` → `namespace` → `class Program` → `static Main` → `Con
 (başa dön). ck0010 kendi Merak Köşesi'ni kullanmaz (sadece çerçeve notunu taşır),
 rotasyon ck0020'den başlar. ck0070 kendi yeni fikri (metot/sınıf terimleri) ağır
 olduğu için Merak Köşesi'ni atlar — rotasyon kaymaz, sıradaki kutu ck0080'e geçer.
+ck0100 de kendi yeni fikri (aynı derste byte/bool/char — üç yeni tip) ağır olduğu
+için Merak Köşesi'ni atlar; rotasyon kaymaz, sıradaki kutu (`class Program`, 2. tur)
+bir sonraki derse geçer.
 
 **Açılış yeri ünite 07 (2026-09-05, Özgür onayladı — Karar 16).** Beş iskelet kutusu
 (`using`, `namespace`, `class Program`, `static Main`, `Console.ReadKey`) WinForms
