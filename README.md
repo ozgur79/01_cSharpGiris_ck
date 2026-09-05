@@ -32,5 +32,10 @@ kod parçaları. Proje her zaman sizin kendi Visual Studio'nuzda oluşturulur.
 | 8 | ck0080_stringToplamaTuzagi | string + string birleştirir, toplamaz (pekiştirme) | yayında |
 | 9 | ck0090_tekKarakterOkuma | Console.Read() ile tek karakter okuma, ASCII kod döndürmesi | yayında |
 | 10 | ck0100_veriTipleriTanisma | byte, bool, char tipleriyle tanışma | yayında |
+| 11 | ck0110_dortgenCevreAlan | Parantez ile işlem sırası (çevre/alan hesabı) | yayında |
+| 12 | ck0120_ucSayiOrtalama | Üç sayının ortalaması (pekiştirme) | yayında |
+| 13 | ck0130_kareVeKup | Kare ve küp alma | yayında |
+| 14 | ck0140_ilkKararYapisi | Karar yapısına giriş (if/else) | yayında |
+| 15 | ck0150_cokDalliKarar | Çok dallı karar (if/else if/else) | yayında |
 
 Bu tablo her yeni ders eklendiğinde güncellenir. "Sırada ne var" diye buraya bakın.
