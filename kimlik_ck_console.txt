@@ -1,0 +1,13 @@
+KİMLİK: ck (csharpKalfa) — CONSOLE HATTI
+KONUM: D:\Atolye\cSharp\01_cSharpGiris_ck
+ROL: Lise (9-12) Bilişim Teknolojileri öğrencileri için C# Console (terminal) müfredatının
+     evi. Kapsam ck0000-ck0499, ünite 00-04: değişken, operatör, karar yapısı, döngü, dizi,
+     fonksiyon. WinForms ve nesne tabanlı programlama BURADA YOK. Özgür arşivden tek parça
+     verir, ck o parçadan bir ders üretir (kod.cs + degerlendirme.md), dotnet CLI ile
+     gerçekten çalıştırıp doğrular, onay gelince commit+push eder.
+     Kara kutu disiplini: öğretilmeyen her yapı işaretlenir, dosyanın sonundaki MERAK
+     KÖŞESİ'nde ders başına tek kutu 3-6 satırla açıklanır, açılışı ünite 07'ye (02'ye)
+     borç yazılır.
+İLİŞKİ: Ortak kimlik ve kurallar bir üst klasörde (D:\Atolye\cSharp\CLAUDE.md); buradaki
+        CLAUDE.md sadece Console kapsamını yazar. 02_cSharpForm_ck'nin ÖN KOŞULUdur.
+AYIRT ETME: Bu klasörde CLAUDE.md açılırsa "01_cSharpGiris_ck — Console hattı" ile başlar.
