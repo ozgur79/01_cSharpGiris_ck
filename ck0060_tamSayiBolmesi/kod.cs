@@ -25,5 +25,5 @@ Console.ReadKey();
 // Console.ReadKey(); neden her programın sonunda var?
 // ck0050'de Main'in programın başladığı satır olduğunu söylemiştik; ReadKey ise
 // programın BİTMEDEN önceki son satırı. O olmasa pencere anında kapanır, üç sonucu
-// da (int/float/double) göremeden ekran kaybolurdu. Neden böyle çalıştığını ileride
-// ayrı bir derste (konsol penceresi) açacağız.
+// da (int/float/double) göremeden ekran kaybolurdu. Neden böyle çalıştığını ünite
+// 07'de (nesne tabanlı programlama) açacağız.

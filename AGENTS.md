@@ -7,6 +7,20 @@ Bu klasör, **lise (9-12. sınıf) Bilişim Teknolojileri/meslek dersi** öğren
 C# öğretecek müfredatın evi. Hedef ölçek: ~400 Console (terminal) dersi + ~100 WinForms
 dersi (Tasarım Karar 8).
 
+## Ünite haritası (2026-09-05, Özgür onayladı)
+
+| ünite | ck aralığı | konu |
+|---|---|---|
+| 00-04 | ck0000-ck0499 | Console |
+| 05 | ck0500-ck0599 | Form ve nesne ile tanışma |
+| 06 | ck0600-ck0699 | Formda hesap ve karar |
+| 07 | ck0700-ck0799 | **Nesne tabanlı programlama girişi — kara kutular burada kapanır** |
+| 08 | ck0800-ck0899 | Zaman ve olay (Timer, fare) |
+| 09 | ck0900-ck0999 | Liste, görsel, çok formlu uygulama |
+
+Ders listesi ve gerekçeler: `winforms-plan.md`. Harita Özgür'ün eski proje
+numaralandırmasıyla (500'ler WinForms, 700 OOP) bilerek örtüşüyor.
+
 ## Teslim modeli
 
 Öğrenciler projeleri kendi Visual Studio'sunda (okul lab'ı: **Windows 8 + VS2013**)
@@ -69,6 +83,7 @@ Her ders, Özgür'ün verdiği **tek bir** `arsiv/` parçası üzerinden üretil
    **WinForms:** iki dosya — `kurulum.md` (hangi kontrol sürüklenecek, ne adlandırılacak,
    senaryo cümlesi) ve `kod.cs` (event handler gövdesine yapıştırılacak satırlar). Derlendiği
    doğrulanır; forma tıklayarak test bu döngüde ck'nin işi değil (adım 5, Özgür yapar).
+   `kurulum.md` **ders başına yeni proje açtırmaz** — bkz. "WinForms teslim modeli".
 4. Gösterilir, durulur, `backlog.md` güncellenir. **Commit atılmaz — onay beklenir.**
 5. Özgür (+ gerekirse Ortak) denetler. WinForms ise Özgür formu test edip
    `Test-Gunlugu.md`'ye yazar. **Geçerse:** commit + push (ünite sonu beklenmez, her ders
@@ -113,7 +128,7 @@ Karar 11'in doğal uzantısı).
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: * ile çarpma yapmak (bir önceki derste + ile toplama görmüştük)
 // Not: Üstteki using/namespace/class/Main satırları VS'in hazır iskeleti.
-//      Şimdilik olduğu gibi bırak, hepsini ünite 03'te tek tek açacağız.
+//      Şimdilik olduğu gibi bırak, hepsini ünite 07'de tek tek açacağız.
 
 // --- KAVRAM ---
 // (kısa, tek satırlık yorumlarla; uzun paragraf yok — sadece Main() içine gidecek kod)
@@ -126,7 +141,7 @@ Karar 11'in doğal uzantısı).
 // Yazdığın her satır bir "class"ın içinde durmak zorunda. class, birbirine ait
 // kodların yaşadığı kutudur. Program, VS'in bu kutuya verdiği ad — "Merhaba"
 // yazan o tek satır bile Program kutusunun içindedir.
-// Kutunun kendisini ünite 03'te (nesne yönelimli programlama) açacağız.
+// Kutunun kendisini ünite 07'de (nesne tabanlı programlama) açacağız.
 ```
 
 #### Başlıktaki çerçeve notu (2 satır, her Console dersinde aynı)
@@ -149,7 +164,7 @@ yaptıktan sonra okur — dersin kendi yükü bittiği yerde başlar.
 1. **Soru satırı** — kutunun adını soru hâline getir: `// class Program nedir?`
 2. **Şimdilik geçerli cevap** — kutunun *gerçekte ne olduğu* değil, *öğrencinin kendi
    kodunda ne yaptığı*. Öğrencinin o an ekranda gördüğü satıra dokunur.
-3. **Açılış yeri** — `// ... ünite 03'te (nesne yönelimli programlama) açacağız.`
+3. **Açılış yeri** — `// ... ünite 07'de (nesne tabanlı programlama) açacağız.`
 
 **Ölçü:** 3-6 satır, ~60 kelime. Altı satırı aşıyorsan fazlası açılış dersine aittir, kes.
 Tek satıra da sıkıştırma — sıkıştırılmış liste üç kez denendi, üçünde de "kapalı" bulundu.
@@ -167,6 +182,17 @@ dosya gibidir." Kavramlar birbirine bağlı bir zincir olarak öğretilir.
 öncekinin aynısı yazılmaz; `mufredat.md`'deki günlüğe bakılır, üstüne yeni bir katman
 eklenir.
 
+**Rotasyon freni — üç tur, sonra emekli.** Bir iskelet kutusu (`using`, `namespace`,
+`class Program`, `static Main`, `Console.ReadKey`) **üç kez** Merak Köşesi'ne konu olduysa
+"yeterince tanıtıldı" sayılır, rotasyondan çıkar (tabloda `emekli` işaretlenir) ve ünite
+07'deki açılış dersine kadar bir daha yazılmaz. Neden: beş kutuya yüzlerce ders boyunca
+"yeni açı" bulmak imkânsız, dördüncü turdan sonra kaçınılmaz olarak tekrara düşer.
+
+**Köşenin asıl işi dersin kendi yeni kutusudur.** Her ders yeni yapı getiriyor —
+`Convert.ToInt32`, `Random`, `string[]`, `.Length`, `try`, `new`. Merak Köşesi önce buna
+bakar; dersin kendi yeni kara kutusu varsa köşe onundur. İskelet rotasyonu sadece **yedek**:
+dersin kendi yeni kutusu yoksa ve rotasyonda emekli olmamış kutu kaldıysa devreye girer.
+
 **Yük freni — atlanabilir.** Dersin kendi yeni fikri ağırsa (aynı derste yeni tip + yeni
 operatör gibi) o dersin Merak Köşesi **atlanır**. Atlanınca rotasyon kaymaz: aynı kutu
 sıradaki derste sırasını korur, günlüğe "atlandı (ders yüklü)" yazılır. Öğrencinin zihni
@@ -183,7 +209,7 @@ fikri çalışılır.
 
 Kutunun açılacağı ders henüz üretilmediği için `ckXXXX` yazmak **yasak** — öğrenciye
 anlamsız, Özgür'e de takip edilemez. Yerine **ünite adı** yazılır:
-`ünite 03 (nesne yönelimli programlama)`. Ünite bile belli değilse
+`ünite 07 (nesne tabanlı programlama)`. Ünite bile belli değilse
 `ileride ayrı bir derste açacağız` denir ve `mufredat.md` kara kutu tablosuna "ünite
 belirsiz" işlenir.
 
@@ -201,10 +227,23 @@ not.
 Kaynak bilgisi (`arsiv/`deki hangi dosya/parça) `kod.cs`'e yazılmaz — öğrenciye gitmeyecek
 bir iç kayıt, `mufredat.md` ders listesindeki `kaynak` sütununda tutulur.
 
-### WinForms `kurulum.md` + `kod.cs` çifti (istisnasız)
+### WinForms teslim modeli: ünite başına tek proje (2026-09-05, Özgür onayladı)
 
-`kurulum.md` — hangi kontrol sürüklenecek, adı ne olacak (örn. Button → `btnArtir`,
-TextBox → `txtSayi`), hangi event'e çift tıklanacak, senaryo cümlesi.
+Öğrenci **ders başına yeni proje açmaz** — ünite başına bir kez açar (`Unite05`), her ders
+o projeye `Add > Windows Form` ile yeni bir form ekler (`Ders03_BuyuSakla.cs`). `Form1`
+menü formudur; her ders için bir buton taşır, butonun kodu `new Ders03_BuyuSakla().Show();`.
+
+Gerekçe: 100 ders = 100 klasör + `bin`/`obj`/`.suo` yığını modern değil (eski arşivde 171
+klasör). Bu modelde ünite sonunda öğrencinin elinde boş klasörler değil **çalışan tek bir
+uygulama** kalır, ve menüdeki `new ...().Show();` satırı ünite 07'nin nesne üretme dersinin
+provası olur.
+
+Bilinen bedeli: bir formdaki derleme hatası ünitedeki bütün formları durdurur. `kurulum.md`
+gerektiğinde `Exclude From Project` ile hatalı formu geçici çıkarmayı öğretir.
+
+`kurulum.md` — hangi ünite projesine hangi adla form eklenecek, hangi kontrol sürüklenecek,
+adı ne olacak (örn. Button → `btnArtir`, TextBox → `txtSayi`), hangi event'e çift
+tıklanacak, menü formuna eklenecek satır, senaryo cümlesi.
 `kod.cs` — sadece oluşan event handler'ın (örn. `btnArtir_Click`) **içine** yapıştırılacak
 satırlar.
 

@@ -19,5 +19,5 @@ Console.ReadKey();
 // using System; ne işe yarar?
 // ck0010'da Console.Write ve Console.WriteLine kullanmıştık — bunlar hazır yazılmış
 // kod parçaları. using satırları, bu hazır parçaların durduğu kütüphaneleri projene
-// dahil eder, sen çağırabilesin diye. Hangisinin ne getirdiğini ünite 03'te (nesne
-// yönelimli programlama) tek tek açacağız.
+// dahil eder, sen çağırabilesin diye. Hangisinin ne getirdiğini ünite 07'de (nesne
+// tabanlı programlama) tek tek açacağız.

@@ -21,4 +21,4 @@ Console.ReadKey();
 // static void Main(string[] args) ne işe yarar?
 // ck0040'ta class Program'ın kodlarını topladığı kutu olduğunu söylemiştik; Main o
 // kutunun İÇİNDE, programın başladığı satır. İki katını aldığın kod bile Main'in
-// içinde çalıştı. Ayrıntısını ünite 03'te (nesne yönelimli programlama) açacağız.
+// içinde çalıştı. Ayrıntısını ünite 07'de (nesne tabanlı programlama) açacağız.

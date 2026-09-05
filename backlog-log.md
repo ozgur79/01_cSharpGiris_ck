@@ -45,3 +45,16 @@ Append-only. Hiçbir şey silinmez, sadece eklenir.
   `Not:` çerçeve notu tamamen kaldırıldı — ck ayarlamayı yeniden yapmadı, olduğu gibi
   bırakıldı). ck0080_stringToplamaTuzagi onaylandı, mufredat.md/README.md durumu
   "onaylandı"/"yayında" yapıldı, commit+push edildi.
+- ck0090_tekKarakterOkuma (Console.Read, ASCII kod) taslak olarak üretildi, `dotnet run`
+  ile doğrulandı (bkz. bu tarihli backlog girişi öncesi).
+- Ortak üzerinden Özgür'ün 4 WinForms kararı geldi (Karar 14-18): ünite haritası
+  (00-04 Console, 05 form/nesne, 06 hesap/karar, 07 OOP girişi — kara kutular burada
+  kapanır, 08 zaman/olay, 09 liste/görsel/çok form), ünite başına tek proje, kara kutu
+  açılışı ünite 03'ten ünite 07'ye taşındı, rotasyon freni (bir kutu 3 tur Merak
+  Köşesi'ne konu olunca emekli olur). CLAUDE.md/AGENTS.md + yeni `winforms-plan.md`
+  Ortak tarafından yazılmıştı; ck bu oturumda mevcut ck0010-ck0090'daki "ünite 03"
+  metinlerini "ünite 07"ye çevirdi (Console.ReadKey kutusunun açılış yeri de "ileride
+  ayrı bir derste"den "ünite 07"ye taşındı — winforms-plan.md'nin 5 iskelet kutusunu
+  birlikte andığı cümleyle tutarlı olsun diye), mufredat.md kara kutu tablosuna
+  "tur / emekli" sütunu eklendi, mufredat.md başına winforms-plan.md'ye işaret eden
+  bir not eklendi. Commit atılmadı, onay bekleniyor.

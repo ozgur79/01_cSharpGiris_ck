@@ -20,4 +20,4 @@ Console.ReadKey();
 // ck0030'da namespace'in kodlarını bir isim altında topladığını söylemiştik; class
 // Program o isim altındaki kutulardan biri. Şu ana kadar yazdığın her satır (yazı
 // yazdırma, sayı okuma, toplama) bu kutunun içinde durdu. Kutunun kendisini ünite
-// 03'te (nesne yönelimli programlama) açacağız.
+// 07'de (nesne tabanlı programlama) açacağız.
