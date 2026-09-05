@@ -1,11 +1,8 @@
 // ck0040 — Sayının iki katı
-// NASIL: VS2013'te yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
+// NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: * ile çarpma yapmak (bir önceki derste + ile toplama görmüştük)
-//
-// Kara kutu (ck0010'da tanıtıldı, henüz açılmadı): using'ler + namespace + class Program
-// + Main + Console.ReadKey
-// Ön izleme: her kod bir class'ın (sınıf) içinde yaşar — class Program, projenin ana
-// sınıfı, OOP dersinde (ckXXXX) açılır.
+// Not: Üstteki using/namespace/class/Main satırları VS'in hazır iskeleti.
+//      Şimdilik olduğu gibi bırak.
 
 // --- KAVRAM ---
 int x, y; // int tipinde iki değişken tanımlandı
@@ -17,3 +14,10 @@ Console.ReadKey();
 
 // --- SEN YAP ---
 // Aynı programı, iki katı yerine üç katını hesaplayacak şekilde değiştir.
+
+// --- MERAK KÖŞESİ ---
+// class Program ne işe yarar?
+// ck0030'da namespace'in kodlarını bir isim altında topladığını söylemiştik; class
+// Program o isim altındaki kutulardan biri. Şu ana kadar yazdığın her satır (yazı
+// yazdırma, sayı okuma, toplama) bu kutunun içinde durdu. Kutunun kendisini ünite
+// 03'te (nesne yönelimli programlama) açacağız.

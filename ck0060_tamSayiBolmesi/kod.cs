@@ -1,13 +1,9 @@
 // ck0060 — Tam sayı bölmesi
-// NASIL: VS2013'te yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
+// NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: iki int değişkeni böldüğümüzde sonucun küsuratı (ondalık kısmı) atılır —
 //                  sonucu float ya da double tipinde bir değişkene atasak bile fark etmez,
 //                  çünkü bölme işlemi int'ler arasında, atamadan ÖNCE yapılır.
-//
-// Kara kutu (ck0010'da tanıtıldı, henüz açılmadı): using'ler + namespace + class Program
-// + Main + Console.ReadKey
-// Ön izleme: her using satırı ayrı bir "araç kutusu" — hangisi ne işe yarar ckXXXX'te
-// tek tek göreceğiz.
+
 
 // --- KAVRAM ---
 int x = 10, y = 4;
@@ -24,3 +20,10 @@ Console.ReadKey();
 // --- SEN YAP ---
 // x/y işleminin gerçek sonucunu (2,5) elde etmeye çalış.
 // İpucu: (double)x / y gibi, bölmeden önce x'i double'a çevirmeyi dene.
+
+// --- MERAK KÖŞESİ ---
+// Console.ReadKey(); neden her programın sonunda var?
+// ck0050'de Main'in programın başladığı satır olduğunu söylemiştik; ReadKey ise
+// programın BİTMEDEN önceki son satırı. O olmasa pencere anında kapanır, üç sonucu
+// da (int/float/double) göremeden ekran kaybolurdu. Neden böyle çalıştığını ileride
+// ayrı bir derste (konsol penceresi) açacağız.

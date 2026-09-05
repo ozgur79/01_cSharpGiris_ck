@@ -1,12 +1,8 @@
 // ck0020 — Kullanıcıdan yazı (string) almak
-// NASIL: VS2013'te yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
+// NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: string değişken tanımlamak, Console.ReadLine ile klavyeden yazı okumak,
 //                  + ile iki yazıyı birleştirmek
-//
-// Kara kutu (ck0010'da tanıtıldı, henüz açılmadı): using'ler + namespace + class Program
-// + Main + Console.ReadKey
-// Ön izleme: using satırları hazır kütüphaneleri projene dahil eder, ileride (ckXXXX)
-// ne işe yaradıklarını göreceğiz.
+
 
 // --- KAVRAM ---
 string isim; // isim adında bir metin (string) değişkeni tanımlandı
@@ -18,3 +14,10 @@ Console.ReadKey();
 // --- SEN YAP ---
 // Kullanıcıya soyadını da sor (ikinci bir string değişkende sakla), sonra
 // "Merhaba <isim> <soyisim>" şeklinde tek satırda yazdır.
+
+// --- MERAK KÖŞESİ ---
+// using System; ne işe yarar?
+// ck0010'da Console.Write ve Console.WriteLine kullanmıştık — bunlar hazır yazılmış
+// kod parçaları. using satırları, bu hazır parçaların durduğu kütüphaneleri projene
+// dahil eder, sen çağırabilesin diye. Hangisinin ne getirdiğini ünite 03'te (nesne
+// yönelimli programlama) tek tek açacağız.

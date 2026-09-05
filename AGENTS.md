@@ -29,20 +29,27 @@ uyumluluğu tartışması kendiliğinden çözülür (Tasarım Karar 7).
   değil (Tasarım Karar 1).
 - **Uzantı da güvenilmez.** `arsiv/`deki dosyalar `.txt` uzantılı gelir ama içerik gerçek
   C# kodudur — uzantıya bakıp reddetme veya farklı işlem yapma (Tasarım Karar 12).
-- **Kara kutu kuralı.** Öğretilmeyen her yapı açıkça "kara kutu" olarak işaretlenir ve hangi
-  derste açılacağı yazılır. Sessizce geçilen hiçbir şey kalmaz.
+- **Kara kutu kuralı.** Öğretilmeyen her yapı açıkça işaretlenir; ders başına **tek** kutu
+  seçilir ve dosyanın sonundaki `MERAK KÖŞESİ`nde 3-6 satırla gerçekten açıklanır (yalnız
+  isim listesi yeterli değil). Nerede tam açılacağı **ünite adıyla** yazılır — `ckXXXX`
+  gibi sahte numara yasak. Sessizce geçilen hiçbir şey kalmaz. Ayrıntı: "Console `kod.cs`
+  şablonu".
 - **Eski kod tutarsızlığı sessizce taşınmaz.** `arsiv/`den gelen kodda hata/tutarsızlık
   varsa düzelt, kaynak notunda belirt (Tasarım Karar 4).
 - **İskelet sızması yasak** (modern SDK'ya taşınabilirlik için). VS2013 iskeletine özgü bir
   gerçek (namespace/class/Main'in şekli, menü adımları) KAVRAM metninde genel C# gerçeğiymiş
   gibi yazılmaz — sadece kurulum talimatının kendi satırında kalır. `using`/`namespace`/
   `class Program`/`static Main` kara kutularını **açan** dersler `mufredat.md`'de
-  `[iskelet-bağımlı]` etiketlenir (Tasarım Karar 11).
+  `[iskelet-bağımlı]` etiketlenir (Tasarım Karar 11). **Sürüm adı öğrenciye giden hiçbir
+  dosyaya girmez** — `NASIL:` satırı "Yeni bir Console Application aç" der, "VS2013'te"
+  demez; lab sürümü sadece `README.md`'de yazar.
 - **Konu/sıra atlaması normaldir.** Özgür planlanmamış yeni bir konu ekleyebilir (örn.
   switch-case). ck bunu var olan zincire entegre eder, gerekirse önceki derslerin kara kutu
   tablosunu geriye dönük günceller (Tasarım Karar 9).
 - **Her ders klasöründe `degerlendirme.md` zorunlu.** 1-3 soru + Özgür için kısa cevap
-  notu, öğrenci projeyi gösterdikten sonra sorulur (Tasarım Karar 10).
+  notu, öğrenci projeyi gösterdikten sonra sorulur (Tasarım Karar 10). Sorulardan biri o
+  dersin kara kutusuna ait olabilir — ama **Merak Köşesi'nde yazan cümlenin düzeyini
+  aşmaz**, açılış dersinin derinliği beklenmez.
 - **"Bitti" tanımını ck değil Özgür koyar.** Console dersi ck'nin kendi çalıştırıp
   doğrulamasıyla, WinForms dersi Özgür'ün formu tıklayıp test etmesiyle biter.
 
@@ -90,70 +97,106 @@ bu zincirlerden biri yüzünden erken/geç olabilir — ikisine birden bakılır
 
 ### Console `kod.cs` şablonu (istisnasız — Main() içine gidecek parçadır, tam dosya değil)
 
-**İlk göründüğü derste tam açıklama, sonrasında kısa referans.** VS iskeletinin
-kara kutuları (using'ler, namespace, class Program, Main, Console.ReadKey) hemen her
-Console dersinde tekrar eder. Tam altı satırlık açıklamayı yüzlerce dosyada birebir
-kopyalamak yerine: **bir kara kutu ilk tanıtıldığı derste tam açıklamayla yazılır**
-(bkz. `ck0010`'daki hâli), **sonraki derslerde sadece kısa referans** kullanılır — hangi
-derste tanıtıldığını gösteren tek/iki satır yeter. Dersin **kendi yeni** kara kutusu varsa
-(bu derste ilk kez görülen bir yapı) o, her zaman tam açıklamayla yazılır.
+Dosya dört parçadan oluşur: **başlık** (ne öğreneceğiz + iskelet notu), **KAVRAM**,
+**SEN YAP**, **MERAK KÖŞESİ**. Kara kutu iki yere bölünür: başta tek satırlık *çerçeve*,
+sonda tek kutuluk *gerçek açıklama*. Bu bölünme bilerek yapılır — dersin kendi yeni fikri
+öğrencinin ilk karşılaştığı şey olsun, kara kutu açıklaması onu ezmesin diye.
+
+**Sürüm adı öğrenci dosyasına girmez.** `NASIL:` satırı "Yeni bir Console Application aç"
+der; "VS2013'te", "VS2022'de" gibi sürüm/IDE adı yazılmaz. Neden: müfredat ileride modern
+SDK'ya (`dotnet new console`) taşınacak, o gün yüzlerce `kod.cs`'i tek tek düzeltmek
+gerekmesin. Lab ortamının hangi sürüm olduğu `README.md`'de tek yerde yazar (Tasarım
+Karar 11'in doğal uzantısı).
 
 ```csharp
-// ck0010 — İlk program: ekrana yazı yaz
-// NASIL: VS2013'te yeni Console Application aç, aşağıdakini Main() içine yapıştır.
-// Ne öğreneceğiz: Console.WriteLine ekrana metin basar
-//
-// Şimdilik kara kutu (sonra açacağız):
-//   using System; / using System.Collections.Generic; / using System.Linq; /
-//   using System.Text; / using System.Threading.Tasks;      -> ckXXXX
-//   namespace <proje adın>  (VS'in otomatik oluşturduğu ad) -> ckXXXX (OOP'a gelince)
-//   class Program                                            -> ckXXXX (OOP'a gelince)
-//   static void Main(string[] args)                          -> ckXXXX (OOP'a gelince)
-//   (+ dersin kendi yeni kara kutuları varsa altına eklenir)
-// (kara kutu yoksa: "Şimdilik kara kutu: yok" — ama VS iskeleti her zaman yukarıdaki
-//  beşliyi içerir, o yüzden bu blok pratikte hiç boş kalmaz)
+// ck0040 — Sayının iki katı
+// NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
+// Ne öğreneceğiz: * ile çarpma yapmak (bir önceki derste + ile toplama görmüştük)
+// Not: Üstteki using/namespace/class/Main satırları VS'in hazır iskeleti.
+//      Şimdilik olduğu gibi bırak, hepsini ünite 03'te tek tek açacağız.
 
 // --- KAVRAM ---
 // (kısa, tek satırlık yorumlarla; uzun paragraf yok — sadece Main() içine gidecek kod)
 
 // --- SEN YAP ---
 // (kısa, net; cevap YOK — cevap cozumler/ckXXXX_isim/ altında)
+
+// --- MERAK KÖŞESİ ---
+// class Program nedir?
+// Yazdığın her satır bir "class"ın içinde durmak zorunda. class, birbirine ait
+// kodların yaşadığı kutudur. Program, VS'in bu kutuya verdiği ad — "Merhaba"
+// yazan o tek satır bile Program kutusunun içindedir.
+// Kutunun kendisini ünite 03'te (nesne yönelimli programlama) açacağız.
 ```
 
-`ck0010`'dan sonraki bir derste, o dersin kendine özgü yeni bir kara kutusu yoksa, kısa
-referans kullanılır — **ama statik durmaz, kademeli ön izleme taşır:**
+#### Başlıktaki çerçeve notu (2 satır, her Console dersinde aynı)
 
-**Kademeli ön izleme.** Kısa referans "hiç değinmeden sonraki büyük açılışı bekle" demek
-değildir. Her Console dersinde, henüz açılmamış kara kutulardan **birine** dair tek
-cümlelik bir ön izleme eklenir, sırayla döner: `using` → `namespace` → `class Program` →
-`static Main` → (tekrar başa). Kurallar:
-- Ön izleme KAVRAM'ı değiştirmez, sadece kara kutu satırına eklenir; terim resmi
-  öğretilmiş sayılmaz, o kutunun "açılacağı ders" değişmez.
-- Dersin kendi yeni bir dil kavramı varsa (çoğu ders) ön izleme tek cümle kalır.
-- Dersin kendi yeni bir dil kavramı **yoksa** (saf pekiştirme dersi — aynı operatörü/yapıyı
-  farklı bir problemde tekrar kullanmak gibi), o dersin boş kapasitesi bu ön izlemeyi
-  derinleştirmek için kullanılır — birkaç cümlelik daha ayrıntılı bir açıklama olur.
-  Yine terim resmi öğretilmez, sadece sezgi kurulur.
-- Hangi derste hangi kutuya ne söylendiği `mufredat.md`'nin kara kutu tablosundaki
-  "ön izleme günlüğü" sütununa işlenir — rotasyon kaybolmasın, aynı şey tekrar edilmesin.
+`Not:` satırı sabittir, dersten derse değişmez, uzamaz. İşlevi tek: öğrenci koda bakınca
+"bunlar ne, ben mi eksik anladım?" diye takılmasın, "şimdilik dokunmayacağım, sırası
+gelecek" desin. Dersin **kendine ait yeni** bir kara kutusu varsa (o derste ilk kez
+gördüğü, iskeletten gelmeyen bir yapı) çerçeve notuna tek satır eklenir, açıklaması
+yine Merak Köşesi'ne gider.
 
-```csharp
-// ck0020 — ...
-// NASIL: ...
-// Ne öğreneceğiz: ...
-// Kara kutu (ck0010'da tanıtıldı, henüz açılmadı): using'ler + namespace + class Program
-// + Main + Console.ReadKey
-// Ön izleme: using satırları hazır kütüphaneleri projene dahil eder, ileride (ckXXXX)
-// ne işe yaradıklarını göreceğiz.
-```
+#### MERAK KÖŞESİ (kara kutunun asıl açıklaması)
 
-İlk satır iki şeyi birden taşır: **çerçeve** ("ck0010'da tanıtıldı, henüz açılmadı" —
-sadece parantez içi numara değil, ne anlama geldiği de yazar) ve kutuların **listesi**
-(sadece "VS iskeleti" gibi belirsiz bir referans değil). Ön izleme varsa ayrı bir satır,
-yoksa (dersin kendi yeni kara kutusu varsa zaten tam açıklama yazılıyor) ilk satırla biter.
-"Pekiştirme dersi" gibi meta-etiket eklenmez — derinleştirilmiş ön izleme sadece içerik
-olarak uzar, gerekçesi yorum satırına yazılmaz. "Şimdilik kara kutu:" gibi ayrı bir başlık
-satırı da açılmaz — çerçeve cümlesi doğrudan "Kara kutu (...)" ile aynı satırda başlar.
+Dosyanın en sonunda, `SEN YAP`'tan sonra durur. Öğrenci kodu çalıştırıp görevini
+yaptıktan sonra okur — dersin kendi yükü bittiği yerde başlar.
+
+**Ders başına tek kutu.** Rotasyon: `using` → `namespace` → `class Program` →
+`static Main` → `Console.ReadKey` → başa dön. Bir derste iki kutu birden açıklanmaz.
+
+**Üç adımlı yazılır:**
+1. **Soru satırı** — kutunun adını soru hâline getir: `// class Program nedir?`
+2. **Şimdilik geçerli cevap** — kutunun *gerçekte ne olduğu* değil, *öğrencinin kendi
+   kodunda ne yaptığı*. Öğrencinin o an ekranda gördüğü satıra dokunur.
+3. **Açılış yeri** — `// ... ünite 03'te (nesne yönelimli programlama) açacağız.`
+
+**Ölçü:** 3-6 satır, ~60 kelime. Altı satırı aşıyorsan fazlası açılış dersine aittir, kes.
+Tek satıra da sıkıştırma — sıkıştırılmış liste üç kez denendi, üçünde de "kapalı" bulundu.
+
+**Yeni terim getirmez.** Merak Köşesi'nde geçen her kelime ya günlük Türkçe ya da daha
+önceki bir derste karşılığı gösterilmiş bir terim olmalı. Açıklamak için "nesne",
+"derleyici", "static", "referans" gibi henüz öğretilmemiş bir terime ihtiyaç duyuyorsan
+o kutu bu derste anlatılamaz — rotasyonda sıradaki kutuya geç, günlüğe sebebini yaz.
+
+**Zincir kurar, izole tanım vermez.** Mümkünse bir önceki Merak Köşesi'ne bağla:
+"ck0030'da namespace'in klasör gibi olduğunu söylemiştik; class o klasörün içindeki
+dosya gibidir." Kavramlar birbirine bağlı bir zincir olarak öğretilir.
+
+**Tekrar değil, yeni açı.** Rotasyon başa sarıp aynı kutuya ikinci kez gelindiğinde
+öncekinin aynısı yazılmaz; `mufredat.md`'deki günlüğe bakılır, üstüne yeni bir katman
+eklenir.
+
+**Yük freni — atlanabilir.** Dersin kendi yeni fikri ağırsa (aynı derste yeni tip + yeni
+operatör gibi) o dersin Merak Köşesi **atlanır**. Atlanınca rotasyon kaymaz: aynı kutu
+sıradaki derste sırasını korur, günlüğe "atlandı (ders yüklü)" yazılır. Öğrencinin zihni
+scriptin kendi içeriğiyle zaten doluysa kara kutu beklemeye alınır — kural budur, istisna
+değil.
+
+**Sınanabilir, ama sadece yazıldığı düzeyde.** Kara kutu kavramları sınavda/
+`degerlendirme.md`'de çıkabilir — çıkarsa soru, Merak Köşesi'nde yazan cümlenin düzeyini
+aşmaz ("class ne işe yarar?" evet; "static ne demek, neden gerekli?" hayır — o açılış
+dersinin sorusu). `SEN YAP` görevi ise kara kutuya dokunmaz, orada hep dersin kendi yeni
+fikri çalışılır.
+
+#### Açılış yeri: sahte numara yasak
+
+Kutunun açılacağı ders henüz üretilmediği için `ckXXXX` yazmak **yasak** — öğrenciye
+anlamsız, Özgür'e de takip edilemez. Yerine **ünite adı** yazılır:
+`ünite 03 (nesne yönelimli programlama)`. Ünite bile belli değilse
+`ileride ayrı bir derste açacağız` denir ve `mufredat.md` kara kutu tablosuna "ünite
+belirsiz" işlenir.
+
+Açılış dersi gerçekten üretildiğinde: kara kutu tablosundaki "açılacağı yer" gerçek
+numarayla güncellenir **ve** o kutuya değinen eski `kod.cs` dosyaları geriye dönük
+düzeltilir (Tasarım Karar 9'un aynısı).
+
+#### Takip: `mufredat.md` kara kutu tablosu
+
+Hangi derste hangi kutuya ne söylendiği tabloya işlenir (günlük sütunu) — rotasyon
+kaybolmasın, aynı şey iki kez yazılmasın, atlanan dersler görünsün. Sütunlar: yapı ·
+ilk göründüğü ders · açılacağı yer (ünite adı veya gerçek numara) · Merak Köşesi günlüğü ·
+not.
 
 Kaynak bilgisi (`arsiv/`deki hangi dosya/parça) `kod.cs`'e yazılmaz — öğrenciye gitmeyecek
 bir iç kayıt, `mufredat.md` ders listesindeki `kaynak` sütununda tutulur.
@@ -169,7 +212,11 @@ satırlar.
 
 - **Lise dili, 5. sınıf değil.** Arduino kadar aşırı sadeleştirme gerekmez, ama karşılığı
   gösterilmeden terim kullanılmaz ("nesne", "metot", "kapsülleme" dahil).
-- **Kara kutu bloğu her projede zorunlu**, boş bırakılamaz — yoksa "yok" yazılır.
+- **Çerçeve notu her Console dersinde zorunlu** (iskelet satırları için sabit 2 satır);
+  `MERAK KÖŞESİ` ise ders yüklüyse atlanabilir — atlanınca rotasyon kaymaz, `mufredat.md`
+  günlüğüne "atlandı (ders yüklü)" yazılır.
+- **Merak Köşesi yeni terim getirmez.** Açıklamak için henüz öğretilmemiş bir terim
+  gerekiyorsa o kutu o derste anlatılamaz, rotasyonda sıradakine geçilir.
 - **Eski arşiv tutarsızlığı düzeltilir**, sessizce kopyalanmaz — örn. `int` için her zaman
   `Convert.ToInt32` kullan, arşivde `ToInt16` görülse bile.
 - **`SEN YAP`'ta asla cevap olmaz.** Cevaplar `cozumler/ckXXXX_isim/` altında.

@@ -1,15 +1,9 @@
 // ck0010 — İlk program: ekrana yazı yazdırma
-// NASIL: VS2013'te yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
+// NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: Console.Write ve Console.WriteLine ile ekrana yazı basmak,
 //                  aralarındaki fark (WriteLine'dan sonra imleç alt satıra geçer, Write'tan sonra geçmez)
-//
-// Şimdilik kara kutu (sonra açacağız):
-//   using System; / using System.Collections.Generic; / using System.Linq; /
-//   using System.Text; / using System.Threading.Tasks;      -> ckXXXX
-//   namespace <proje adın>  (VS'in otomatik oluşturduğu ad) -> ckXXXX (OOP'a gelince)
-//   class Program                                            -> ckXXXX (OOP'a gelince)
-//   static void Main(string[] args)                          -> ckXXXX (OOP'a gelince)
-//   Console.ReadKey();  -> ckXXXX (konsol penceresinin neden kapanmadan beklediğini o zaman göreceğiz)
+// Not: Üstteki using/namespace/class/Main satırları VS'in hazır iskeleti.
+//      Şimdilik olduğu gibi bırak, hepsini ileride tek tek açacağız.
 
 // --- KAVRAM ---
 Console.Write("Merhaba Dünya :)"); // ekrana yazdırır, imleç aynı satırda kalır

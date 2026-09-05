@@ -13,18 +13,22 @@ Ders listesi ve kara kutu takip tablosu. Her onaylanan derste bu dosya güncelle
 | ck0050_sayininKaresi | bir sayıyı kendisiyle çarpma (kare alma) | Console | operatör (*) pekiştirme | Console | arsiv/01cSharpÇekirdekKodlar.txt (parça 5) | onaylandı |
 | ck0060_tamSayiBolmesi | int bölmesinin küsuratı atması, float/double tipleri | Console | operatör (/) + veri tipi (float, double) | Console | arsiv/02cSharpÇekirdekKodlar.txt (madde 6) | onaylandı |
 | ck0070_metotVeSinif | "metot" ve "sınıf" terimleri, Console.WriteLine örneğiyle (IntelliSense) | Console | terim (metot, sınıf) | Console | arsiv/02cSharpÇekirdekKodlar.txt (madde 7) | onaylandı |
+| ck0080_stringToplamaTuzagi | string + string'in birleştirme yaptığı, sayısal toplama olmadığı | Console | operatör (+) string vs sayı, pekiştirme | Console | arsiv/02cSharpÇekirdekKodlar.txt (madde 8, kısım b) | onaylandı |
 
 ## Kara kutu takip tablosu
 
-Hangi yapı hangi derste ilk göründü, hangi derste açılacak (öğretilecek). "Ön izleme
-günlüğü" — hangi derste o kutuya dair ne söylendi, rotasyon kaybolmasın diye tutulur.
-Rotasyon sırası: `using` → `namespace` → `class Program` → `static Main` → (başa dön).
+Hangi yapı hangi derste ilk göründü, nerede tam açılacak. "Merak Köşesi günlüğü" —
+hangi derste o kutuya dair ne söylendi, rotasyon kaybolmasın diye tutulur. Rotasyon
+sırası: `using` → `namespace` → `class Program` → `static Main` → `Console.ReadKey` →
+(başa dön). ck0010 kendi Merak Köşesi'ni kullanmaz (sadece çerçeve notunu taşır),
+rotasyon ck0020'den başlar. ck0070 kendi yeni fikri (metot/sınıf terimleri) ağır
+olduğu için Merak Köşesi'ni atlar — rotasyon kaymaz, sıradaki kutu ck0080'e geçer.
 
-| yapı | ilk göründüğü ders | açılacağı ders | ön izleme günlüğü | not |
+| yapı | ilk göründüğü ders | açılacağı yer | Merak Köşesi günlüğü | not |
 |------|----------------------|-------------------|----------------------|-----|
-| `using System;` / `using System.Collections.Generic;` / `using System.Linq;` / `using System.Text;` / `using System.Threading.Tasks;` | ck0010 | ckXXXX | ck0020: "hazır kütüphaneleri projene dahil eder"; ck0060: "her using satırı ayrı bir araç kutusu" | [iskelet-bağımlı] — VS2013'ün her yeni Console projesine otomatik eklediği satırlar |
-| `namespace <proje adın>` | ck0010 | ckXXXX | ck0030: "kodları isim altında gruplayan 'klasör' gibidir, çakışmayı önler" | [iskelet-bağımlı] — VS'in proje adına göre otomatik oluşturduğu ad, OOP dersine kadar açılmayacak |
-| `class Program` | ck0010 | ckXXXX | ck0040: "her kod bir class içinde yaşar, Program ana sınıf" | [iskelet-bağımlı] — OOP dersine kadar açılmayacak |
-| `static void Main(string[] args)` | ck0010 | ckXXXX | ck0050: "programın başladığı yer, 'Başlat'a basınca çalışan ilk satır" (pekiştirme dersi olduğu için daha ayrıntılı) | [iskelet-bağımlı] — OOP dersine kadar açılmayacak |
-| `Console.ReadKey();` | ck0010 | ckXXXX | — (rotasyon dışı, ayrı ele alınıyor) | konsolun neden açık kaldığını o zaman göreceğiz |
-| `Console.WriteLine`/`Write` (metot), `Console` (sınıf) terimleri | ck0010 | ck0070 | ck0070: "void ile başlayan her şey metot, Console bir sınıf" | rotasyon dışı — VS iskeletinden bağımsız, Console zaten var olan hazır bir sınıf |
+| `using System;` / `using System.Collections.Generic;` / `using System.Linq;` / `using System.Text;` / `using System.Threading.Tasks;` | ck0010 | ünite 03 (nesne yönelimli programlama) | ck0020: hazır kütüphaneleri projene dahil eder; ck0080: neden 5 ayrı satır var, her biri ayrı bir "araç kutusu" (2. tur, yeni açı) | [iskelet-bağımlı] — VS'in her yeni Console projesine otomatik eklediği satırlar |
+| `namespace <proje adın>` | ck0010 | ünite 03 (nesne yönelimli programlama) | ck0030: kodları isim altında gruplayan "klasör" gibidir, proje adından VS'in ürettiği isim | [iskelet-bağımlı] — OOP dersine kadar açılmayacak |
+| `class Program` | ck0010 | ünite 03 (nesne yönelimli programlama) | ck0040: namespace'in içindeki kutulardan biri, yazdığın her satır bu kutuda durdu | [iskelet-bağımlı] — OOP dersine kadar açılmayacak |
+| `static void Main(string[] args)` | ck0010 | ünite 03 (nesne yönelimli programlama) | ck0050: class Program'ın içinde, programın başladığı satır | [iskelet-bağımlı] — OOP dersine kadar açılmayacak |
+| `Console.ReadKey();` | ck0010 | ileride ayrı bir derste (konsol penceresi) | ck0060: Main'den sonraki son satır, o olmasa pencere anında kapanır | rotasyona ck0060'ta katıldı — OOP'a bağlı değil, ayrı konu |
+| `Console.WriteLine`/`Write` (metot), `Console` (sınıf) terimleri | ck0010 | ck0070 (üretildi) | ck0070: void ile başlayan her şey metot, Console bir sınıf | rotasyon dışı — VS iskeletinden bağımsız, Console zaten var olan hazır bir sınıf |
