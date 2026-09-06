@@ -37,5 +37,11 @@ kod parçaları. Proje her zaman sizin kendi Visual Studio'nuzda oluşturulur.
 | 13 | ck0130_kareVeKup | Kare ve küp alma | yayında |
 | 14 | ck0140_ilkKararYapisi | Karar yapısına giriş (if/else) | yayında |
 | 15 | ck0150_cokDalliKarar | Çok dallı karar (if/else if/else) | yayında |
+| 16 | ck0160_ehliyetKontrolu | if/else ile sayısal karşılaştırma (pekiştirme) | taslak |
+| 17 | ck0170_kareMiDikdortgenMi | if/else ile sayısal eşitlik (pekiştirme) | taslak |
+| 18 | ck0180_notaCevirme | else if zincirinde sıralı aralık kontrolü | taslak |
+| 19 | ck0190_gecerliPuanKontrolu | Mantıksal VEYA (`\|\|`) | taslak |
+| 20 | ck0200_cinsiyetOkuma | Convert.ToChar ile tek karakter (char) okuma | taslak |
+| 21 | ck0210_askerlikKontrolu | Mantıksal VE (`&&`), `\|\|` ile `&&` bir arada | taslak |
 
 Bu tablo her yeni ders eklendiğinde güncellenir. "Sırada ne var" diye buraya bakın.
