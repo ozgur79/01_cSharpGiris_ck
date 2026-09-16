@@ -1,0 +1,7 @@
+// ck0230 SEN YAP çözümü (a=5, b=3, x=3, y=4)
+// (a > b) || (b > 4)          -> True   (a>b True olduğu için)
+// !(a > b) || (b == 5)        -> False  (a>b True, ! ile False; b==5 False; False||False)
+// (x * y) > (x * x)           -> True   (12 > 9)
+// !(a > b) && (b > 4)         -> False  (! ile False, && kısa devre yapar)
+// a % b == 1                  -> False  (5 % 3 = 2, 2 == 1 değil)
+// x * (y % 2)                 -> 0      (4 % 2 = 0, 3 * 0 = 0)

@@ -31,6 +31,35 @@ tablosu formatında) girecek.
 | ck0190_gecerliPuanKontrolu | `\|\|` (mantıksal VEYA) ile tek satırda iki koşul, süslü parantez zorunluluğu pekiştirme | Console | operatör (`\|\|`) — zincire yeni halka | Console | arsiv/04cSharpÇekirdekKodlar.txt (madde 19, `ToInt16`→`ToInt32` düzeltildi) | onay bekliyor |
 | ck0200_cinsiyetOkuma | Convert.ToChar ile klavyeden tek karakter (char) okuma | Console | veri tipi (char) okuma — zincire yeni halka | Console | arsiv/04cSharpÇekirdekKodlar.txt (madde 20, kısım a) | onay bekliyor |
 | ck0210_askerlikKontrolu | `&&` (mantıksal VE), aynı satırda `\|\|` ile `&&` birlikte, parantezin önceliği belirlediği | Console | operatör (`&&`) — zincire yeni halka | Console | arsiv/04cSharpÇekirdekKodlar.txt (madde 20, kısım b) | onay bekliyor |
+| ck0220_dortIslemFormatli | Dört işlemi (`+ - * /`) aynı programda art arda, `"x+y=sonuç"` biçiminde formatlı yazdırma | Console | operatör (`+ - * /`) pekiştirme | Console | arsiv/05cSharpÇekirdekKodlar.txt (madde 2) | onay bekliyor |
+| ck0230_notOperatoru | `!` (NOT/DEĞİL) operatörü — bir koşulun sonucunu tersine çevirme | Console | operatör (`!`) — zincire yeni halka | Console | arsiv/05cSharpÇekirdekKodlar.txt (madde 3, 10 ifadelik script'ten sadece `!` işlendi, gerisi SEN YAP'a taşındı) | onay bekliyor |
+| ck0240_icIceIf | İç içe if (nested if) — dıştaki if false ise içteki hiç çalışmaz | Console | karar yapısı (iç içe if) — zincire yeni halka | Console | arsiv/05cSharpÇekirdekKodlar.txt (madde 4, kullanıcı adı/şifre gerçek isim yerine kurgusal `ogrenci`/`kalfa123` ile değiştirildi — gerçek isim/parola repo'ya girmez kuralı) | onay bekliyor |
+| ck0250_loginTekIf | Aynı iç içe if mantığının `&&` ile tek if'e indirgenmesi | Console | operatör (`&&`) pekiştirme, ck0240 ile denklik | Console | arsiv/05cSharpÇekirdekKodlar.txt (madde 5, aynı isim değişikliği + ck0240'la birebir denklik için koşul ck0240'daki 3 varyantlı hâliyle eşitlendi) | onay bekliyor |
+| ck0260_forDonguGiris | `for` döngüsüne giriş (sayaçlı azalan sayaç, `break` ile erken çıkış) — sınırlı deneme hakkı | Console | döngü (`for`, `break`) — zincirin yeni ANA halkası | Console | arsiv/06cSharpÇekirdekKodlar.txt (madde 1, isim değişikliği ck0240/250 ile aynı gerekçeyle) | onay bekliyor |
+| ck0270_tekCiftKontrolu | `%` (mod) ile tek/çift kontrolü | Console | operatör (`%`) — zincire yeni halka | Console | arsiv/06cSharpÇekirdekKodlar.txt (madde 2+3 birleştirildi, kullanıcıdan sorulan `bolen` kaldırılıp sabit 2 yapıldı — orijinalde herhangi bir bölen girilebildiği için "tektir/çifttir" sonucu genel olarak yanlış çıkabiliyordu; `kalan==1` yerine `kalan==0` kontrolü negatif sayılarda da doğru sonuç verir) | onay bekliyor |
+| ck0280_gecerliMenu | Çok seçenekli menüde önce geçerlilik kontrolü, sonra işlem — doğrulama sarmalayıcısı deseni | Console | karar yapısı (sarmalayıcı desen) pekiştirme | Console | arsiv/06cSharpÇekirdekKodlar.txt (madde 5, `ToInt16`→`ToInt32`) | onay bekliyor |
+| ck0290_sembolIleSecim | Sembol tabanlı seçim — `char` ile `+ - * /` karşılaştırma, hesap makinesi zincirinin doğal hâli | Console | veri tipi (`char`) + karar yapısı pekiştirme | Console | arsiv/06cSharpÇekirdekKodlar.txt (madde 6, geçersiz seçimde hata mesajı "1-4 arası rakam" yerine sembollere uyarlandı) | onay bekliyor |
+| ck0300_kdvHesaplama | KDV hesaplama — yüzde formülü `(oran/100)*sayı`, dallanma yok | Console | operatör (yüzde formülü) pekiştirme | Console | arsiv/07cSharpÇekirdekKodlar.txt (madde 2) | onay bekliyor |
+| ck0310_maasKesinti | Maaş kesinti hesaplama — çok dallı yüzde, ck0300'ün üstüne biner | Console | operatör (yüzde formülü) + karar yapısı pekiştirme | Console | arsiv/07cSharpÇekirdekKodlar.txt (madde 1) | onay bekliyor |
+| ck0320_birlerBasamagi | Birler basamağını bulma (`sayi % 10`) | Console | operatör (`%`) pekiştirme, bağımsız yeni teknik | Console | arsiv/07cSharpÇekirdekKodlar.txt (madde 5, `ToInt16`→`ToInt32`) | onay bekliyor |
+| ck0330_onBeseBolunebilirlik | 15'e bölünebilirlik — `%3` + `%5` + `&&`, sonsuz döngü (`for(;;)`, break yok) | Console | operatör (`%`, `&&`) + döngü (`for(;;)`) pekiştirme | Console | arsiv/07cSharpÇekirdekKodlar.txt (madde 6, `ToInt16`→`ToInt32`) | onay bekliyor |
+| ck0340_bankaHesabi | Banka hesabı — sonsuz döngü, kalıcı `bakiye` durumu, yatır/çek, hiç `break` içermeyen ilk örnek | Console | döngü (kalıcı durum) — zincire yeni halka | Console | arsiv/07cSharpÇekirdekKodlar.txt (madde 3, `ToInt16`→`ToInt32`; "Durdur butonu" notu açıkça eklendi) | onay bekliyor |
+| ck0350_toplamBiriktirme | Toplam biriktirme (`+=`), 0 girilince çıkış — kırılgan (`Convert.ToInt32`, hatalı girdide çöker) | Console | döngü (biriktirici desen) — zincire yeni halka | Console | arsiv/08cSharpÇekirdekKodlar.txt (madde 1, `ToInt16`→`ToInt32`) | onay bekliyor |
+| ck0360_tryParseIleSaglam | Aynı program, `int.TryParse` (`out` parametresi) ile hatalı girdiye dayanıklı hâle getirme | Console | metot (`TryParse`, `out`) — ck0350'nin doğrudan devamı | Console | arsiv/08cSharpÇekirdekKodlar.txt (madde 2) | onay bekliyor |
+| ck0370_forAdimliArtis | `for` ile adım/artış belirleme (`i += 2`), aralık yazdırma | Console | operatör (`+=`) pekiştirme | Console | arsiv/08cSharpÇekirdekKodlar.txt (madde 3) | onay bekliyor |
+| ck0380_tekrarGirdiDeseni | Döngü içinde tekrar girdi isteme deseni (pozitif/negatif/sıfır, 0'da çıkış) | Console | döngü (tekrar-sor deseni) pekiştirme | Console | arsiv/08cSharpÇekirdekKodlar.txt (madde 4, `ToInt16`→`ToInt32`) | onay bekliyor |
+| ck0390_faktoriyel | Çarpımsal biriktirici (faktöriyel) + `i++` operatörü ilk kez | Console | operatör (`i++`) + döngü (çarpımsal biriktirici) pekiştirme | Console | arsiv/08cSharpÇekirdekKodlar.txt (madde 5, `ToInt16`→`ToInt32`; çıktı metni `"!= "` → `"! = "` düzeltildi, "!=" değil-eşittir gibi okunuyordu) | onay bekliyor |
+| ck0400_periyodikBicimlendirme | Döngü içinde periyodik biçimlendirme (`i%5==1` ile satır atlama) | Console | operatör (`%`) pekiştirme — ünite 03'ü bitirip ünite 04'e taşıyor | Console | arsiv/08cSharpÇekirdekKodlar.txt (madde 6) | onay bekliyor |
+| ck0410_dinamikAralik | Kullanıcının verdiği iki sayı arasını `for` ile yazdırma — dinamik aralık | Console | döngü (`for`, dinamik sınır) pekiştirme | Console | arsiv/09cSharpÇekirdekKodlar.txt (madde 1, `ToInt16`→`ToInt32`) | onay bekliyor |
+| ck0420_birdenXeToplam | 1'den X'e toplam — biriktirici + kullanıcı sınırı | Console | döngü (biriktirici) pekiştirme | Console | arsiv/09cSharpÇekirdekKodlar.txt (madde 2, `ToInt16`→`ToInt32`) | onay bekliyor |
+| ck0430_aralikCiftSayilar | Aralıkta çift sayılar + geçersiz girişte tekrar sorma — retry-on-invalid deseni | Console | döngü (iç içe `for`, tekrar-sor deseni) — zincire yeni halka | Console | arsiv/09cSharpÇekirdekKodlar.txt (madde 3, `ToInt16`→`ToInt32`) | onay bekliyor |
+| ck0440_aralikTekSayilar | Aralıkta tek sayılar + başlangıcı ayarlama tekniği (`s1++` çiftse) — ck0430'un varyantı | Console | döngü pekiştirme | Console | arsiv/09cSharpÇekirdekKodlar.txt (madde 4, `ToInt16`→`ToInt32`) | onay bekliyor |
+| ck0450_qIleCikis | Pozitif/negatif/sıfır analizi, çıkış `"q"` harfiyle — ck0380 ile aynı egzersiz, farklı çıkış mekanizması | Console | döngü (harf tabanlı çıkış) pekiştirme | Console | arsiv/09cSharpÇekirdekKodlar.txt (madde 5, `ToInt16`→`ToInt32`; ck0380 ile yapısal paralellik için sonuna `"Programdan çıkıldı"` + `ReadKey` eklendi) | onay bekliyor |
+
+Faz talimatı (`D:\zihinEv\🏰 300-Projects\Gorev\10is-emri-ck-faz-talimati.md`) burada
+tamamlandı — ck0220'den ck0450'ye 24 ders. Ünite 04'te ck0460-ck0490 arası 4 slot boş
+kaldı (Özgür'ün dolduracağı `10cSharpÇekirdekKodlar.txt` ve olası araya-ekleme konuları
+için pay, faz talimatının kendi notu).
 
 ## Kara kutu takip tablosu
 
@@ -51,7 +80,19 @@ bir sonraki yüksüz derste kullanılacak. ck0160 (pekiştirme, yüksüz) bu kut
 yüksüz) kullanıldı — `namespace` de **emekli**. ck0180 (sıralı aralık kontrolü), ck0190
 (`\|\|`), ck0200 (Convert.ToChar) ve ck0210 (`&&`) kendi yeni fikirleri ağır olduğu için
 Merak Köşesi'ni atladı (yük freni); rotasyon kaymadı, sıradaki kutu `class Program`
-(3. tur) bir sonraki yüksüz derste kullanılacak.
+(3. tur) bir sonraki yüksüz derste kullanılacak. ck0220 (dört işlem, pekiştirme, yüksüz)
+bu kutuyu kullandı — `class Program` artık **emekli**. Sıradaki kutu `static Main`
+(3. ve son tur) bir sonraki yüksüz derste kullanılacak. ck0230 (`!`) ve ck0240 (iç içe if)
+kendi yeni fikirleri ağır olduğu için (zincire yeni halka) Merak Köşesi'ni atladı; rotasyon
+kaymadı. ck0250 (login && indirgeme, ck0240'ın doğrudan pekiştirme companion'ı, yüksüz) bu
+kutuyu kullandı — `static Main` da **emekli**. ck0260 (`for` döngüsü, zincirin yeni ANA
+halkası) ağır olduğu için Merak Köşesi'ni atladı. Sıradaki ve **son** kutu `Console.ReadKey`
+(3. ve son tur) ck0270'te (`%` ile tek/çift, yüksüz) kullanıldı — `Console.ReadKey` de
+**emekli**. **Beş iskelet kutusunun hepsi artık emekli** — ünite 07'ye (`02_cSharpForm_ck`)
+kadar Merak Köşesi bu beş kutudan hiçbirini bir daha kullanmayacak; ck0280'den itibaren
+yeni dersler kendi yeni fikirleri ağırsa zaten, hafifse de artık gösterecek bir iskelet
+kutusu kalmadığı için Merak Köşesi bölümünü hiç içermeyebilir — bu normaldir, kural
+ihlali değildir.
 
 **Açılış yeri ünite 07 (2026-09-05, Özgür onayladı — Karar 16).** Beş iskelet kutusu
 (`using`, `namespace`, `class Program`, `static Main`, `Console.ReadKey`) WinForms
@@ -67,7 +108,7 @@ kendi yeni kutusu olmayan derslerde yedek olarak devreye girer.
 |------|----------------------|-------------------|----------------|----------------------|-----|
 | `using System;` / `using System.Collections.Generic;` / `using System.Linq;` / `using System.Text;` / `using System.Threading.Tasks;` | ck0010 | ünite 07 (nesne tabanlı programlama) | 3 tur — **emekli** | ck0020: hazır kütüphaneleri projene dahil eder; ck0080: neden 5 ayrı satır var, her biri ayrı bir "araç kutusu" (2. tur, yeni açı); ck0160: hepsi her programda kullanılmaz, bu derste sadece System işe yaradı (3. tur, yeni açı) | [iskelet-bağımlı] — VS'in her yeni Console projesine otomatik eklediği satırlar |
 | `namespace <proje adın>` | ck0010 | ünite 07 (nesne tabanlı programlama) | 3 tur — **emekli** | ck0030: kodları isim altında gruplayan "klasör" gibidir, proje adından VS'in ürettiği isim; ck0090: her yeni projede namespace'in neden değiştiği (2. tur, yeni açı); ck0170: her yeni proje kendi namespace'ini alır (3. tur, yeni açı) | [iskelet-bağımlı] — ünite 07'ye kadar açılmayacak |
-| `class Program` | ck0010 | ünite 07 (nesne tabanlı programlama) | 2 tur (emekli değil) | ck0040: namespace'in içindeki kutulardan biri, yazdığın her satır bu kutuda durdu; ck0110: adı hep aynı kalır (VS otomatik verir), namespace proje adına göre değişir (2. tur, yeni açı) | [iskelet-bağımlı] — ünite 07'ye kadar açılmayacak |
-| `static void Main(string[] args)` | ck0010 | ünite 07 (nesne tabanlı programlama) | 2 tur (emekli değil) | ck0050: class Program'ın içinde, programın başladığı satır; ck0120: başladığı satırdan itibaren kod yukarıdan aşağı sırayla çalışır (2. tur, yeni açı) | [iskelet-bağımlı] — ünite 07'ye kadar açılmayacak |
-| `Console.ReadKey();` | ck0010 | ünite 07 (nesne tabanlı programlama) | 2 tur (emekli değil) | ck0060: Main'den sonraki son satır, o olmasa pencere anında kapanır; ck0130: iki sonuç hesaplanan derste neden en sonda durması gerektiği (2. tur, yeni açı) | rotasyona ck0060'ta katıldı, diğer iskelet kutularıyla birlikte ünite 07'de kapanacak |
+| `class Program` | ck0010 | ünite 07 (nesne tabanlı programlama) | 3 tur — **emekli** | ck0040: namespace'in içindeki kutulardan biri, yazdığın her satır bu kutuda durdu; ck0110: adı hep aynı kalır (VS otomatik verir), namespace proje adına göre değişir (2. tur, yeni açı); ck0220: kaç satır yazarsan yaz kutu büyümüyor, sadece içi doluyor (3. tur, yeni açı) | [iskelet-bağımlı] — ünite 07'ye kadar açılmayacak |
+| `static void Main(string[] args)` | ck0010 | ünite 07 (nesne tabanlı programlama) | 3 tur — **emekli** | ck0050: class Program'ın içinde, programın başladığı satır; ck0120: başladığı satırdan itibaren kod yukarıdan aşağı sırayla çalışır (2. tur, yeni açı); ck0250: iki farklı yazım (ck0240/ck0250) aynı işi yapsa da ikisi de yine bu satırdan başladı — yazım değişir, başlangıç değişmez (3. tur, yeni açı) | [iskelet-bağımlı] — ünite 07'ye kadar açılmayacak |
+| `Console.ReadKey();` | ck0010 | ünite 07 (nesne tabanlı programlama) | 3 tur — **emekli** | ck0060: Main'den sonraki son satır, o olmasa pencere anında kapanır; ck0130: iki sonuç hesaplanan derste neden en sonda durması gerektiği (2. tur, yeni açı); ck0270: if/else'in sadece bir dalı çalışsa da hangi yoldan gidilirse gidilsin en sonunda hep bu satıra gelinir (3. tur, yeni açı — kapanış) | rotasyona ck0060'ta katıldı; ünite 07'ye kadar burada bir daha görünmeyecek |
 | `Console.WriteLine`/`Write` (metot), `Console` (sınıf) terimleri | ck0010 | ck0070 (üretildi) | rotasyon dışı | ck0070: void ile başlayan her şey metot, Console bir sınıf | rotasyon dışı — VS iskeletinden bağımsız, Console zaten var olan hazır bir sınıf |

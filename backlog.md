@@ -2,6 +2,56 @@
 
 Canlı durum. Biten madde silinir, `backlog-log.md`'ye taşınır.
 
+- **ck0220-ck0450 onay bekliyor (24 ders, hepsi tek oturumda üretildi).**
+  `D:\zihinEv\🏰 300-Projects\Gorev\10is-emri-ck-faz-talimati.md` (Ortak'ın faz talimatı)
+  baştan sona uygulandı — Özgür "0230 ve sonrasında sonuna kadar sırayla devam et, durma"
+  dedi, onay durakları atlanıp tek seferde üretildi. Her ders kendi geçici klasöründe
+  (`dotnet run`, çoğunda `ReadKey` gerçek klavye beklediği için yorumda/pipe'lı girdiyle)
+  gerçekten çalıştırıldı, çıktılar doğrulandı — istisna: ck0330 ve ck0340 sonsuz döngü
+  (`for(;;)`, break yok) içerdiği için `timeout`/pipe ile sınırlı girdi sonrası doğal
+  şekilde durduruldu (bir kere arka plan görevi EOF'ta `Convert.ToInt32(null)`'ın 0
+  dönmesi yüzünden gerçekten sonsuza koştu, `TaskStop` ile durduruldu — kod hatası değil,
+  headless test ortamının EOF davranışı).
+  - **Blok05 (ck0220-ck0250, arsiv/05):** ck0220 dört işlem formatlı yazdırma; ck0230 `!`
+    operatörü (10 ifadelik script'ten sadece `!` işlendi, gerisi SEN YAP'a taşındı);
+    ck0240 iç içe if; ck0250 aynı mantığın `&&` ile tek if'e indirgenmesi (ck0240'la
+    art arda, aynı 3 test senaryosuyla denklik gösteriliyor).
+  - **Blok06 (ck0260-ck0290, arsiv/06):** ck0260 `for` döngüsüne giriş (sayaçlı azalan,
+    `break`) — zincirin yeni ANA halkası; ck0270 `%` ile tek/çift (madde 2+3 birleşti,
+    kullanıcıdan sorulan `bolen` kaldırılıp sabit 2 yapıldı — orijinal herhangi bir bölen
+    girilebildiği için "tektir/çifttir" sonucunu genel olarak yanlış hale getiriyordu);
+    ck0280 doğrulama sarmalayıcısı deseni; ck0290 sembol tabanlı seçim. **Ünite 02
+    tamamlandı (ck0210-ck0290).**
+  - **Blok07 (ck0300-ck0340, arsiv/07):** basitten karmaşığa yeniden sıralandı — ck0300
+    KDV, ck0310 maaş kesinti, ck0320 birler basamağı, ck0330 15'e bölünebilirlik
+    (sonsuz döngü ilk kullanımı, kod içi not eklendi), ck0340 banka hesabı (hiç `break`
+    içermeyen ilk örnek — "VS'in kırmızı Durdur butonuyla kapat" notu header'a açıkça
+    eklendi, faz talimatının özel talebiydi).
+  - **Blok08 (ck0350-ck0400, arsiv/08):** ck0350 toplam biriktirme (kırılgan,
+    `Convert.ToInt32` hatalı girdide çöker); ck0360 `int.TryParse`/`out` ile sağlamlaştırma
+    (ck0350'nin doğrudan devamı); ck0370 `i+=2` adımlı for; ck0380 tekrar-girdi-isteme
+    deseni; ck0390 faktöriyel + `i++` (çıktı metni `"!= "` → `"! = "` düzeltildi, "eşit
+    değil" gibi okunuyordu); ck0400 periyodik satır atlama. **Ünite 03 tamamlandı
+    (ck0300-ck0390).**
+  - **Blok09 (ck0410-ck0450, arsiv/09):** ck0410 dinamik aralık; ck0420 1'den X'e toplam;
+    ck0430 aralıkta çift + retry-on-invalid; ck0440 aralıkta tek + `s1++` başlangıç ayarı;
+    ck0450 pozitif/negatif/sıfır, çıkış `"q"` ile (ck0380 ile karşılaştırma için sonuna
+    `"Programdan çıkıldı"` + `ReadKey` eklendi, yapısal paralellik).
+  - **Kara kutu rotasyonu tamamen bitti:** ck0220 `class Program` (3.tur, emekli), ck0250
+    `static Main` (3.tur, emekli), ck0270 `Console.ReadKey` (3.tur, emekli) — beş iskelet
+    kutusunun hepsi artık emekli, ünite 07'ye kadar Merak Köşesi'nde bir daha görünmeyecek.
+    ck0280'den itibaren hiçbir derste Merak Köşesi bölümü yok, bu normal (mufredat.md'de
+    açıklandı).
+  - **Spec dışı karar — isim/parola değişikliği (flag, onay bekliyor):** arşivde
+    ck0240/ck0250/ck0260'ın kaynağı olan login örnekleri gerçek kullanıcı adı ("Özgür")
+    ve gerçek görünümlü bir parola ("öz123") içeriyordu. Repo public olduğu ve kural
+    "gerçek isim/parola hiçbir dosyaya girmez" dediği için (üst CLAUDE.md, istisnasız)
+    ck bunları sessizce **kurgusal** `ogrenci`/`kalfa123` ile değiştirdi. Bu, faz
+    talimatında yazmayan bir karardı — Özgür onaylamalı ya da başka bir kurgusal
+    değer istiyorsa söylemeli.
+  - **mufredat.md** (ders listesi + kara kutu tablosu + rotasyon anlatımı) tamamen
+    işlendi. Ünite 04'te ck0460-ck0490 arası 4 slot bilerek boş bırakıldı (faz
+    talimatının kendi notu — Özgür'ün `10cSharpÇekirdekKodlar.txt`'yi dolduracağı pay).
 - **ck0160-ck0210 onay bekliyor.** `arsiv/04cSharpÇekirdekKodlar.txt` (madde 16-20) altı
   derse bölündü: ck0160 (if/else sayısal <, pekiştirme), ck0170 (if/else sayısal ==,
   pekiştirme, ck0110 dörtgen temasına bağlı), ck0180 (else if sıralı aralık kontrolü —
@@ -17,8 +67,6 @@ Canlı durum. Biten madde silinir, `backlog-log.md`'ye taşınır.
   ders için geçerli, kural değişmedi; ck0010-0150 ve sonraki yeni dersler eski formatta
   (Not: satırı + ünite 07) devam eder. mufredat.md'deki "açılacağı yer: ünite 07" kaydı
   (Karar 16) hâlâ geçerli, sadece bu 6 dersin öğrenciye giden metni daha belirsiz.
-- **`arsiv/05cSharpÇekirdekKodlar.txt` boş geldi (0 satır).** Sıradaki iş bekliyor —
-  Özgür dosyayı doldurup tekrar verdiğinde işlenecek.
 - **`arsiv/03cSharpÇekirdekKodlar_bitti.txt` zaten işlenmiş arşiv kopyası** — eski
   "03cSharpÇekirdekKodlar - Kopya.txt" ile aynı içerik, "_bitti" adıyla tekrar geldi,
   yeni bir işlem gerektirmiyor.
