@@ -108,5 +108,24 @@ kod parçaları. Proje her zaman sizin kendi Visual Studio'nuzda oluşturulur.
 | 84 | ck0645_zamanlamaBaklava | Baklava deseni + zamanlama | yayında |
 | 85 | ck0650_renkGiris | ConsoleColor'a giriş (cast) | yayında |
 | 86 | ck0655_renkVeIf | ConsoleColor + if: tek/çift renk | yayında |
+| 87 | ck0660_diziyeGiris | Diziye giriş | yayında |
+| 88 | ck0665_diziLiteralBaslatma | Dizi literal ile başlatma | yayında |
+| 89 | ck0670_diziForIleGirOku | for ile diziye giriş/okuma | yayında |
+| 90 | ck0675_diziFarkliSayiZorlama | Farklı sayı zorlama (kusurlu, karşılaştırma) | yayında |
+| 91 | ck0680_diziFarkliSayiDuzeltilmis | Farklı sayı zorlama (düzeltilmiş) | yayında |
+| 92 | ck0685_diziRandomBasit | Dizi + Random: basit | yayında |
+| 93 | ck0690_diziRandomKosulluFiltre | Dizi + Random: koşullu filtre | yayında |
+| 94 | ck0695_diziRandomBiriktirme | Dizi + Random: biriktirme | yayında |
+| 95 | ck0700_dinamikBoyutluDizi | Dinamik boyutlu dizi | yayında |
+| 96 | ck0705_diziArama | Dizide arama | yayında |
+| 97 | ck0710_diziSilme | Dizide silme (Array.Clear) | yayında |
+| 98 | ck0715_diziyeElemanEkleme | Diziye eleman ekleme (Array.Resize) | yayında |
+| 99 | ck0720_diziyiPozitifYapma | Diziyi pozitif yapma | yayında |
+| 100 | ck0725_diziTersleme | Diziyi tersleme (Array.Reverse) | yayında |
+| 101 | ck0730_rastgeleDiziSiralama | Rastgele diziyi sıralama | yayında |
+| 102 | ck0735_ikiDiziRastgeleVeri | İki diziden eşleşen rastgele veri | yayında |
+| 103 | ck0740_stringSesliHarfSayma | String'te sesli harf sayma | yayında |
+| 104 | ck0745_stringTerstenYazdirma | String'i tersten yazdırma | yayında |
+| 105 | ck0750_diziFonksiyonKoprusu | Dizi + fonksiyon köprüsü | yayında |
 
 Bu tablo her yeni ders eklendiğinde güncellenir. "Sırada ne var" diye buraya bakın.

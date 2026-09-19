@@ -5,22 +5,25 @@ Canlı durum. Biten madde silinir, `backlog-log.md`'ye taşınır.
 - **arsiv/12 işleniyor — 59 derslik tam tasarım çıkarıldı, blok blok üretiliyor.**
   Tam sıra ve numara ataması `mufredat.md`'de. Atlanan: madde [06] (ck0410 ile
   duplicate). İşlenmeyen: `İNCELE: 303karekökMetodunuÖğrencilerYazsın` (kaynak yok).
-  **Blok 1-3 (ck0500-ck0600) onaylandı, commit edildi.**
-  **Blok 4/10 (ck0605-ck0655, Random pekiştirme + zamanlama + renk, 11 ders) üretildi,
-  onay bekliyor:** ck0605 for(;;)+break ile sınırsız tahmin, ck0610 döngüde N adet
-  random, ck0615 ardışık aynı sayı engelleme (kaynaktaki `gecici` bugı düzeltildi,
-  dizisiz basit bir mantıkla), ck0620 Random aralığı klavyeden (kapanış), ck0625
-  Thread.Sleep'e giriş, ck0630 hızlanan sayaç, ck0635 ileri-geri sonsuz sayma, ck0640
-  sade sonsuz sayaç, ck0645 baklava+zamanlama (desen ailesine geri bağlanıyor), ck0650
-  ConsoleColor'a giriş (**önemli not:** `(Tip)değer` cast yazımı ilk kez burada AÇIK
-  öğretildi — ck0060'ta sadece ipucu verilmişti; bu, ck0790'ı "ilk tanıtım" olmaktan
-  çıkarıp pekiştirmeye çeviren bir sıralama kararı, mufredat.md'ye not düşüldü), ck0655
-  ConsoleColor+if kapanışı. **Önemli teknik not:** Thread.Sleep VS2013'ün varsayılan
-  using listesinde yok — bu 5 dersin NASIL: satırına "using System.Threading; ekle"
-  talimatı eklendi (doğrulandı: ImplicitUsings kapalı projede Thread.Sleep gerçekten
-  derlenmiyor, dotnet run testlerimin normalde ImplicitUsings=enable kullandığını fark
-  edip bu dersten itibaren testleri ImplicitUsings=disable ile yapmaya geçtim — VS2013
-  koşullarına daha yakın). Hepsi `dotnet run`/`dotnet build` ile doğrulandı (sonsuz
-  döngülü olanlarda sadece derleme + mantık simülasyonu, çalıştırma değil — kendileri
-  hiç durmuyor). mufredat.md/README.md güncellendi. **Commit yok, onay bekleniyor.**
-- **Sıradaki blok: Blok 5 (ck0660-0750) — dizi ailesi, en büyük blok (19 ders).**
+  **Blok 1-4 (ck0500-ck0655) onaylandı, commit edildi.**
+  **Blok 5/10 (ck0660-ck0750, dizi ailesi, en büyük blok — 19 ders) üretildi, onay
+  bekliyor:** ck0660 diziye giriş → ck0665 literal başlatma → ck0670 for ile gir/oku →
+  **ck0675/ck0680 kasıtlı karşılaştırma çifti** (ck0675 kaynaktaki `i--`/`k--` retry
+  hatası BİLEREK korundu, gerçekten test edilip "beklenenden fazla soruyor" davranışı
+  doğrulandı; ck0680 `tekrar` bayrağıyla düzeltilmiş hâli) → ck0685/0690/0695 dizi+Random
+  ailesi → ck0700 dinamik boyut → ck0705 arama (kaynak bug düzeltildi: `else` her
+  adımda yanlış "bulunamadı" basıyordu) → ck0710/0715/0720/0725 hazır dizi metotları
+  (Array.Clear/Resize/Reverse + mutasyon) → ck0730 kendi sıralama mantığı (bubble-sort
+  benzeri, swap+gecici) → ck0735 iki diziden eşleşen veri (kaynak bug düzeltildi:
+  `Next(1,6)` ilk/son elemanı hiç seçmiyordu) → ck0740/0745 string/dizi köprüsü →
+  ck0750 dizi+fonksiyon köprüsü (**yapısal istisna:** bu ders "hepsini Main() içine
+  yapıştır" kalıbına uymuyor — iki alan + iki metot class Program içine, Main()'in
+  dışına eklenmesi gerekiyor, kod.cs içinde "1. BÖLÜM"/"2. BÖLÜM" olarak ayrıca
+  işaretlendi, hem top-level statement hem klasik `namespace/class Program/static Main`
+  yapısıyla test edildi). Hepsi `dotnet run` ile gerçekten çalıştırılıp doğrulandı.
+  mufredat.md/README.md güncellendi. **Commit yok, onay bekleniyor.**
+- **Sıradaki blok: Blok 6 (ck0755-0790) — fonksiyon ailesi + cast pekiştirme kapanışı
+  (8 ders), arsiv/12'nin son bloğu.**
+- **Sırada arsiv/13 var (29 madde, kaynak 0001lunaveriTemizleTest, arsiv/12'den ayrı
+  klasör) — Ortak (zihinEv) bildirdi, TALIMAT-13-icin-ck.md'de olası örtüşme şüpheleri
+  var. Henüz açılmadı, arsiv/12 (Blok 6) bitince bakılacak.**
