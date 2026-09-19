@@ -74,7 +74,10 @@ için pay, faz talimatının kendi notu).
 Dizi zinciri: desen pekiştirme (ck0500-0525) → Random'a giriş (ck0530) → while/do-while
 (ck0535-0580) → switch (ck0585-0600) → Random pekiştirme (ck0605-0620) → zamanlama
 (ck0625-0645) → renk (ck0650-0655) → dizi (ck0660-0750) → fonksiyon (ck0755-0785) →
-cast pekiştirme kapanışı (ck0790). Kaynak: `arsiv/12cSharpÇekirdekKodlar.txt` (61 madde,
+cast pekiştirme (ck0790). Not: `(Tip)değer` (cast) yazımı ilk kez ck0650'de (renk
+dersinde) açık öğretildi — ck0790 artık bir pekiştirme, ilk tanıtım değil (üretim
+sırasında fark edilen bir sıralama iyileştirmesi, plan tablosunda "kapanış" olarak
+geçiyordu, hâlâ öyle ama "ilk tanıtım" değil). Kaynak: `arsiv/12cSharpÇekirdekKodlar.txt` (61 madde,
 `arsiv/TALIMAT-12-icin-ck.md`). Atlanan: madde [06] 48forKactanKacaKadarYazdir (ck0410 ile
 birebir aynı konu, duplicate). İşlenmeyen: `İNCELE: 303karekökMetodunuÖğrencilerYazsın`
 (kaynak kod arşivde yok). **Blok 1/10 — desen ailesi devamı:**
@@ -106,6 +109,20 @@ birebir aynı konu, duplicate). İşlenmeyen: `İNCELE: 303karekökMetodunuÖğr
 | ck0590_switchHesapMakinesiChar | `switch` ile hesap makinesi (char seçim, `+ - * /`) | Console | karar yapısı (`switch`) + veri tipi (`char`) pekiştirme | Console | arsiv/12cSharpÇekirdekKodlar.txt (madde 20, `151switchCaseHesapMakinesi`; kaynakta `case '3'`/`'4'` yazılmıştı ama menü 1-4 numaralı gösteriliyordu — tüm case'ler `'1'-'4'`'e çevrilip menüyle tutarlı hale getirildi) | onaylandı |
 | ck0595_switchHesapMakinesiString | Aynı hesap makinesi, `string` seçimle (`"1"-"4"`) | Console | karar yapısı (`switch`) + veri tipi (`string`) — ck0590 ile karşılaştırma | Console | arsiv/12cSharpÇekirdekKodlar.txt (madde 21, `151switchCaseHesapMakinesi2`) | onaylandı |
 | ck0600_doWhileSwitchSayininOkunusu | `do-while` (retry-on-invalid) + dört ayrı `switch` ile sayının Türkçe okunuşu — döngü/karar ailesinin kapanışı | Console | döngü (`do-while`) + karar (`switch`) birleşimi, kapanış | Console | arsiv/12cSharpÇekirdekKodlar.txt (madde 18, `167doWhile_Switch_sayininOkunusu`; kaynaktaki `while (i==1)` şartı hiçbir zaman gerçek doğrulamayı yapmıyordu (`i` hiç değişmiyordu, döngü her zaman tek seferde bitiyordu) — gerçek retry şartına (`sayi>9999 \|\| sayi<0`) düzeltildi, gereksiz `i` değişkeni ve `break` kaldırıldı) | onaylandı |
+
+**Blok 4/10 — Random pekiştirme + zamanlama + renk ailesi:**
+
+| ck0605_forSonsuzRandomTahmin | `for(;;)` + `break` ile sınırsız hakla sayı tahmin oyunu — ck0575 ile karşılaştırma | Console | döngü (`for(;;)`+`break`) + Random pekiştirme | Console | arsiv/12cSharpÇekirdekKodlar.txt (madde 53, `101rasgeleSayiyiBul`; tutulan sayıyı ekrana yazan sızıntı satırı yoktu zaten, kalanı sadeleştirildi) | onaylandı |
+| ck0610_besRastgeleSayi | Döngüde N adet rastgele sayı üretme | Console | döngü + Random pekiştirme | Console | arsiv/12cSharpÇekirdekKodlar.txt (madde 54, `102rasgeleBesSayiTut`) | onaylandı |
+| ck0615_farkliArdisikSayi | Ardışık aynı sayıyı engelleme (`for` içinde `while` ile "tekrar dene") | Console | döngü içi döngü + Random pekiştirme | Console | arsiv/12cSharpÇekirdekKodlar.txt (madde 55, `103rasgeleBesFarkliSayiTut`; kaynakta `gecici` değişkeni hiç güncellenmiyordu, "farklı sayı" kontrolü fiilen çalışmıyordu — dizi kullanmadan (henüz öğretilmedi) sadece ARDIŞIK tekrarı engelleyen çalışan bir mantıkla yeniden yazıldı) | onaylandı |
+| ck0620_randomAralikKlavyeden | Random aralığını ve adedini klavyeden alma — Random pekiştirme ailesinin kapanışı | Console | döngü + Random pekiştirme kapanışı | Console | arsiv/12cSharpÇekirdekKodlar.txt (madde 56, `104rasgeleIcinVerilerKlavyedenGirilsin`) | onaylandı |
+| ck0625_zamanlamaGiris | `Thread.Sleep` ile zamanlanmış sayaç — yeni ANA halka (`using System.Threading;` gerekli) | Console | zaman kontrolü (`Thread.Sleep`) — yeni ANA halka | Console | arsiv/12cSharpÇekirdekKodlar.txt (madde 48, `090zamanlama`) | onaylandı |
+| ck0630_zamanlamaHizlanan | Giderek hızlanan sayaç — bekleme süresi her turda azalıyor, sonsuz döngü | Console | zaman kontrolü pekiştirme, sonsuz döngü | Console | arsiv/12cSharpÇekirdekKodlar.txt (madde 49, `090zamanlama1`) | onaylandı |
+| ck0635_zamanlamaIleriGeri | Sonsuz döngüde ileri-geri sayma (iç içe `for` + zamanlama) | Console | zaman kontrolü + döngü pekiştirme | Console | arsiv/12cSharpÇekirdekKodlar.txt (madde 50, `091zamanlama`; kod içi "10'ar 10'ar" görevi SEN YAP'a taşındı) | onaylandı |
+| ck0640_zamanlamaSonsuzSayma | En sade sonsuz sayaç (`Console.Clear` yok, sayılar birikiyor) | Console | zaman kontrolü pekiştirme | Console | arsiv/12cSharpÇekirdekKodlar.txt (madde 51, `092sonsuzaKadarSayilariYazdir`) | onaylandı |
+| ck0645_zamanlamaBaklava | ck0525 baklava deseni + zamanlama — desen ve zamanlama ailelerinin kapanışı | Console | desen + zaman kontrolü birleşimi, kapanış | Console | arsiv/12cSharpÇekirdekKodlar.txt (madde 58, `46baklavaThreading`) | onaylandı |
+| ck0650_renkGiris | `ConsoleColor`'a giriş — `(Tip)değer` dönüşümünün (cast) ilk açık öğretimi (ck0060'taki ipucunun devamı) | Console | veri tipi dönüşümü (cast) — yeni ANA halka | Console | arsiv/12cSharpÇekirdekKodlar.txt (madde 59, `99rengarenkKodSatiri`; çift Clear+Sleep tekrarı tek sadeleştirilmiş renk döngüsüne indirgendi) | onaylandı |
+| ck0655_renkVeIf | `ConsoleColor` + `if`: tek/çift sayıya göre renk — Random/zamanlama/renk ailesinin kapanışı | Console | cast + karar yapısı pekiştirme, kapanış | Console | arsiv/12cSharpÇekirdekKodlar.txt (madde 60, `99_1ConsoleColorVEif`) | onaylandı |
 
 ## Kara kutu takip tablosu
 

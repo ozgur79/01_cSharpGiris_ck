@@ -97,5 +97,16 @@ kod parçaları. Proje her zaman sizin kendi Visual Studio'nuzda oluşturulur.
 | 73 | ck0590_switchHesapMakinesiChar | switch ile hesap makinesi (char) | yayında |
 | 74 | ck0595_switchHesapMakinesiString | switch ile hesap makinesi (string) | yayında |
 | 75 | ck0600_doWhileSwitchSayininOkunusu | do-while + switch: sayının okunuşu | yayında |
+| 76 | ck0605_forSonsuzRandomTahmin | for(;;) + break ile sınırsız hakla tahmin | yayında |
+| 77 | ck0610_besRastgeleSayi | Döngüde N adet rastgele sayı | yayında |
+| 78 | ck0615_farkliArdisikSayi | Ardışık aynı sayıyı engelleme | yayında |
+| 79 | ck0620_randomAralikKlavyeden | Random aralığını klavyeden alma | yayında |
+| 80 | ck0625_zamanlamaGiris | Thread.Sleep ile zamanlanmış sayaç | yayında |
+| 81 | ck0630_zamanlamaHizlanan | Giderek hızlanan sayaç | yayında |
+| 82 | ck0635_zamanlamaIleriGeri | Sonsuz döngüde ileri-geri sayma | yayında |
+| 83 | ck0640_zamanlamaSonsuzSayma | En sade sonsuz sayaç | yayında |
+| 84 | ck0645_zamanlamaBaklava | Baklava deseni + zamanlama | yayında |
+| 85 | ck0650_renkGiris | ConsoleColor'a giriş (cast) | yayında |
+| 86 | ck0655_renkVeIf | ConsoleColor + if: tek/çift renk | yayında |
 
 Bu tablo her yeni ders eklendiğinde güncellenir. "Sırada ne var" diye buraya bakın.
