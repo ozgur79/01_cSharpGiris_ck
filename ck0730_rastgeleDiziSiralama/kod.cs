@@ -2,8 +2,8 @@
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: Diziyi kendi elimizle sıralamak — iç içe iki döngüyle her elemanı
 //                  her elemanla karşılaştırıp, sıra yanlışsa yer değiştiriyoruz
-//                  (takas/swap). Array.Reverse hazırdı, sıralamanın hazırı yok, bu
-//                  yüzden mantığı kendimiz kuruyoruz.
+//                  (takas/swap). Array.Sort de hazır bir sıralama sunar ama henüz
+//                  tanıtılmadı (ck0845'te göreceğiz) — önce mantığı kendimiz kuralım.
 
 // --- KAVRAM ---
 int[] dizi1 = new int[10];

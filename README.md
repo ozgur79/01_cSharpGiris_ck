@@ -143,5 +143,9 @@ kod parçaları. Proje her zaman sizin kendi Visual Studio'nuzda oluşturulur.
 | 119 | ck0820_doWhileTekToplama | do-while ile tek sayı toplama | yayında |
 | 120 | ck0825_puanNotCokDalliKarar | Puan/not: çok dallı karar | yayında |
 | 121 | ck0830_foreachIleFarkliSayi | foreach'e giriş | yayında |
+| 122 | ck0835_foreachBesFarkliSayi | foreach ile 5 farklı sayı | yayında |
+| 123 | ck0840_donguTurleriBirArada | Dört döngü türü bir arada | yayında |
+| 124 | ck0845_diziArraySort | Hazır sıralama metodu (Array.Sort) | yayında |
+| 125 | ck0850_diziOrtalama | Dizi + ortalama | yayında |
 
 Bu tablo her yeni ders eklendiğinde güncellenir. "Sırada ne var" diye buraya bakın.

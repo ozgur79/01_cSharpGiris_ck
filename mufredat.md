@@ -181,6 +181,13 @@ ck0795-ck0920 (5'lik artış). Yeni ANA halkalar: `foreach`, `List<int>`,
 | ck0825_puanNotCokDalliKarar | Puan/not: çok dallı karar + geçersizse tekrar sorma | Console | karar (çok dallı) + döngü (retry-on-invalid) birleşimi | Console | arsiv/13cSharpÇekirdekKodlar.txt (madde 8, `sinavSorusuPuanNot`; `ToInt16`→`ToInt32`) | onaylandı |
 | ck0830_foreachIleFarkliSayi | `foreach`'e giriş: dizide arama yaparak farklı sayı zorlama | Console | `foreach` — yeni ANA halka | Console | arsiv/13cSharpÇekirdekKodlar.txt (madde 15, `ssUcFarkliSayiTutDiziyeAtVeli`; dizinin varsayılan 0 değeri yüzünden 0 hiç seçilemiyor — ck0615'teki -1 sentinel dersine bağlanan bir gözlem olarak SEN YAP'a taşındı, düzeltilmedi) | onaylandı |
 
+**Blok 3/6:**
+
+| ck0835_foreachBesFarkliSayi | `foreach` ile 5 farklı sayı — ck0615'in dizi+foreach ile tam çözümü | Console | `foreach` pekiştirme, ck0615/ck0830 ile karşılaştırma | Console | arsiv/13cSharpÇekirdekKodlar.txt (madde 10, `ssWhileRasgeleFarkli5sayiTut`; test edildi — range 0'dan başlasa ck0830'daki "0 asla seçilmez" sorunu burada gerçek bir SONSUZ DÖNGÜYE dönüşüyor, kaynağın 1'den başlayan range'i bu tuzağı zaten önlüyormuş) | onaylandı |
+| ck0840_donguTurleriBirArada | Dört döngü türü (`while`/`do-while`/`for`/`foreach`) tek programda, her biri en uygun işte — döngü ailesinin kapanışı | Console | döngü çeşitliliği, kapanış | Console | arsiv/13cSharpÇekirdekKodlar.txt (madde 16, `ssUcFarkliSayiTutDiziyeAtSirala`) | onaylandı |
+| ck0845_diziArraySort | Hazır sıralama metodu: `Array.Sort` | Console | dizi — hazır metot | Console | arsiv/13cSharpÇekirdekKodlar.txt (madde 11, `ssUcTekSayiTutDizide`; **ck0730'un yanıltıcı notu düzeltildi** — "sıralamanın hazırı yok" değil, henüz tanıtılmamıştı) | onaylandı |
+| ck0850_diziOrtalama | Dizi + ortalama: 4. eleman ilk üçün ortalaması — ck0695'in toplam yerine ortalama versiyonu | Console | dizi + biriktirici pekiştirme | Console | arsiv/13cSharpÇekirdekKodlar.txt (madde 12, `ssUcTekSayiTutDizideOrt`) | onaylandı |
+
 ## Kara kutu takip tablosu
 
 Hangi yapı hangi derste ilk göründü, nerede tam açılacak. "Merak Köşesi günlüğü" —
