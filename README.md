@@ -155,5 +155,11 @@ kod parçaları. Proje her zaman sizin kendi Visual Studio'nuzda oluşturulur.
 | 131 | ck0880_ikiPointerTersleme | İki pointer ile tersleme | yayında |
 | 132 | ck0885_consoleKeyInfoGiris | ConsoleKeyInfo'ya giriş | yayında |
 | 133 | ck0890_tusaBasincaYaziIlerlet | Tuşa basınca yazı ilerlet | yayında |
+| 134 | ck0895_sifreMaskeleme | Şifre maskeleme (*) | yayında |
+| 135 | ck0900_sifreKontrolu | Şifre kontrolü | yayında |
+| 136 | ck0905_sonsuzTekrarUcgen | Sonsuz döngüde tekrar üçgen | yayında |
+| 137 | ck0910_boyutaGoreBaklava | Boyutu klavyeden alınan baklava | yayında |
+| 138 | ck0915_satrancTahtasiRenk | Satranç tahtası deseni + renk | yayında |
+| 139 | ck0920_asalSayiAnalizi | Asal sayı analizi | yayında |
 
 Bu tablo her yeni ders eklendiğinde güncellenir. "Sırada ne var" diye buraya bakın.

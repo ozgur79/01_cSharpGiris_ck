@@ -139,3 +139,48 @@ Append-only. Hiçbir şey silinmez, sadece eklenir.
   temizlenmemişti. Hepsi senkronize edildi (bkz. yukarıdaki iki kapanış girişi).
 - arsiv/12'nin ders tasarımı (blok bölme, sıralama) henüz yapılmadı — `backlog.md`'de
   canlı madde olarak duruyor.
+
+## 2026-09-19 — arsiv/12 TAMAMLANDI (59 ders, ck0500-ck0790, 6 blok)
+
+- Tam tasarım tablosu önceden çıkarılıp gösterildi, Özgür blok blok onayladı.
+  Blok 1 (ck0500-0525, desen ailesi devamı) → Blok 2 (ck0530-0580, Random girişi +
+  while/do-while) → Blok 3 (ck0585-0600, switch-case + kapanış) → Blok 4 (ck0605-0655,
+  Random pekiştirme + zamanlama + renk — `(Tip)değer` cast'i ilk kez ck0650'de açık
+  öğretildi, ck0790'daki planlı "ilk tanıtım" rolü pekiştirmeye döndü) → Blok 5
+  (ck0660-0750, dizi ailesi, en büyük blok — ck0675/ck0680 bilerek kusurlu/düzeltilmiş
+  karşılaştırma çifti) → Blok 6 (ck0755-0790, fonksiyon ailesi + cast kapanışı — ck0770
+  kaynak hatası "topla" adlı çarpma metodu `carp` olarak düzeltildi). Her ders `dotnet
+  run`/`dotnet build` ile gerçekten doğrulandı, `Thread.Sleep` gerektiren derslerde
+  (`using System.Threading;` gerekliliği fark edilip NASIL: satırına eklendi) ve sonsuz
+  döngülü derslerde sadece derleme + mantık simülasyonu yapıldı. Tüm bloklar Özgür
+  tarafından onaylandı, commit+push edildi (9c5abf3, 8965140, bd5fccc, aae6d90, 81c402c,
+  e0fdeff).
+
+## 2026-09-19 — arsiv/13 TAMAMLANDI (26 ders, ck0795-ck0920, 6 blok)
+
+- `13cSharpÇekirdekKodlar.txt` (29 madde, kaynak `0001lunaveriTemizleTest`, arsiv/12'den
+  ayrı klasör) ve `TALIMAT-13-icin-ck.md` okundu. Talimattaki şüpheler kontrol edildi:
+  [03] negatifPozitifSifir atlandı (kod "q" çıkışını hiç implemente etmemiş, zaten
+  ck0535'te düzgün işlenmiş); [06]/[07] işlendi (ck0560'ın for-tabanlı versiyonu ve
+  do-while varyantı, yeni fikir taşıyorlardı). Ayrıca kontrol edilip atlanan: [09]
+  (ck0690'ın dizisiz basit hâli), [21] ([17] ile aynı ters-sıra sorunu, daha karmaşık).
+  [11]/[12] isim çakışması talimatta doğru işaretlenmişti, ikisi de işlendi.
+- Özgür "arsiv/13 bitene kadar durma" dedi (Blok 2 üretilirken) — sonraki tüm bloklar
+  onay durağı olmadan üretilip commit edildi.
+- Blok 1 (ck0795-0810, giriş/döngü pekiştirme — ck0805 kasıtlı "10B'nin takıldığı" for
+  noktalı virgül tuzağı, ck0810 arşivde kodsuz kalan görev tanımından ck tarafından
+  üretildi) → Blok 2 (ck0815-0830, for/do-while pekiştirme + `foreach`'e giriş — ilk
+  ANA halka) → Blok 3 (ck0835-0850, foreach pekiştirme + `Array.Sort` + dizi ortalaması
+  — ck0730'un yanıltıcı "sıralamanın hazırı yok" notu ck0845'te düzeltildi) → Blok 4
+  (ck0855-0870, dizi dağıtma + dizi döndüren fonksiyon + taban dönüşümü ailesi başlangıcı
+  — ck0865 bilerek ters sırada, ck0870 `List<int>`'e giriş) → Blok 5 (ck0875-0890, List
+  tersleme teknikleri + `ConsoleKeyInfo`'ya giriş — ikinci ANA halka) → Blok 6
+  (ck0895-0920, şifre maskeleme/kontrolü + desen/renk/asal sayı kapanışı — ck0895'te
+  kaynağın Enter-karakteri-de-şifreye-eklenme hatası düzeltildi, ck0900'de kaynağın
+  `Convert.ToChar(tus.Key)` kullanımı güvenilir `tus.KeyChar`'a çevrildi).
+- `ConsoleKeyInfo` tabanlı 4 ders (ck0885/0890/0895/0900) headless `dotnet run` ile test
+  edilemedi (stdin yönlendirmesi ReadKey'i anında çökertiyor) — sadece `dotnet build`
+  ile derleme doğrulandı, gerçek davranış Özgür'ün VS'te elle denemesini gerektiriyor.
+  Tüm bloklar commit+push edildi (dbd8c44, fd595cc, 0bcef13, 69016ea, 536e0a6, + Blok 6).
+- **01_cSharpGiris_ck için arşiv kuyruğu boşaldı** — yeni parça gelene kadar planlanmış
+  ders yok. arsiv/14 (WinForms, 02_cSharpForm_ck için) geldi ama bu projenin kapsamı değil.

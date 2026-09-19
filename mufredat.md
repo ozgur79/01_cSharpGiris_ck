@@ -202,6 +202,20 @@ ck0795-ck0920 (5'lik artış). Yeni ANA halkalar: `foreach`, `List<int>`,
 | ck0885_consoleKeyInfoGiris | `ConsoleKeyInfo`'ya giriş: tek tuş okuma (`Console.ReadKey`) — yeni ANA halka | Console | `ConsoleKeyInfo`/tek tuş okuma — yeni ANA halka | Console | arsiv/13cSharpÇekirdekKodlar.txt (madde 22, `900keyInfo`; **doğrulama notu:** bu ve sonraki 3 ders (`ReadKey` tabanlı) headless `dotnet run` ile test edilemiyor — `dotnet build` ile derleme doğrulandı, davranış Özgür'ün VS'te elle denemesini gerektiriyor) | onaylandı |
 | ck0890_tusaBasincaYaziIlerlet | Herhangi bir tuşa basınca hazır metnin bir sonraki harfini gösterme (yazma pratiği efekti) | Console | `ConsoleKeyInfo` + string indeksleme birleşimi | Console | arsiv/13cSharpÇekirdekKodlar.txt (madde 23, `901keyInfoHazirMetniYazdirmak`; kaynaktaki hep-doğru-çıkan `if (tus.Key.ToString() != "")` kontrolü kaldırıldı — `dotnet build` ile derleme doğrulandı) | onaylandı |
 
+**Blok 6/6 — arsiv/13'ün SON bloğu:**
+
+| ck0895_sifreMaskeleme | Şifre maskeleme: tuş yerine `*` gösterme, Enter'a kadar biriktirme | Console | `ConsoleKeyInfo` pekiştirme (gerçek bir uygulama) | Console | arsiv/13cSharpÇekirdekKodlar.txt (madde 24, `902keyInfoSifre`; kaynakta Enter karakteri de sifre'ye ekleniyordu (kontrol koşul yerine gövdede değildi) — `break` ile düzeltildi; backspace gerçek silme yapmıyor, bilerek kapsam dışı bırakıldı, `dotnet build` ile derleme doğrulandı) | onaylandı |
+| ck0900_sifreKontrolu | Şifre kontrolü: girilen ile sabit şifreyi karşılaştırma (`char[]` biriktirme) | Console | `ConsoleKeyInfo` + dizi birleşimi, kapanış | Console | arsiv/13cSharpÇekirdekKodlar.txt (madde 25, `903keyInfoSifreKontrol`; kaynakta `Convert.ToChar(tus.Key)` kullanılmıştı — rakam/büyük harf için tesadüfen doğru çalışıyordu (ConsoleKey enum değerleri ASCII ile örtüşüyor) ama küçük harf/sembollerde YANLIŞ olurdu, güvenilir `tus.KeyChar`'a çevrildi; `dotnet build` ile derleme doğrulandı) | onaylandı |
+| ck0905_sonsuzTekrarUcgen | Sonsuz döngüde tekrar tekrar üçgen çizme — desen + sonsuz döngü birleşimi | Console | desen + döngü birleşimi pekiştirme | Console | arsiv/13cSharpÇekirdekKodlar.txt (madde 26, `800artanYildiz`) | onaylandı |
+| ck0910_boyutaGoreBaklava | Boyutu klavyeden alınan baklava — ck0525/ck0645'in dinamikleştirilmiş hâli | Console | desen + dinamik boyut pekiştirme | Console | arsiv/13cSharpÇekirdekKodlar.txt (madde 27, `950boyutaGoreBaklava`; `int.Parse`→`Convert.ToInt32`; boyut=1 ve boyut=5 ile test edildi, ikisinde de düzgün baklava) | onaylandı |
+| ck0915_satrancTahtasiRenk | Satranç tahtası deseni — `(i+j)%2` tekniği + `ConsoleColor` | Console | desen + cast/renk birleşimi pekiştirme | Console | arsiv/13cSharpÇekirdekKodlar.txt (madde 28, `802satrancTahtasi`; `int.Parse`→`Convert.ToInt32`) | onaylandı |
+| ck0920_asalSayiAnalizi | Asal sayı analizi — bölen sayma yöntemi, arsiv/13'ün genel kapanışı | Console | döngü + karar, klasik algoritma, kapanış | Console | arsiv/13cSharpÇekirdekKodlar.txt (madde 29, `801asalSayiAnaliz`) | onaylandı |
+
+**arsiv/13 tamamlandı (2026-09-19).** 26 ders (ck0795-ck0920), 6 blok. Atlanan 3
+madde ([03],[09],[21]) + 26 ders = 29 madde ile tutarlı. Yeni ANA halkalar:
+`foreach`, `List<int>`, `ConsoleKeyInfo`/tek tuş okuma. Geriye dönük düzeltme:
+ck0730'un yanıltıcı notu ck0845 üretilirken düzeltildi.
+
 ## Kara kutu takip tablosu
 
 Hangi yapı hangi derste ilk göründü, nerede tam açılacak. "Merak Köşesi günlüğü" —
