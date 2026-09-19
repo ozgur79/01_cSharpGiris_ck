@@ -44,4 +44,14 @@ kod parçaları. Proje her zaman sizin kendi Visual Studio'nuzda oluşturulur.
 | 20 | ck0200_cinsiyetOkuma | Convert.ToChar ile tek karakter (char) okuma | taslak |
 | 21 | ck0210_askerlikKontrolu | Mantıksal VE (`&&`), `\|\|` ile `&&` bir arada | taslak |
 
+| 46 | ck0460_tekSatirYildiz | Tek döngüyle yan yana yıldız (Console.Write) | taslak |
+| 47 | ck0465_sabitDikdortgen | İç içe for ile dikdörtgen çizme | taslak |
+| 48 | ck0470_bosSatirDeseni | Desende bir satırı boş bırakma | taslak |
+| 49 | ck0475_dikdortgenBosluk | Dikdörtgende bir sütunu boş bırakma | taslak |
+| 50 | ck0480_dortgendeDelik | Dikdörtgende tek bir yeri boş bırakma | taslak |
+| 51 | ck0485_metindeYildizBiriktirme | Metinde yıldız biriktirme | taslak |
+| 52 | ck0490_artanUcgenFor | Döngü sınırıyla artan üçgen | taslak |
+| 53 | ck0495_artanUcgenString | Yıldız ekleyerek artan üçgen | taslak |
+| 54 | ck0499_azalanUcgen | Azalan yıldız üçgeni | taslak |
+
 Bu tablo her yeni ders eklendiğinde güncellenir. "Sırada ne var" diye buraya bakın.

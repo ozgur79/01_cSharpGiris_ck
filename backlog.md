@@ -70,3 +70,25 @@ Canlı durum. Biten madde silinir, `backlog-log.md`'ye taşınır.
 - **`arsiv/03cSharpÇekirdekKodlar_bitti.txt` zaten işlenmiş arşiv kopyası** — eski
   "03cSharpÇekirdekKodlar - Kopya.txt" ile aynı içerik, "_bitti" adıyla tekrar geldi,
   yeni bir işlem gerektirmiyor.
+
+- **ck0460-ck0499 onay bekliyor (9 ders, pedagojik sıraya göre üretildi).**
+  `arsiv/11cSharpÇekirdekKodlar.txt` içindeki dokuz örnek, arşivdeki ham madde sırası (1→9)
+  yerine dil zincirine göre yeniden sıralandı: ck0460 tekSatirYildiz (madde 8, Write/WriteLine
+  farkı) → ck0465 sabitDikdortgen (madde 1, iç içe for — yeni ana halka) → ck0470
+  bosSatirDeseni (madde 3, dış döngü kararı) → ck0475 dikdortgenBosluk (madde 2, iç döngü
+  kararı) → ck0480 dortgendeDelik (madde 4, `&&` birleşik koşul + sayaç manipülasyonu) →
+  ck0485 metindeYildizBiriktirme (madde 5, string biriktirme) → ck0490 artanUcgenFor (madde 6,
+  bağımlı sayaç sınırı — yeni halka) → ck0495 artanUcgenString (madde 7, aynı sonucun tek
+  döngülü versiyonu, ck0490 ile karşılaştırma) → ck0499 azalanUcgen (madde 9, azalan sayaç
+  pekiştirmesi, ünite 04 kapanışı). Numara slotları (460/465/470/475/480/485/490/495/499)
+  aynı kaldı, sadece hangi arşiv maddesinin hangi numaraya gittiği değişti — önceki oturumda
+  README.md/mufredat.md'ye ham sırayla (madde 1→9) taslak satır girilmiş ama `kod.cs`
+  dosyaları hiç yazılmamıştı; bu oturumda hem yeniden sıralandı hem gerçekten üretildi.
+  Kaynak madde 4'teki sayaç artırma yan etkisi (i++ + sonraki Write) koşullu yazımla aynen
+  korundu. Dokuz kodun tamamı geçici bir Console projesinde (`dotnet run`, hepsi sabit
+  literal döngü sınırları kullandığı için girdi gerekmedi) gerçekten çalıştırıldı, çıktılar
+  (dikdörtgen/üçgen/delik desenleri) doğrulandı — `ReadKey` headless kısıtı yüzünden her
+  çalıştırmanın sonunda beklenen `InvalidOperationException` görüldü, kod hatası değil.
+  Her ders `kod.cs` + `degerlendirme.md` (2 soru) ve `cozumler/` altında SEN YAP çözüm
+  yorumuyla üretildi. 10. kaynağın neden boş geldiğine dair bilgi yok. mufredat.md ve
+  README.md güncellendi; commit yok, onay bekliyor.

@@ -60,6 +60,15 @@ Faz talimatı (`D:\zihinEv\🏰 300-Projects\Gorev\10is-emri-ck-faz-talimati.md`
 tamamlandı — ck0220'den ck0450'ye 24 ders. Ünite 04'te ck0460-ck0490 arası 4 slot boş
 kaldı (Özgür'ün dolduracağı `10cSharpÇekirdekKodlar.txt` ve olası araya-ekleme konuları
 için pay, faz talimatının kendi notu).
+| ck0460_tekSatirYildiz | Tek for döngüsüyle Console.Write ile aynı satıra yıldız yazdırma (WriteLine farkı) | Console | döngü + Console.Write pekiştirme | Console | arsiv/11cSharpÇekirdekKodlar.txt (madde 8) | onay bekliyor |
+| ck0465_sabitDikdortgen | İç içe `for` ile sabit dikdörtgen çizme — zincirin yeni ANA halkası | Console | döngü (`for` içinde `for`) — yeni halka | Console | arsiv/11cSharpÇekirdekKodlar.txt (madde 1) | onay bekliyor |
+| ck0470_bosSatirDeseni | Dış döngü sayacına bağlı karar ile bir satırı tamamen boş bırakma | Console | iç içe döngü + karar (satır bazlı) pekiştirme | Console | arsiv/11cSharpÇekirdekKodlar.txt (madde 3) | onay bekliyor |
+| ck0475_dikdortgenBosluk | İç döngü sayacına bağlı karar ile her satırda aynı sütuna boşluk bırakma | Console | iç içe döngü + karar (sütun bazlı) pekiştirme | Console | arsiv/11cSharpÇekirdekKodlar.txt (madde 2) | onay bekliyor |
+| ck0480_dortgendeDelik | Satır ve sütun koşulunu `&&` ile birleştirip desende tek bir konumu boş bırakma | Console | iç içe döngü + birleşik koşul (`&&`) pekiştirme | Console | arsiv/11cSharpÇekirdekKodlar.txt (madde 4; sayaç içindeki ek artırma koşullu yazımla düzeltildi) | onay bekliyor |
+| ck0485_metindeYildizBiriktirme | Her satırın yıldızlarını metinde biriktirip satır bitince sıfırlama | Console | string birleştirme + iç içe döngü pekiştirme | Console | arsiv/11cSharpÇekirdekKodlar.txt (madde 5) | onay bekliyor |
+| ck0490_artanUcgenFor | İç döngü sınırını dış sayaca bağlayarak artan üçgen çizme — yeni halka | Console | iç içe döngü, bağımlı sayaç sınırı — yeni halka | Console | arsiv/11cSharpÇekirdekKodlar.txt (madde 6) | onay bekliyor |
+| ck0495_artanUcgenString | Aynı artan üçgeni tek döngü + string biriktirme ile çizme (ck0490 ile karşılaştırma) | Console | string birleştirme + döngü, ck0490 ile denklik | Console | arsiv/11cSharpÇekirdekKodlar.txt (madde 7) | onay bekliyor |
+| ck0499_azalanUcgen | Azalan sayaçla (`k--`) ters üçgen çizme — ünite 04'ün kapanışı | Console | iç içe döngü, azalan bağımlı sayaç sınırı pekiştirme | Console | arsiv/11cSharpÇekirdekKodlar.txt (madde 9) | onay bekliyor |
 
 ## Kara kutu takip tablosu
 
