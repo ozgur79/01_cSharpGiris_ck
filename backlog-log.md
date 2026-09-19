@@ -76,3 +76,66 @@ Append-only. Hiçbir şey silinmez, sadece eklenir.
   tamamen tükendi.
 - Özgür ck0090 ve ck0100'ü onayladı. mufredat.md/README.md durumu "onaylandı"/"yayında"
   yapıldı, commit+push edildi.
+
+## 2026-09-06 — ck0160-ck0210 onaylandı
+
+- `arsiv/04cSharpÇekirdekKodlar.txt` (madde 16-20) altı derse bölündü: ck0160 (if/else
+  sayısal `<`, pekiştirme), ck0170 (if/else sayısal `==`, ck0110 dörtgen temasına bağlı),
+  ck0180 (else if sıralı aralık kontrolü — yeni halka), ck0190 (`||` — yeni halka), ck0200
+  (Convert.ToChar ile char okuma — yeni halka), ck0210 (`&&`, `||`+`&&` bir arada, parantez
+  önceliği — yeni halka). Madde 20 iki yeni fikir taşıdığı için ck0200/ck0210 olarak ikiye
+  bölündü. Hepsi `dotnet run` ile gerçek girdilerle test edildi. `using`/`namespace` bu
+  grupta 3. turlarını tamamlayıp emekliye ayrıldı. Özgür onayladı, `338c787` ile
+  commit+push edildi. (mufredat.md/README.md durum sütunları o an güncellenmemiş kalmıştı,
+  2026-09-19'da arsiv/12 işlenirken fark edilip senkronize edildi.)
+
+## 2026-09-16 — ck0220-ck0450 onaylandı (24 ders)
+
+- `D:\zihinEv\...\10is-emri-ck-faz-talimati.md` (Ortak'ın faz talimatı) baştan sona
+  uygulandı — Özgür "sırayla devam et, durma" dedi, ara onay durakları atlanıp tek
+  oturumda üretildi: Blok05 (ck0220-0250, `!`/iç içe if/`&&` indirgeme), Blok06
+  (ck0260-0290, `for` girişi/`%`/doğrulama sarmalayıcısı/sembol seçim — ünite 02
+  tamamlandı), Blok07 (ck0300-0340, KDV/maaş kesinti/banka hesabı), Blok08 (ck0350-0400,
+  toplam biriktirme/`TryParse`/faktöriyel — ünite 03 tamamlandı), Blok09 (ck0410-0450,
+  dinamik aralık/retry-on-invalid/`"q"` ile çıkış). Kara kutu rotasyonu bu grupta bitti:
+  beş iskelet kutusu da emekli oldu. Spec dışı bir karar da uygulandı: arşivdeki gerçek
+  isim/parola ("Özgür"/"öz123") repo public olduğu için kurgusal `ogrenci`/`kalfa123` ile
+  değiştirildi. Her ders `dotnet run` ile gerçekten çalıştırılıp doğrulandı. Özgür onayladı,
+  `fd8c731` ile commit+push edildi. (mufredat.md durum sütunu o an güncellenmemiş kalmıştı,
+  2026-09-19'da senkronize edildi.)
+
+## 2026-09-19 — arsiv/11 (taslak notu, sonradan gerçek durumla değiştirildi)
+
+- İlk taslak: `11cSharpÇekirdekKodlar.txt`'nin dokuz maddesi ck0460-ck0499 aralığına
+  (5'lik ara numaralarla) dokuz ayrı ders olarak uyarlandı — iç içe for döngüleriyle
+  dikdörtgen/üçgen/desen zinciri. ck0470 kaynak madde 4'teki `i++` sayaç yan etkisi
+  daha açık koşullu yazımla değiştirildi. 10. kaynağın (arşivde ayrılan pay) boş
+  gelme nedeni bilinmiyor. Dokuz kod da geçici Console projesinde (`dotnet run`)
+  gerçekten çalıştırılıp çıktılar doğrulandı (9/9).
+- **Gerçek kapanış:** Özgür bu 9 dersi onayladı, `8dadbf2` ile commit+push edildi
+  ("ck0460-ck0499: unite 04 kapanisi, 9 ders, onaylandi"). mufredat.md/README.md
+  durum sütunları o an güncellenmemiş kalmıştı — 2026-09-19'da (arsiv/12 işlenirken
+  fark edildi) "onay bekliyor"/"taslak" → "onaylandı"/"yayında" olarak senkronize
+  edildi, bu backlog-log girişi de o zaman düzeltildi.
+
+## 2026-09-19 — arsiv/12 geldi, numara alanı genişletildi
+
+- `12cSharpÇekirdekKodlar.txt` (61 madde, kaynak `0000lunaveriTemizleTest`) ve
+  `TALIMAT-12-icin-ck.md` okundu. Talimattaki şüpheli çakışma (madde [01]-[04]/[58] —
+  42ciftUcgen/43piramitUcgen-ss/44piramitUcgenZor/45ücgenBaklava/46baklavaThreading —
+  ck0460-499'un kaynağı olabilir uyarısı) `arsiv/11cSharpÇekirdekKodlar.txt` ile
+  karşılaştırılarak doğrulandı: **çakışma yok**, 11'in içeriği tamamen farklı (basit,
+  isimsiz 9 madde). Bu 5 madde atlanmayacak.
+- Numara kapasitesi sorunu tespit edildi: ck0000-ck0499 fiilen doluydu (ck0499 son
+  slottu), 61 yeni maddenin çoğu (while/do-while/switch/dizi/fonksiyon — 01'in kendi dil
+  zincirinde) sığmıyordu. Özgür'e soruldu; 01'i ck0000-ck0999'a genişletme, 02'yi
+  ck1000'den başlatma kararı çıktı. `D:\Atolye\cSharp\CLAUDE.md`/`AGENTS.md` (proje ve
+  ünite tabloları), bu projenin `CLAUDE.md`/`AGENTS.md` kapsam satırı ve
+  `02_cSharpForm_ck`'nin tüm ck05xx-ck09xx referansları (+500 kaydırma, `ck0500_formuTani`
+  → `ck1000_formuTani` git mv dahil) güncellendi.
+- Aynı oturumda fark edilen ayrı bir tutarsızlık da giderildi: ck0160-ck0210 (`338c787`)
+  ve ck0220-ck0450 (`fd8c731`) commit mesajlarında "onaylandı" yazsa da mufredat.md/
+  README.md durum sütunları hâlâ "onay bekliyor"/"taslak" kalmıştı; `backlog.md`
+  temizlenmemişti. Hepsi senkronize edildi (bkz. yukarıdaki iki kapanış girişi).
+- arsiv/12'nin ders tasarımı (blok bölme, sıralama) henüz yapılmadı — `backlog.md`'de
+  canlı madde olarak duruyor.

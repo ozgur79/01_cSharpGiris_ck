@@ -1,12 +1,20 @@
 # 01_cSharpGiris_ck — Console hattı
 
+> **Önce şunu oku:** `D:\Atolye\cSharp` kökündeki kimlik dosyası — `AGENTS.md` (Codex) ya da
+> `CLAUDE.md` (Claude); ikisinin ortak gövdesi aynıdır. csharpKalfa'nın kuralları orada yaşar,
+> burada tekrar edilmez. O dosya da Kalfa'nın kuralları için `D:\Atolye` kökündeki kimlik
+> dosyasına yönlendirir; zinciri eksiksiz izle. Bu dosya onun üstüne biner, onu yalanlamaz.
+> Bazı araçlar üst dizinlerin kimlik dosyalarını kendiliğinden yüklemez — görmüyorsan
+> **elle aç ve oku**, bu işin ilk adımıdır.
+
 Kimlik, sert sınırlar, ders üretim döngüsü, isimlendirme ve **kara kutu doktrini** üst
-klasörde: `D:\Atolye\cSharp\CLAUDE.md`. Burada tekrar edilmez. Bu dosya sadece bu projenin
+klasördeki kimlik dosyasında (`D:\Atolye\cSharp\CLAUDE.md` / `D:\Atolye\cSharp\AGENTS.md`). Burada tekrar edilmez. Bu dosya sadece bu projenin
 kendi kapsamını yazar.
 
 ## Kapsam
 
-**ck0000-ck0499, ünite 00-04, yalnız Console (terminal).** WinForms ve nesne tabanlı
+**ck0000-ck0999, ünite 00-04, yalnız Console (terminal).** (2026-09-19'da ck0000-ck0499'dan
+genişletildi — bkz. üst klasördeki kimlik dosyası, "İki proje, tek numaralandırma".) WinForms ve nesne tabanlı
 programlama bu repo'ya girmez — onlar `02_cSharpForm_ck`'de (ön koşulu bu projeyi
 tamamlamış olmak).
 
