@@ -82,5 +82,16 @@ kod parçaları. Proje her zaman sizin kendi Visual Studio'nuzda oluşturulur.
 | 58 | ck0515_simetrikPiramit | Simetrik piramit | yayında |
 | 59 | ck0520_acilanIkizUcgen | Açılan ikiz üçgen | yayında |
 | 60 | ck0525_baklavaDeseni | Baklava (elmas) deseni | yayında |
+| 61 | ck0530_randomaGiris | Random ile rastgele sayı üretme | yayında |
+| 62 | ck0535_whileGiris | while döngüsüne giriş | yayında |
+| 63 | ck0540_doWhileGiris | do-while döngüsüne giriş | yayında |
+| 64 | ck0545_whileKiraSabit | while ile kira hesabı (sabit değerler) | yayında |
+| 65 | ck0550_whileKiraKlavyeden | while ile kira hesabı (klavyeden) | yayında |
+| 66 | ck0555_doWhileBiriktirici | do-while ile biriktirici | yayında |
+| 67 | ck0560_doWhileCiftSayiFiltre | do-while + if: çift sayı süzgeci | yayında |
+| 68 | ck0565_doWhileFarkliSentinel | do-while: farklı bir çıkış değeri | yayında |
+| 69 | ck0570_doWhileLogin | do-while ile giriş doğrulama | yayında |
+| 70 | ck0575_doWhileRandomTahmin | do-while + Random: sayı tahmin oyunu | yayında |
+| 71 | ck0580_whileTekrarOyna | while ile "tekrar oyna" döngüsü | yayında |
 
 Bu tablo her yeni ders eklendiğinde güncellenir. "Sırada ne var" diye buraya bakın.
