@@ -174,6 +174,13 @@ ck0795-ck0920 (5'lik artış). Yeni ANA halkalar: `foreach`, `List<int>`,
 | ck0805_forNoktaliVirgulTuzagi | Tuzak: `for(...);` sonrası fazladan noktalı virgül — bilerek hatalı, gerçek bir sınıf hatası | Console | döngü sözdizimi, kasıtlı hata inceleme | Console | arsiv/13cSharpÇekirdekKodlar.txt (madde 4, `sinavSorusuforFarkli`, "10B'nin takıldığı kod") | onaylandı |
 | ck0810_baslangicAdimBitisKlavyeden | Başlangıç, adım ve bitiş hepsi klavyeden — ck0370 + ck0410 birleşimi | Console | döngü (adımlı + dinamik aralık) birleşimi pekiştirme | Console | arsiv/13cSharpÇekirdekKodlar.txt (madde 5, `ssfor`; kaynakta sadece görev tanımı (yorum) vardı, kod hiç yazılmamıştı — ck tarafından uygulandı) | onaylandı |
 
+**Blok 2/6:**
+
+| ck0815_forSonsuzCiftToplama | `for(;;)` + `break` ile çift sayı toplama — ck0560'ın for-tabanlı versiyonu | Console | döngü (`for(;;)`+`break`) pekiştirme, ck0560 ile karşılaştırma | Console | arsiv/13cSharpÇekirdekKodlar.txt (madde 6, `ssciftleriToplaTekgirilirseCik`; `ToInt16`→`ToInt32`) | onaylandı |
+| ck0820_doWhileTekToplama | `do-while` ile tek sayı toplama, 0'da çıkış — ck0815'in aynası | Console | döngü (`do-while`) pekiştirme | Console | arsiv/13cSharpÇekirdekKodlar.txt (madde 7, `sswhileTekCiftCik`; `ToInt16`→`ToInt32`, eksik boşluk düzeltildi) | onaylandı |
+| ck0825_puanNotCokDalliKarar | Puan/not: çok dallı karar + geçersizse tekrar sorma | Console | karar (çok dallı) + döngü (retry-on-invalid) birleşimi | Console | arsiv/13cSharpÇekirdekKodlar.txt (madde 8, `sinavSorusuPuanNot`; `ToInt16`→`ToInt32`) | onaylandı |
+| ck0830_foreachIleFarkliSayi | `foreach`'e giriş: dizide arama yaparak farklı sayı zorlama | Console | `foreach` — yeni ANA halka | Console | arsiv/13cSharpÇekirdekKodlar.txt (madde 15, `ssUcFarkliSayiTutDiziyeAtVeli`; dizinin varsayılan 0 değeri yüzünden 0 hiç seçilemiyor — ck0615'teki -1 sentinel dersine bağlanan bir gözlem olarak SEN YAP'a taşındı, düzeltilmedi) | onaylandı |
+
 ## Kara kutu takip tablosu
 
 Hangi yapı hangi derste ilk göründü, nerede tam açılacak. "Merak Köşesi günlüğü" —

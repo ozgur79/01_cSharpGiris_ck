@@ -139,5 +139,9 @@ kod parçaları. Proje her zaman sizin kendi Visual Studio'nuzda oluşturulur.
 | 115 | ck0800_doWhileBosGirdiKontrolu | do-while + boş girdi kontrolü | yayında |
 | 116 | ck0805_forNoktaliVirgulTuzagi | Tuzak: for sonrası noktalı virgül | yayında |
 | 117 | ck0810_baslangicAdimBitisKlavyeden | Başlangıç/adım/bitiş klavyeden | yayında |
+| 118 | ck0815_forSonsuzCiftToplama | for(;;)+break ile çift toplama | yayında |
+| 119 | ck0820_doWhileTekToplama | do-while ile tek sayı toplama | yayında |
+| 120 | ck0825_puanNotCokDalliKarar | Puan/not: çok dallı karar | yayında |
+| 121 | ck0830_foreachIleFarkliSayi | foreach'e giriş | yayında |
 
 Bu tablo her yeni ders eklendiğinde güncellenir. "Sırada ne var" diye buraya bakın.
