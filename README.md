@@ -76,5 +76,11 @@ kod parçaları. Proje her zaman sizin kendi Visual Studio'nuzda oluşturulur.
 | 52 | ck0490_artanUcgenFor | Döngü sınırıyla artan üçgen | yayında |
 | 53 | ck0495_artanUcgenString | Yıldız ekleyerek artan üçgen | yayında |
 | 54 | ck0499_azalanUcgen | Azalan yıldız üçgeni | yayında |
+| 55 | ck0500_carpimTablosuIcIce | Çarpım tablosu (iç içe for) | yayında |
+| 56 | ck0505_usluSayiDongu | Üslü sayı hesaplama (döngü ile) | yayında |
+| 57 | ck0510_bosluklaHizalanmisUcgen | Boşlukla sağa hizalanmış üçgen | yayında |
+| 58 | ck0515_simetrikPiramit | Simetrik piramit | yayında |
+| 59 | ck0520_acilanIkizUcgen | Açılan ikiz üçgen | yayında |
+| 60 | ck0525_baklavaDeseni | Baklava (elmas) deseni | yayında |
 
 Bu tablo her yeni ders eklendiğinde güncellenir. "Sırada ne var" diye buraya bakın.

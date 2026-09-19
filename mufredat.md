@@ -70,6 +70,22 @@ için pay, faz talimatının kendi notu).
 | ck0495_artanUcgenString | Aynı artan üçgeni tek döngü + string biriktirme ile çizme (ck0490 ile karşılaştırma) | Console | string birleştirme + döngü, ck0490 ile denklik | Console | arsiv/11cSharpÇekirdekKodlar.txt (madde 7) | onaylandı |
 | ck0499_azalanUcgen | Azalan sayaçla (`k--`) ters üçgen çizme — ünite 04'ün kapanışı | Console | iç içe döngü, azalan bağımlı sayaç sınırı pekiştirme | Console | arsiv/11cSharpÇekirdekKodlar.txt (madde 9) | onaylandı |
 
+**arsiv/12 bloğu başlıyor (2026-09-19, numara alanı ck0000-ck0999'a genişledikten sonra).**
+Dizi zinciri: desen pekiştirme (ck0500-0525) → Random'a giriş (ck0530) → while/do-while
+(ck0535-0580) → switch (ck0585-0600) → Random pekiştirme (ck0605-0620) → zamanlama
+(ck0625-0645) → renk (ck0650-0655) → dizi (ck0660-0750) → fonksiyon (ck0755-0785) →
+cast pekiştirme kapanışı (ck0790). Kaynak: `arsiv/12cSharpÇekirdekKodlar.txt` (61 madde,
+`arsiv/TALIMAT-12-icin-ck.md`). Atlanan: madde [06] 48forKactanKacaKadarYazdir (ck0410 ile
+birebir aynı konu, duplicate). İşlenmeyen: `İNCELE: 303karekökMetodunuÖğrencilerYazsın`
+(kaynak kod arşivde yok). **Blok 1/10 — desen ailesi devamı:**
+
+| ck0500_carpimTablosuIcIce | İç içe `for` ile çarpım tablosu, kullanıcıdan sınır alma | Console | döngü (iç içe `for`) pekiştirme | Console | arsiv/12cSharpÇekirdekKodlar.txt (madde 5) | onaylandı |
+| ck0505_usluSayiDongu | `for` ile üslü sayı hesaplama (çarpımsal biriktirici) | Console | döngü (çarpımsal biriktirici) pekiştirme, ck0780 ile eşleşir (fonksiyon versiyonu) | Console | arsiv/12cSharpÇekirdekKodlar.txt (madde 7) | onaylandı |
+| ck0510_bosluklaHizalanmisUcgen | ck0490'daki artan üçgeni string biriktirmeyle (iki ayrı biriktirici) çizme | Console | string birleştirme + iç içe döngü, desen ailesi devamı | Console | arsiv/12cSharpÇekirdekKodlar.txt (madde 1, `42ciftUcgen`) | onaylandı |
+| ck0515_simetrikPiramit | ck0510'a ikinci bir yıldız bloğu ekleyip simetrik piramit çizme | Console | string birleştirme pekiştirme | Console | arsiv/12cSharpÇekirdekKodlar.txt (madde 2, `43piramitUcgen-ss`; kod içi soru SEN YAP'a taşındı) | onaylandı |
+| ck0520_acilanIkizUcgen | Aynı yıldız bloğunu iki kez yazdırıp aradaki boşluğu büyüterek "açılan" desen | Console | string birleştirme pekiştirme | Console | arsiv/12cSharpÇekirdekKodlar.txt (madde 3, `44piramitUcgenZor`) | onaylandı |
+| ck0525_baklavaDeseni | ck0520'nin simetriğini ekleyip baklava (elmas) şekli oluşturma — desen ailesi kapanışı | Console | string birleştirme, iki blok birleşimi pekiştirme | Console | arsiv/12cSharpÇekirdekKodlar.txt (madde 4, `45ücgenBaklava`) | onaylandı |
+
 ## Kara kutu takip tablosu
 
 Hangi yapı hangi derste ilk göründü, nerede tam açılacak. "Merak Köşesi günlüğü" —
