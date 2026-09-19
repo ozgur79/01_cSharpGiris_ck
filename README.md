@@ -93,5 +93,9 @@ kod parçaları. Proje her zaman sizin kendi Visual Studio'nuzda oluşturulur.
 | 69 | ck0570_doWhileLogin | do-while ile giriş doğrulama | yayında |
 | 70 | ck0575_doWhileRandomTahmin | do-while + Random: sayı tahmin oyunu | yayında |
 | 71 | ck0580_whileTekrarOyna | while ile "tekrar oyna" döngüsü | yayında |
+| 72 | ck0585_switchGiris | switch'e giriş | yayında |
+| 73 | ck0590_switchHesapMakinesiChar | switch ile hesap makinesi (char) | yayında |
+| 74 | ck0595_switchHesapMakinesiString | switch ile hesap makinesi (string) | yayında |
+| 75 | ck0600_doWhileSwitchSayininOkunusu | do-while + switch: sayının okunuşu | yayında |
 
 Bu tablo her yeni ders eklendiğinde güncellenir. "Sırada ne var" diye buraya bakın.

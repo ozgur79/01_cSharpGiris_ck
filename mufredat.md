@@ -100,6 +100,13 @@ birebir aynı konu, duplicate). İşlenmeyen: `İNCELE: 303karekökMetodunuÖğr
 | ck0575_doWhileRandomTahmin | `do-while` + `Random`: sınırlı hakla sayı tahmin oyunu | Console | döngü (`do-while`) + nesne kullanımı pekiştirme | Console | arsiv/12cSharpÇekirdekKodlar.txt (madde 16, `162doWhileSayiTahminOyunu`; tutulan sayıyı ekrana yazdıran satır (oyunu bozan sızıntı) kaldırıldı, `ToInt16`→`ToInt32`) | onaylandı |
 | ck0580_whileTekrarOyna | `while` ile "tekrar oyna" döngüsü — oyunun tamamı baştan tekrarlanır | Console | döngü (`while`) — ck0575 ile karşılaştırma | Console | arsiv/12cSharpÇekirdekKodlar.txt (madde 17, `166whileSayiTahminOyunu`; kaynak kod ciddi ölçüde sadeleştirildi — orijinalde 3 kez elle kopyalanmış, döngüsüz bir "hak" mantığı vardı, asıl değerli fikir olan "tekrar oyna" while döngüsü korunup gerisi temizlendi) | onaylandı |
 
+**Blok 3/10 — switch-case ailesi + do-while/switch kapanışı:**
+
+| ck0585_switchGiris | `switch`'e giriş — ck0180'deki else-if zincirinin `switch` ile yazımı | Console | karar yapısı (`switch`) — yeni ANA halka | Console | arsiv/12cSharpÇekirdekKodlar.txt (madde 19, `150switchCase`) | onaylandı |
+| ck0590_switchHesapMakinesiChar | `switch` ile hesap makinesi (char seçim, `+ - * /`) | Console | karar yapısı (`switch`) + veri tipi (`char`) pekiştirme | Console | arsiv/12cSharpÇekirdekKodlar.txt (madde 20, `151switchCaseHesapMakinesi`; kaynakta `case '3'`/`'4'` yazılmıştı ama menü 1-4 numaralı gösteriliyordu — tüm case'ler `'1'-'4'`'e çevrilip menüyle tutarlı hale getirildi) | onaylandı |
+| ck0595_switchHesapMakinesiString | Aynı hesap makinesi, `string` seçimle (`"1"-"4"`) | Console | karar yapısı (`switch`) + veri tipi (`string`) — ck0590 ile karşılaştırma | Console | arsiv/12cSharpÇekirdekKodlar.txt (madde 21, `151switchCaseHesapMakinesi2`) | onaylandı |
+| ck0600_doWhileSwitchSayininOkunusu | `do-while` (retry-on-invalid) + dört ayrı `switch` ile sayının Türkçe okunuşu — döngü/karar ailesinin kapanışı | Console | döngü (`do-while`) + karar (`switch`) birleşimi, kapanış | Console | arsiv/12cSharpÇekirdekKodlar.txt (madde 18, `167doWhile_Switch_sayininOkunusu`; kaynaktaki `while (i==1)` şartı hiçbir zaman gerçek doğrulamayı yapmıyordu (`i` hiç değişmiyordu, döngü her zaman tek seferde bitiyordu) — gerçek retry şartına (`sayi>9999 \|\| sayi<0`) düzeltildi, gereksiz `i` değişkeni ve `break` kaldırıldı) | onaylandı |
+
 ## Kara kutu takip tablosu
 
 Hangi yapı hangi derste ilk göründü, nerede tam açılacak. "Merak Köşesi günlüğü" —
