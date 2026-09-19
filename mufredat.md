@@ -159,8 +159,20 @@ birebir aynı konu, duplicate). İşlenmeyen: `İNCELE: 303karekökMetodunuÖğr
 
 **arsiv/12 tamamlandı (2026-09-19).** 59 ders (ck0500-ck0790), 6 blok, hepsi
 `dotnet run`/`dotnet build` ile doğrulandı. Atlanan 1 madde (duplicate), işlenmeyen
-1 madde (kaynak yok) — toplam 61 madde ile tutarlı. Sırada `arsiv/13` var
-(29 madde, ayrı kaynak klasörü) — bkz. `backlog.md`.
+1 madde (kaynak yok) — toplam 61 madde ile tutarlı.
+
+**arsiv/13 bloğu başlıyor (2026-09-19).** 29 madde, kaynak `0001lunaveriTemizleTest`
+(arsiv/12'nin kaynağından ayrı). Atlanan 3 madde: [03] negatifPozitifSifir (kod "q"
+çıkışını hiç implemente etmemiş, zaten ck0535'te düzgün işlenmiş), [09] ssUcTekSayiTut
+(ck0690'ın dizisiz/daha basit hâli, yeni bir şey katmıyor), [21] DecimalBinary_for
+([17] ile aynı ters-sıra sorununu taşıyor, daha karmaşık, ek değer yok). 26 ders,
+ck0795-ck0920 (5'lik artış). Yeni ANA halkalar: `foreach`, `List<int>`,
+`ConsoleKeyInfo`/tek tuş okuma. **Blok 1/6:**
+
+| ck0795_ondalikliSayiGirisi | Ondalıklı sayı girişi — Türkçe ayraç virgül, nokta sessizce yanlış okunur | Console | veri tipi (`double`) girdi pekiştirme, kültür/yerelleştirme farkındalığı | Console | arsiv/13cSharpÇekirdekKodlar.txt (madde 1, `klavyedenOndalikliSayiAlma`) | onaylandı |
+| ck0800_doWhileBosGirdiKontrolu | `do-while` + `string.IsNullOrWhiteSpace` ile boş/geçersiz girdi engelleme | Console | döngü (`do-while`) + hazır metot pekiştirme | Console | arsiv/13cSharpÇekirdekKodlar.txt (madde 2, `veriGirisindeSadeceEnteraBasilirsa`) | onaylandı |
+| ck0805_forNoktaliVirgulTuzagi | Tuzak: `for(...);` sonrası fazladan noktalı virgül — bilerek hatalı, gerçek bir sınıf hatası | Console | döngü sözdizimi, kasıtlı hata inceleme | Console | arsiv/13cSharpÇekirdekKodlar.txt (madde 4, `sinavSorusuforFarkli`, "10B'nin takıldığı kod") | onaylandı |
+| ck0810_baslangicAdimBitisKlavyeden | Başlangıç, adım ve bitiş hepsi klavyeden — ck0370 + ck0410 birleşimi | Console | döngü (adımlı + dinamik aralık) birleşimi pekiştirme | Console | arsiv/13cSharpÇekirdekKodlar.txt (madde 5, `ssfor`; kaynakta sadece görev tanımı (yorum) vardı, kod hiç yazılmamıştı — ck tarafından uygulandı) | onaylandı |
 
 ## Kara kutu takip tablosu
 

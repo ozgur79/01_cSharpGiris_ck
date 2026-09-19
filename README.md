@@ -135,5 +135,9 @@ kod parçaları. Proje her zaman sizin kendi Visual Studio'nuzda oluşturulur.
 | 111 | ck0780_fonksiyonUsluSayi | Fonksiyon ile üslü sayı | yayında |
 | 112 | ck0785_hazirMetotKarekok | Hazır kütüphane metodu (Math.Sqrt) | yayında |
 | 113 | ck0790_castPekistirme | Cast operatörü pekiştirmesi | yayında |
+| 114 | ck0795_ondalikliSayiGirisi | Ondalıklı sayı girişi (virgül/nokta) | yayında |
+| 115 | ck0800_doWhileBosGirdiKontrolu | do-while + boş girdi kontrolü | yayında |
+| 116 | ck0805_forNoktaliVirgulTuzagi | Tuzak: for sonrası noktalı virgül | yayında |
+| 117 | ck0810_baslangicAdimBitisKlavyeden | Başlangıç/adım/bitiş klavyeden | yayında |
 
 Bu tablo her yeni ders eklendiğinde güncellenir. "Sırada ne var" diye buraya bakın.

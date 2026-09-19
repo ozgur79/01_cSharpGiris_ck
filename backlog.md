@@ -2,21 +2,25 @@
 
 Canlı durum. Biten madde silinir, `backlog-log.md`'ye taşınır.
 
-- **arsiv/12 TAMAMLANDI (59 ders, ck0500-ck0790, 6 blok) — onay bekliyor.**
-  Blok 1-5 (ck0500-ck0750) zaten onaylı/commit'li. **Blok 6/6 (ck0755-ck0790,
-  fonksiyon ailesi + cast kapanışı, 8 ders) üretildi, onay bekliyor:**
-  ck0755 fonksiyon ile string ters çevirme (kaynaktaki gereksiz karmaşık iç içe
-  döngü sadeleştirildi), ck0760 fonksiyona giriş (genel kural açıklaması), ck0765
-  fonksiyon+döngü toplam, ck0770 fonksiyon pekiştirme (**kaynak hatası düzeltildi:**
-  metot adı `topla` idi ama çarpma yapıyordu, `carp` olarak düzeltildi), ck0775
-  fonksiyon ile faktöriyel, ck0780 fonksiyon ile üslü sayı (ck0505 ile karşılaştırma),
-  ck0785 hazır kütüphane metodu (Math.Sqrt, fonksiyon ailesi kapanışı), ck0790 cast
-  pekiştirmesi (ck0060'a geri dönüş, arsiv/12'nin genel kapanışı). Hepsi `dotnet run`
-  ile gerçekten çalıştırılıp doğrulandı. mufredat.md/README.md güncellendi.
-  **Commit yok, onay bekleniyor.**
-- **Blok 6 onaylanınca arsiv/12 tamamen kapanmış olacak** — 61 madde: 59 ders + 1
-  atlanan (duplicate, [06]) + 1 işlenmeyen (kaynak yok, İNCELE).
-- **Sırada arsiv/13 var (29 madde, `arsiv/13cSharpÇekirdekKodlar.txt`, kaynak
-  `0001lunaveriTemizleTest` — arsiv/12'nin kaynağından ayrı klasör).** Ortak (zihinEv)
-  bildirdi, `arsiv/TALIMAT-13-icin-ck.md`'de olası örtüşme şüpheleri var. Henüz
-  okunmadı — arsiv/12 (Blok 6) onaylanınca açılacak.
+- **arsiv/12 TAMAMLANDI ve commit edildi** (59 ders, ck0500-ck0790, 6 blok).
+- **arsiv/13 işleniyor (26 ders, ck0795-ck0920, 6 blok planlandı).**
+  Atlanan: [03] (zaten ck0535'te var), [09] (ck0690'ın basit hâli), [21] ([17] ile
+  aynı sorun, daha karmaşık). **Blok 1/6 (ck0795-ck0810, 4 ders) üretildi, onay
+  bekliyor:** ck0795 ondalıklı sayı girişi (virgül/nokta tuzağı), ck0800 do-while +
+  `string.IsNullOrWhiteSpace`, ck0805 **kasıtlı hata** (`for(...);` sonrası fazladan
+  noktalı virgül — "10B'nin takıldığı kod", gerçekten test edildi: çıktı 7,8,9,10
+  yerine tek satır 11 çıkıyor), ck0810 başlangıç/adım/bitiş hepsi klavyeden (arşivde
+  sadece görev tanımı vardı, kod hiç yazılmamıştı, ck tarafından uygulandı ve
+  arşivdeki beklenen örnek çıktıyla — "7 11 15 19 23 27" — birebir eşleştiği
+  doğrulandı). Hepsi `dotnet run` ile gerçekten çalıştırılıp doğrulandı. mufredat.md/
+  README.md güncellendi. **Commit yok, onay bekleniyor.**
+- **Geriye dönük küçük düzeltme gerekiyor (henüz yapılmadı):** ck0790'dan sonra [11]
+  (Array.Sort) işlenirken ck0730'un "sıralamanın hazırı yok" notu düzeltilecek —
+  Array.Sort zaten vardı, henüz tanıtılmamıştı sadece; ders/kod değişmiyor, sadece
+  yanıltıcı cümle düzelecek.
+- **Sıradaki blok: Blok 2 (ck0815-0830) — for(;;)/do-while pekiştirme + foreach'e
+  giriş (4 ders).**
+- **Ayrıca not: arsiv/14 geldi (WinForms, 45 madde, 02_cSharpForm_ck için) — bu
+  projenin kapsamı değil.** Ortak bildirdi, Özgür'ün "üretim beklemede" onayı
+  kalktı (02'nin CLAUDE.md'sindeki not artık geçersiz). 01 (arsiv/13) bitince ya
+  da ayrı bir oturumda 02'ye geçilip bakılacak.
