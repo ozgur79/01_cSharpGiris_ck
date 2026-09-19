@@ -127,5 +127,13 @@ kod parçaları. Proje her zaman sizin kendi Visual Studio'nuzda oluşturulur.
 | 103 | ck0740_stringSesliHarfSayma | String'te sesli harf sayma | yayında |
 | 104 | ck0745_stringTerstenYazdirma | String'i tersten yazdırma | yayında |
 | 105 | ck0750_diziFonksiyonKoprusu | Dizi + fonksiyon köprüsü | yayında |
+| 106 | ck0755_fonksiyonStringTersCevirme | Fonksiyon ile string ters çevirme | yayında |
+| 107 | ck0760_fonksiyonaGiris | Fonksiyona giriş (parametre, return) | yayında |
+| 108 | ck0765_fonksiyonDonguToplam | Fonksiyon + döngü: 1'den N'e toplam | yayında |
+| 109 | ck0770_fonksiyonCarpmaPekistirme | Fonksiyon pekiştirme: çarpma | yayında |
+| 110 | ck0775_fonksiyonFaktoriyel | Fonksiyon ile faktöriyel | yayında |
+| 111 | ck0780_fonksiyonUsluSayi | Fonksiyon ile üslü sayı | yayında |
+| 112 | ck0785_hazirMetotKarekok | Hazır kütüphane metodu (Math.Sqrt) | yayında |
+| 113 | ck0790_castPekistirme | Cast operatörü pekiştirmesi | yayında |
 
 Bu tablo her yeni ders eklendiğinde güncellenir. "Sırada ne var" diye buraya bakın.

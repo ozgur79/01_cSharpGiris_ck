@@ -146,6 +146,22 @@ birebir aynı konu, duplicate). İşlenmeyen: `İNCELE: 303karekökMetodunuÖğr
 | ck0745_stringTerstenYazdirma | String'i tersten yazdırma — `.Length-1`'den azalan indis | Console | string indeksleme pekiştirme | Console | arsiv/12cSharpÇekirdekKodlar.txt (madde 40, `212StringiTerstenYazdir`) | onaylandı |
 | ck0750_diziFonksiyonKoprusu | Dizi + fonksiyon köprüsü (`elemanEkle`/`listele`, class alanları) — dizi ailesinin kapanışı, fonksiyona geçiş | Console | dizi + fonksiyon (ilk kendi metodumuz) | Console | arsiv/12cSharpÇekirdekKodlar.txt (madde 38, `240Dizifonksiyon`; kaynakta zaten elle tamamlanmıştı) | onaylandı |
 
+**Blok 6/6 — fonksiyon ailesi + cast pekiştirme kapanışı (arsiv/12'nin SON bloğu):**
+
+| ck0755_fonksiyonStringTersCevirme | Fonksiyon ile string ters çevirme (`ToCharArray`, `return`) | Console | dizi/fonksiyon köprüsü devamı | Console | arsiv/12cSharpÇekirdekKodlar.txt (madde 41, `241stringiTerstenSirala`; kaynaktaki gereksiz karmaşık iç içe döngü [tek etkili adımı olan] doğrudan yarı-uzunluk swap döngüsüne sadeleştirildi) | onaylandı |
+| ck0760_fonksiyonaGiris | Fonksiyona giriş — parametre ve `return` genel kuralı | Console | fonksiyon — yeni ANA halka (genel açıklama) | Console | arsiv/12cSharpÇekirdekKodlar.txt (madde 42, `299ikiSayiyiToplayanMetod`; `ToInt16`→`ToInt32`) | onaylandı |
+| ck0765_fonksiyonDonguToplam | Fonksiyon + döngü: 1'den N'e toplam | Console | fonksiyon + döngü pekiştirme | Console | arsiv/12cSharpÇekirdekKodlar.txt (madde 43, `301metodToplam`; `ToInt16`→`ToInt32`) | onaylandı |
+| ck0770_fonksiyonCarpmaPekistirme | Fonksiyon pekiştirme: çarpma (sabit değerlerle) | Console | fonksiyon pekiştirme | Console | arsiv/12cSharpÇekirdekKodlar.txt (madde 44, `298metodCarpma`; kaynakta metot adı `topla` idi ama gövde ÇARPMA yapıyordu — isim `carp` olarak düzeltildi) | onaylandı |
+| ck0775_fonksiyonFaktoriyel | Fonksiyon ile faktöriyel | Console | fonksiyon + çarpımsal biriktirici pekiştirme | Console | arsiv/12cSharpÇekirdekKodlar.txt (madde 45, `300metodFaktoriyel`; `ToInt16`→`ToInt32`, çıktı `"!= "` → `"! = "` düzeltildi — ck0390 ile aynı gerekçe) | onaylandı |
+| ck0780_fonksiyonUsluSayi | Fonksiyon ile üslü sayı — ck0505 ile aynı problem, fonksiyonlu çözüm karşılaştırması | Console | fonksiyon pekiştirme, ck0505 ile karşılaştırma | Console | arsiv/12cSharpÇekirdekKodlar.txt (madde 47, `49usluSayiHesaplaMetod`) | onaylandı |
+| ck0785_hazirMetotKarekok | Hazır kütüphane metodu (`Math.Sqrt`) — kendi yazdığın vs hazır metot, fonksiyon ailesinin kapanışı | Console | fonksiyon kapanışı (hazır metot) | Console | arsiv/12cSharpÇekirdekKodlar.txt (madde 46, `302karekok_hazırMetot`; `double sayi = Convert.ToInt32(...)` yerine `Convert.ToDouble(...)` kullanıldı) | onaylandı |
+| ck0790_castPekistirme | Cast operatörü pekiştirmesi — `(Tip)değer` konumunun sonucu değiştirmesi, ck0060'a geri dönüş — **arsiv/12'nin genel kapanışı** | Console | veri tipi dönüşümü (cast) pekiştirme, kapanış | Console | arsiv/12cSharpÇekirdekKodlar.txt (madde 57, `199farkliBirYazimKurali`; composite format string yerine `+` birleştirme) | onaylandı |
+
+**arsiv/12 tamamlandı (2026-09-19).** 59 ders (ck0500-ck0790), 6 blok, hepsi
+`dotnet run`/`dotnet build` ile doğrulandı. Atlanan 1 madde (duplicate), işlenmeyen
+1 madde (kaynak yok) — toplam 61 madde ile tutarlı. Sırada `arsiv/13` var
+(29 madde, ayrı kaynak klasörü) — bkz. `backlog.md`.
+
 ## Kara kutu takip tablosu
 
 Hangi yapı hangi derste ilk göründü, nerede tam açılacak. "Merak Köşesi günlüğü" —
