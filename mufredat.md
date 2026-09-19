@@ -188,6 +188,13 @@ ck0795-ck0920 (5'lik artış). Yeni ANA halkalar: `foreach`, `List<int>`,
 | ck0845_diziArraySort | Hazır sıralama metodu: `Array.Sort` | Console | dizi — hazır metot | Console | arsiv/13cSharpÇekirdekKodlar.txt (madde 11, `ssUcTekSayiTutDizide`; **ck0730'un yanıltıcı notu düzeltildi** — "sıralamanın hazırı yok" değil, henüz tanıtılmamıştı) | onaylandı |
 | ck0850_diziOrtalama | Dizi + ortalama: 4. eleman ilk üçün ortalaması — ck0695'in toplam yerine ortalama versiyonu | Console | dizi + biriktirici pekiştirme | Console | arsiv/13cSharpÇekirdekKodlar.txt (madde 12, `ssUcTekSayiTutDizideOrt`) | onaylandı |
 
+**Blok 4/6:**
+
+| ck0855_diziDagitmaTekCift | Bir diziyi ikiye dağıtma: tek ve çift dizileri, kendi sayaçlarıyla (c/t) | Console | dizi + koşullu dağıtım | Console | arsiv/13cSharpÇekirdekKodlar.txt (madde 13, `ssRasgeleTutTekCiftAyir`; çıktı `for (i<c)`/`for (i<t)` ile sınırlandı — `foreach` kullansaydı doldurulmamış slotlardaki varsayılan 0'lar da yazdırılırdı) | onaylandı |
+| ck0860_diziDondurenFonksiyon | Dizi döndüren fonksiyon (`int[]` dönüş tipi) — fonksiyon + dizi kapanışı | Console | fonksiyon (dizi döndürme) — yeni ANA halka | Console | arsiv/13cSharpÇekirdekKodlar.txt (madde 14, `ssrasgeleXtekDiziMetod`; Codex'in çıkarımı bu kez tam geldi, elle yama gerekmedi) | onaylandı |
+| ck0865_taban2ye10Naif | 10 tabanından 2 tabanına — ilk deneme, BİLEREK ters sırada çıkar | Console | döngü (mod+bölme) + kasıtlı sıra hatası | Console | arsiv/13cSharpÇekirdekKodlar.txt (madde 17, `ss10tabani2Tabanina`; test edildi — 6 için "011" çıkıyor, doğrusu "110") | onaylandı |
+| ck0870_listeGiris | `List<int>`'e giriş — `.Add()`, `.Count`, `.Reverse()` ile ck0865'in sırasını düzeltme | Console | `List<int>` — yeni ANA halka | Console | arsiv/13cSharpÇekirdekKodlar.txt (madde 18, `ss10Tabani2TabaninaListe1`) | onaylandı |
+
 ## Kara kutu takip tablosu
 
 Hangi yapı hangi derste ilk göründü, nerede tam açılacak. "Merak Köşesi günlüğü" —

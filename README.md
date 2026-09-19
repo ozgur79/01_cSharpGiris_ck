@@ -147,5 +147,9 @@ kod parçaları. Proje her zaman sizin kendi Visual Studio'nuzda oluşturulur.
 | 123 | ck0840_donguTurleriBirArada | Dört döngü türü bir arada | yayında |
 | 124 | ck0845_diziArraySort | Hazır sıralama metodu (Array.Sort) | yayında |
 | 125 | ck0850_diziOrtalama | Dizi + ortalama | yayında |
+| 126 | ck0855_diziDagitmaTekCift | Diziyi ikiye dağıtma (tek/çift) | yayında |
+| 127 | ck0860_diziDondurenFonksiyon | Dizi döndüren fonksiyon | yayında |
+| 128 | ck0865_taban2ye10Naif | 10'dan 2 tabana (ilk deneme) | yayında |
+| 129 | ck0870_listeGiris | List<int>'e giriş | yayında |
 
 Bu tablo her yeni ders eklendiğinde güncellenir. "Sırada ne var" diye buraya bakın.
