@@ -151,5 +151,9 @@ kod parçaları. Proje her zaman sizin kendi Visual Studio'nuzda oluşturulur.
 | 127 | ck0860_diziDondurenFonksiyon | Dizi döndüren fonksiyon | yayında |
 | 128 | ck0865_taban2ye10Naif | 10'dan 2 tabana (ilk deneme) | yayında |
 | 129 | ck0870_listeGiris | List<int>'e giriş | yayında |
+| 130 | ck0875_listeKendiTerslemesi | Listeyi kendi for'unla tersleme | yayında |
+| 131 | ck0880_ikiPointerTersleme | İki pointer ile tersleme | yayında |
+| 132 | ck0885_consoleKeyInfoGiris | ConsoleKeyInfo'ya giriş | yayında |
+| 133 | ck0890_tusaBasincaYaziIlerlet | Tuşa basınca yazı ilerlet | yayında |
 
 Bu tablo her yeni ders eklendiğinde güncellenir. "Sırada ne var" diye buraya bakın.

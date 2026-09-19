@@ -195,6 +195,13 @@ ck0795-ck0920 (5'lik artış). Yeni ANA halkalar: `foreach`, `List<int>`,
 | ck0865_taban2ye10Naif | 10 tabanından 2 tabanına — ilk deneme, BİLEREK ters sırada çıkar | Console | döngü (mod+bölme) + kasıtlı sıra hatası | Console | arsiv/13cSharpÇekirdekKodlar.txt (madde 17, `ss10tabani2Tabanina`; test edildi — 6 için "011" çıkıyor, doğrusu "110") | onaylandı |
 | ck0870_listeGiris | `List<int>`'e giriş — `.Add()`, `.Count`, `.Reverse()` ile ck0865'in sırasını düzeltme | Console | `List<int>` — yeni ANA halka | Console | arsiv/13cSharpÇekirdekKodlar.txt (madde 18, `ss10Tabani2TabaninaListe1`) | onaylandı |
 
+**Blok 5/6:**
+
+| ck0875_listeKendiTerslemesi | Listeyi kendi `for`'unla tersleme (ck0870'in ödevi, ck0730'daki swap tekniğiyle) | Console | `List<int>` + döngü, ck0870 SEN YAP'ının çözümü | Console | arsiv/13cSharpÇekirdekKodlar.txt (madde 19, `ss10Tabani2TabaninaListe2For`) | onaylandı |
+| ck0880_ikiPointerTersleme | İki pointer (`baslangic`/`bitis`) tekniğiyle tersleme — ck0875'ten farklı yazım | Console | `List<int>` + döngü, teknik karşılaştırma | Console | arsiv/13cSharpÇekirdekKodlar.txt (madde 20, `ss10Tabani2TabaninaListe2While`; taban dönüşümü teması yok, sabit [1,2,3] listesi üzerinde genel tersleme tekniği) | onaylandı |
+| ck0885_consoleKeyInfoGiris | `ConsoleKeyInfo`'ya giriş: tek tuş okuma (`Console.ReadKey`) — yeni ANA halka | Console | `ConsoleKeyInfo`/tek tuş okuma — yeni ANA halka | Console | arsiv/13cSharpÇekirdekKodlar.txt (madde 22, `900keyInfo`; **doğrulama notu:** bu ve sonraki 3 ders (`ReadKey` tabanlı) headless `dotnet run` ile test edilemiyor — `dotnet build` ile derleme doğrulandı, davranış Özgür'ün VS'te elle denemesini gerektiriyor) | onaylandı |
+| ck0890_tusaBasincaYaziIlerlet | Herhangi bir tuşa basınca hazır metnin bir sonraki harfini gösterme (yazma pratiği efekti) | Console | `ConsoleKeyInfo` + string indeksleme birleşimi | Console | arsiv/13cSharpÇekirdekKodlar.txt (madde 23, `901keyInfoHazirMetniYazdirmak`; kaynaktaki hep-doğru-çıkan `if (tus.Key.ToString() != "")` kontrolü kaldırıldı — `dotnet build` ile derleme doğrulandı) | onaylandı |
+
 ## Kara kutu takip tablosu
 
 Hangi yapı hangi derste ilk göründü, nerede tam açılacak. "Merak Köşesi günlüğü" —
