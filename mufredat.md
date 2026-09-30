@@ -17,6 +17,7 @@ tablosu formatında) girecek.
 | ck0050_sayininKaresi | bir sayıyı kendisiyle çarpma (kare alma) | Console | operatör (*) pekiştirme | Console | arsiv/01cSharpÇekirdekKodlar.txt (parça 5) | onaylandı |
 | ck0060_tamSayiBolmesi | int bölmesinin küsuratı atması, float/double tipleri | Console | operatör (/) + veri tipi (float, double) | Console | arsiv/02cSharpÇekirdekKodlar.txt (madde 6) | onaylandı |
 | ck0070_metotVeSinif | "metot" ve "sınıf" terimleri, Console.WriteLine örneğiyle (IntelliSense) | Console | terim (metot, sınıf) | Console | arsiv/02cSharpÇekirdekKodlar.txt (madde 7) | onaylandı |
+| ck0075_kendiMetodumuYazmak | Kendi metodumu yazmak: `void` metot (iş yapar) ve `int` metot (`return` ile sonuç döndürür) — ck0070'teki hazır metot terimlerinin devamı | Console | fonksiyon — ilk kendi metodumuz (ön izleme; genel kural ck0760'ta) | Console | Özgür'ün verdiği kod parçası (arşiv dışı; metot adı `ruzgar` → `tanit`, öğrenci adı/yaşı içeren metin nötrleştirildi) | onaylandı |
 | ck0080_stringToplamaTuzagi | string + string'in birleştirme yaptığı, sayısal toplama olmadığı | Console | operatör (+) string vs sayı, pekiştirme | Console | arsiv/02cSharpÇekirdekKodlar.txt (madde 8, kısım b) | onaylandı |
 | ck0090_tekKarakterOkuma | Console.Read() ile tek karakter okuma, int (ASCII kod) döndürmesi | Console | metot çeşitliliği (Read vs ReadLine) | Console | arsiv/02cSharpÇekirdekKodlar.txt (madde 9) | onaylandı |
 | ck0100_veriTipleriTanisma | byte, bool, char tiplerinin tanıtımı (int/double/string recap ile bir arada) | Console | veri tipi çeşitliliği | Console | arsiv/02cSharpÇekirdekKodlar.txt (madde 10) | onaylandı |
@@ -144,7 +145,7 @@ birebir aynı konu, duplicate). İşlenmeyen: `İNCELE: 303karekökMetodunuÖğr
 | ck0735_ikiDiziRastgeleVeri | İki diziden AYNI rastgele indisle eşleşen veri çekme | Console | dizi + Random pekiştirme | Console | arsiv/12cSharpÇekirdekKodlar.txt (madde 37, `227stringDizidenRasgeleVeriCekme`; kaynakta `Next(1,6)` dizinin ilk/son elemanını hiç seçmiyordu, `Next(0, dizi.Length)` olarak düzeltildi) | onaylandı |
 | ck0740_stringSesliHarfSayma | String'te sesli harf sayma — `string` indisle `char[]` karşılaştırma | Console | string/dizi köprüsü | Console | arsiv/12cSharpÇekirdekKodlar.txt (madde 39, `211stringtekiSesliHarfAdediniBul`) | onaylandı |
 | ck0745_stringTerstenYazdirma | String'i tersten yazdırma — `.Length-1`'den azalan indis | Console | string indeksleme pekiştirme | Console | arsiv/12cSharpÇekirdekKodlar.txt (madde 40, `212StringiTerstenYazdir`) | onaylandı |
-| ck0750_diziFonksiyonKoprusu | Dizi + fonksiyon köprüsü (`elemanEkle`/`listele`, class alanları) — dizi ailesinin kapanışı, fonksiyona geçiş | Console | dizi + fonksiyon (ilk kendi metodumuz) | Console | arsiv/12cSharpÇekirdekKodlar.txt (madde 38, `240Dizifonksiyon`; kaynakta zaten elle tamamlanmıştı) | onaylandı |
+| ck0750_diziFonksiyonKoprusu | Dizi + fonksiyon köprüsü (`elemanEkle`/`listele`, class alanları) — dizi ailesinin kapanışı, fonksiyona geçiş | Console | dizi + fonksiyon (ck0075'teki ilk metotların dizi ile buluşması) | Console | arsiv/12cSharpÇekirdekKodlar.txt (madde 38, `240Dizifonksiyon`; kaynakta zaten elle tamamlanmıştı) | onaylandı |
 
 **Blok 6/6 — fonksiyon ailesi + cast pekiştirme kapanışı (arsiv/12'nin SON bloğu):**
 

@@ -3,7 +3,7 @@
 //        Main() içine YAPIŞTIRMA. Main() içine sadece "1. BÖLÜM"ü yapıştır; "2. BÖLÜM"
 //        (iki alan + iki metot) class Program'ın içine ama Main()'in DIŞINA/ALTINA
 //        eklenir — metotlar Main ile aynı kutuda (class) yaşar, Main'in içinde değil.
-// Ne öğreneceğiz: Kendi yazdığımız bir fonksiyonu (metodu) ilk kez kullanıyoruz —
+// Ne öğreneceğiz: ck0075'te tanıdığımız kendi metotlarımızı bu kez dizi ile kullanıyoruz —
 //                  elemanEkle ve listele, diziyi class'ın PAYLAŞILAN alanları
 //                  (strDizi, elemanSayac) üzerinden yönetiyor. Ayrıntısını bir
 //                  sonraki derste (ck0760, fonksiyona giriş) göreceğiz.

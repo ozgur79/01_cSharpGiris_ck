@@ -29,137 +29,138 @@ kod parçaları. Proje her zaman sizin kendi Visual Studio'nuzda oluşturulur.
 | 5 | ck0050_sayininKaresi | Sayının karesini alma (pekiştirme) | yayında |
 | 6 | ck0060_tamSayiBolmesi | int bölmesinde küsurat kaybı, float/double | yayında |
 | 7 | ck0070_metotVeSinif | "metot" ve "sınıf" terimleri (Console örneğiyle) | yayında |
-| 8 | ck0080_stringToplamaTuzagi | string + string birleştirir, toplamaz (pekiştirme) | yayında |
-| 9 | ck0090_tekKarakterOkuma | Console.Read() ile tek karakter okuma, ASCII kod döndürmesi | yayında |
-| 10 | ck0100_veriTipleriTanisma | byte, bool, char tipleriyle tanışma | yayında |
-| 11 | ck0110_dortgenCevreAlan | Parantez ile işlem sırası (çevre/alan hesabı) | yayında |
-| 12 | ck0120_ucSayiOrtalama | Üç sayının ortalaması (pekiştirme) | yayında |
-| 13 | ck0130_kareVeKup | Kare ve küp alma | yayında |
-| 14 | ck0140_ilkKararYapisi | Karar yapısına giriş (if/else) | yayında |
-| 15 | ck0150_cokDalliKarar | Çok dallı karar (if/else if/else) | yayında |
-| 16 | ck0160_ehliyetKontrolu | if/else ile sayısal karşılaştırma (pekiştirme) | yayında |
-| 17 | ck0170_kareMiDikdortgenMi | if/else ile sayısal eşitlik (pekiştirme) | yayında |
-| 18 | ck0180_notaCevirme | else if zincirinde sıralı aralık kontrolü | yayında |
-| 19 | ck0190_gecerliPuanKontrolu | Mantıksal VEYA (`\|\|`) | yayında |
-| 20 | ck0200_cinsiyetOkuma | Convert.ToChar ile tek karakter (char) okuma | yayında |
-| 21 | ck0210_askerlikKontrolu | Mantıksal VE (`&&`), `\|\|` ile `&&` bir arada | yayında |
-| 22 | ck0220_dortIslemFormatli | Dört işlemi formatlı yazdırma (pekiştirme) | yayında |
-| 23 | ck0230_notOperatoru | Mantıksal DEĞİL (`!`) operatörü | yayında |
-| 24 | ck0240_icIceIf | İç içe if (nested if) | yayında |
-| 25 | ck0250_loginTekIf | Aynı mantığın `&&` ile tek if'e indirgenmesi | yayında |
-| 26 | ck0260_forDonguGiris | `for` döngüsüne giriş, `break` ile erken çıkış | yayında |
-| 27 | ck0270_tekCiftKontrolu | `%` (mod) ile tek/çift kontrolü | yayında |
-| 28 | ck0280_gecerliMenu | Doğrulama sarmalayıcısı deseni (geçerlilik önce) | yayında |
-| 29 | ck0290_sembolIleSecim | `char` ile sembol tabanlı seçim (hesap makinesi) | yayında |
-| 30 | ck0300_kdvHesaplama | KDV hesaplama — yüzde formülü | yayında |
-| 31 | ck0310_maasKesinti | Maaş kesinti hesaplama — çok dallı yüzde | yayında |
-| 32 | ck0320_birlerBasamagi | Birler basamağını bulma (`sayi % 10`) | yayında |
-| 33 | ck0330_onBeseBolunebilirlik | 15'e bölünebilirlik (`%`, `&&`, sonsuz döngü) | yayında |
-| 34 | ck0340_bankaHesabi | Banka hesabı — kalıcı durum, sonsuz döngü | yayında |
-| 35 | ck0350_toplamBiriktirme | Toplam biriktirme (`+=`), kırılgan girdi | yayında |
-| 36 | ck0360_tryParseIleSaglam | `int.TryParse` ile hatalı girdiye dayanıklı hâle getirme | yayında |
-| 37 | ck0370_forAdimliArtis | `for` ile adım/artış belirleme (`i += 2`) | yayında |
-| 38 | ck0380_tekrarGirdiDeseni | Döngü içinde tekrar girdi isteme deseni | yayında |
-| 39 | ck0390_faktoriyel | Çarpımsal biriktirici (faktöriyel), `i++` | yayında |
-| 40 | ck0400_periyodikBicimlendirme | Döngüde periyodik biçimlendirme (`%5`) | yayında |
-| 41 | ck0410_dinamikAralik | Kullanıcı sınırlarıyla dinamik aralık yazdırma | yayında |
-| 42 | ck0420_birdenXeToplam | 1'den X'e toplam — biriktirici | yayında |
-| 43 | ck0430_aralikCiftSayilar | Aralıkta çift sayılar, retry-on-invalid deseni | yayında |
-| 44 | ck0440_aralikTekSayilar | Aralıkta tek sayılar — ck0430 varyantı | yayında |
-| 45 | ck0450_qIleCikis | Pozitif/negatif/sıfır analizi, `"q"` ile çıkış | yayında |
-| 46 | ck0460_tekSatirYildiz | Tek döngüyle yan yana yıldız (Console.Write) | yayında |
-| 47 | ck0465_sabitDikdortgen | İç içe for ile dikdörtgen çizme | yayında |
-| 48 | ck0470_bosSatirDeseni | Desende bir satırı boş bırakma | yayında |
-| 49 | ck0475_dikdortgenBosluk | Dikdörtgende bir sütunu boş bırakma | yayında |
-| 50 | ck0480_dortgendeDelik | Dikdörtgende tek bir yeri boş bırakma | yayında |
-| 51 | ck0485_metindeYildizBiriktirme | Metinde yıldız biriktirme | yayında |
-| 52 | ck0490_artanUcgenFor | Döngü sınırıyla artan üçgen | yayında |
-| 53 | ck0495_artanUcgenString | Yıldız ekleyerek artan üçgen | yayında |
-| 54 | ck0499_azalanUcgen | Azalan yıldız üçgeni | yayında |
-| 55 | ck0500_carpimTablosuIcIce | Çarpım tablosu (iç içe for) | yayında |
-| 56 | ck0505_usluSayiDongu | Üslü sayı hesaplama (döngü ile) | yayında |
-| 57 | ck0510_bosluklaHizalanmisUcgen | Boşlukla sağa hizalanmış üçgen | yayında |
-| 58 | ck0515_simetrikPiramit | Simetrik piramit | yayında |
-| 59 | ck0520_acilanIkizUcgen | Açılan ikiz üçgen | yayında |
-| 60 | ck0525_baklavaDeseni | Baklava (elmas) deseni | yayında |
-| 61 | ck0530_randomaGiris | Random ile rastgele sayı üretme | yayında |
-| 62 | ck0535_whileGiris | while döngüsüne giriş | yayında |
-| 63 | ck0540_doWhileGiris | do-while döngüsüne giriş | yayında |
-| 64 | ck0545_whileKiraSabit | while ile kira hesabı (sabit değerler) | yayında |
-| 65 | ck0550_whileKiraKlavyeden | while ile kira hesabı (klavyeden) | yayında |
-| 66 | ck0555_doWhileBiriktirici | do-while ile biriktirici | yayında |
-| 67 | ck0560_doWhileCiftSayiFiltre | do-while + if: çift sayı süzgeci | yayında |
-| 68 | ck0565_doWhileFarkliSentinel | do-while: farklı bir çıkış değeri | yayında |
-| 69 | ck0570_doWhileLogin | do-while ile giriş doğrulama | yayında |
-| 70 | ck0575_doWhileRandomTahmin | do-while + Random: sayı tahmin oyunu | yayında |
-| 71 | ck0580_whileTekrarOyna | while ile "tekrar oyna" döngüsü | yayında |
-| 72 | ck0585_switchGiris | switch'e giriş | yayında |
-| 73 | ck0590_switchHesapMakinesiChar | switch ile hesap makinesi (char) | yayında |
-| 74 | ck0595_switchHesapMakinesiString | switch ile hesap makinesi (string) | yayında |
-| 75 | ck0600_doWhileSwitchSayininOkunusu | do-while + switch: sayının okunuşu | yayında |
-| 76 | ck0605_forSonsuzRandomTahmin | for(;;) + break ile sınırsız hakla tahmin | yayında |
-| 77 | ck0610_besRastgeleSayi | Döngüde N adet rastgele sayı | yayında |
-| 78 | ck0615_farkliArdisikSayi | Ardışık aynı sayıyı engelleme | yayında |
-| 79 | ck0620_randomAralikKlavyeden | Random aralığını klavyeden alma | yayında |
-| 80 | ck0625_zamanlamaGiris | Thread.Sleep ile zamanlanmış sayaç | yayında |
-| 81 | ck0630_zamanlamaHizlanan | Giderek hızlanan sayaç | yayında |
-| 82 | ck0635_zamanlamaIleriGeri | Sonsuz döngüde ileri-geri sayma | yayında |
-| 83 | ck0640_zamanlamaSonsuzSayma | En sade sonsuz sayaç | yayında |
-| 84 | ck0645_zamanlamaBaklava | Baklava deseni + zamanlama | yayında |
-| 85 | ck0650_renkGiris | ConsoleColor'a giriş (cast) | yayında |
-| 86 | ck0655_renkVeIf | ConsoleColor + if: tek/çift renk | yayında |
-| 87 | ck0660_diziyeGiris | Diziye giriş | yayında |
-| 88 | ck0665_diziLiteralBaslatma | Dizi literal ile başlatma | yayında |
-| 89 | ck0670_diziForIleGirOku | for ile diziye giriş/okuma | yayında |
-| 90 | ck0675_diziFarkliSayiZorlama | Farklı sayı zorlama (kusurlu, karşılaştırma) | yayında |
-| 91 | ck0680_diziFarkliSayiDuzeltilmis | Farklı sayı zorlama (düzeltilmiş) | yayında |
-| 92 | ck0685_diziRandomBasit | Dizi + Random: basit | yayında |
-| 93 | ck0690_diziRandomKosulluFiltre | Dizi + Random: koşullu filtre | yayında |
-| 94 | ck0695_diziRandomBiriktirme | Dizi + Random: biriktirme | yayında |
-| 95 | ck0700_dinamikBoyutluDizi | Dinamik boyutlu dizi | yayında |
-| 96 | ck0705_diziArama | Dizide arama | yayında |
-| 97 | ck0710_diziSilme | Dizide silme (Array.Clear) | yayında |
-| 98 | ck0715_diziyeElemanEkleme | Diziye eleman ekleme (Array.Resize) | yayında |
-| 99 | ck0720_diziyiPozitifYapma | Diziyi pozitif yapma | yayında |
-| 100 | ck0725_diziTersleme | Diziyi tersleme (Array.Reverse) | yayında |
-| 101 | ck0730_rastgeleDiziSiralama | Rastgele diziyi sıralama | yayında |
-| 102 | ck0735_ikiDiziRastgeleVeri | İki diziden eşleşen rastgele veri | yayında |
-| 103 | ck0740_stringSesliHarfSayma | String'te sesli harf sayma | yayında |
-| 104 | ck0745_stringTerstenYazdirma | String'i tersten yazdırma | yayında |
-| 105 | ck0750_diziFonksiyonKoprusu | Dizi + fonksiyon köprüsü | yayında |
-| 106 | ck0755_fonksiyonStringTersCevirme | Fonksiyon ile string ters çevirme | yayında |
-| 107 | ck0760_fonksiyonaGiris | Fonksiyona giriş (parametre, return) | yayında |
-| 108 | ck0765_fonksiyonDonguToplam | Fonksiyon + döngü: 1'den N'e toplam | yayında |
-| 109 | ck0770_fonksiyonCarpmaPekistirme | Fonksiyon pekiştirme: çarpma | yayında |
-| 110 | ck0775_fonksiyonFaktoriyel | Fonksiyon ile faktöriyel | yayında |
-| 111 | ck0780_fonksiyonUsluSayi | Fonksiyon ile üslü sayı | yayında |
-| 112 | ck0785_hazirMetotKarekok | Hazır kütüphane metodu (Math.Sqrt) | yayında |
-| 113 | ck0790_castPekistirme | Cast operatörü pekiştirmesi | yayında |
-| 114 | ck0795_ondalikliSayiGirisi | Ondalıklı sayı girişi (virgül/nokta) | yayında |
-| 115 | ck0800_doWhileBosGirdiKontrolu | do-while + boş girdi kontrolü | yayında |
-| 116 | ck0805_forNoktaliVirgulTuzagi | Tuzak: for sonrası noktalı virgül | yayında |
-| 117 | ck0810_baslangicAdimBitisKlavyeden | Başlangıç/adım/bitiş klavyeden | yayında |
-| 118 | ck0815_forSonsuzCiftToplama | for(;;)+break ile çift toplama | yayında |
-| 119 | ck0820_doWhileTekToplama | do-while ile tek sayı toplama | yayında |
-| 120 | ck0825_puanNotCokDalliKarar | Puan/not: çok dallı karar | yayında |
-| 121 | ck0830_foreachIleFarkliSayi | foreach'e giriş | yayında |
-| 122 | ck0835_foreachBesFarkliSayi | foreach ile 5 farklı sayı | yayında |
-| 123 | ck0840_donguTurleriBirArada | Dört döngü türü bir arada | yayında |
-| 124 | ck0845_diziArraySort | Hazır sıralama metodu (Array.Sort) | yayında |
-| 125 | ck0850_diziOrtalama | Dizi + ortalama | yayında |
-| 126 | ck0855_diziDagitmaTekCift | Diziyi ikiye dağıtma (tek/çift) | yayında |
-| 127 | ck0860_diziDondurenFonksiyon | Dizi döndüren fonksiyon | yayında |
-| 128 | ck0865_taban2ye10Naif | 10'dan 2 tabana (ilk deneme) | yayında |
-| 129 | ck0870_listeGiris | List<int>'e giriş | yayında |
-| 130 | ck0875_listeKendiTerslemesi | Listeyi kendi for'unla tersleme | yayında |
-| 131 | ck0880_ikiPointerTersleme | İki pointer ile tersleme | yayında |
-| 132 | ck0885_consoleKeyInfoGiris | ConsoleKeyInfo'ya giriş | yayında |
-| 133 | ck0890_tusaBasincaYaziIlerlet | Tuşa basınca yazı ilerlet | yayında |
-| 134 | ck0895_sifreMaskeleme | Şifre maskeleme (*) | yayında |
-| 135 | ck0900_sifreKontrolu | Şifre kontrolü | yayında |
-| 136 | ck0905_sonsuzTekrarUcgen | Sonsuz döngüde tekrar üçgen | yayında |
-| 137 | ck0910_boyutaGoreBaklava | Boyutu klavyeden alınan baklava | yayında |
-| 138 | ck0915_satrancTahtasiRenk | Satranç tahtası deseni + renk | yayında |
-| 139 | ck0920_asalSayiAnalizi | Asal sayı analizi | yayında |
+| 8 | ck0075_kendiMetodumuYazmak | Kendi metodumu yazmak: `void` metot ve `return` ile değer döndüren metot | yayında |
+| 9 | ck0080_stringToplamaTuzagi | string + string birleştirir, toplamaz (pekiştirme) | yayında |
+| 10 | ck0090_tekKarakterOkuma | Console.Read() ile tek karakter okuma, ASCII kod döndürmesi | yayında |
+| 11 | ck0100_veriTipleriTanisma | byte, bool, char tipleriyle tanışma | yayında |
+| 12 | ck0110_dortgenCevreAlan | Parantez ile işlem sırası (çevre/alan hesabı) | yayında |
+| 13 | ck0120_ucSayiOrtalama | Üç sayının ortalaması (pekiştirme) | yayında |
+| 14 | ck0130_kareVeKup | Kare ve küp alma | yayında |
+| 15 | ck0140_ilkKararYapisi | Karar yapısına giriş (if/else) | yayında |
+| 16 | ck0150_cokDalliKarar | Çok dallı karar (if/else if/else) | yayında |
+| 17 | ck0160_ehliyetKontrolu | if/else ile sayısal karşılaştırma (pekiştirme) | yayında |
+| 18 | ck0170_kareMiDikdortgenMi | if/else ile sayısal eşitlik (pekiştirme) | yayında |
+| 19 | ck0180_notaCevirme | else if zincirinde sıralı aralık kontrolü | yayında |
+| 20 | ck0190_gecerliPuanKontrolu | Mantıksal VEYA (`\|\|`) | yayında |
+| 21 | ck0200_cinsiyetOkuma | Convert.ToChar ile tek karakter (char) okuma | yayında |
+| 22 | ck0210_askerlikKontrolu | Mantıksal VE (`&&`), `\|\|` ile `&&` bir arada | yayında |
+| 23 | ck0220_dortIslemFormatli | Dört işlemi formatlı yazdırma (pekiştirme) | yayında |
+| 24 | ck0230_notOperatoru | Mantıksal DEĞİL (`!`) operatörü | yayında |
+| 25 | ck0240_icIceIf | İç içe if (nested if) | yayında |
+| 26 | ck0250_loginTekIf | Aynı mantığın `&&` ile tek if'e indirgenmesi | yayında |
+| 27 | ck0260_forDonguGiris | `for` döngüsüne giriş, `break` ile erken çıkış | yayında |
+| 28 | ck0270_tekCiftKontrolu | `%` (mod) ile tek/çift kontrolü | yayında |
+| 29 | ck0280_gecerliMenu | Doğrulama sarmalayıcısı deseni (geçerlilik önce) | yayında |
+| 30 | ck0290_sembolIleSecim | `char` ile sembol tabanlı seçim (hesap makinesi) | yayında |
+| 31 | ck0300_kdvHesaplama | KDV hesaplama — yüzde formülü | yayında |
+| 32 | ck0310_maasKesinti | Maaş kesinti hesaplama — çok dallı yüzde | yayında |
+| 33 | ck0320_birlerBasamagi | Birler basamağını bulma (`sayi % 10`) | yayında |
+| 34 | ck0330_onBeseBolunebilirlik | 15'e bölünebilirlik (`%`, `&&`, sonsuz döngü) | yayında |
+| 35 | ck0340_bankaHesabi | Banka hesabı — kalıcı durum, sonsuz döngü | yayında |
+| 36 | ck0350_toplamBiriktirme | Toplam biriktirme (`+=`), kırılgan girdi | yayında |
+| 37 | ck0360_tryParseIleSaglam | `int.TryParse` ile hatalı girdiye dayanıklı hâle getirme | yayında |
+| 38 | ck0370_forAdimliArtis | `for` ile adım/artış belirleme (`i += 2`) | yayında |
+| 39 | ck0380_tekrarGirdiDeseni | Döngü içinde tekrar girdi isteme deseni | yayında |
+| 40 | ck0390_faktoriyel | Çarpımsal biriktirici (faktöriyel), `i++` | yayında |
+| 41 | ck0400_periyodikBicimlendirme | Döngüde periyodik biçimlendirme (`%5`) | yayında |
+| 42 | ck0410_dinamikAralik | Kullanıcı sınırlarıyla dinamik aralık yazdırma | yayında |
+| 43 | ck0420_birdenXeToplam | 1'den X'e toplam — biriktirici | yayında |
+| 44 | ck0430_aralikCiftSayilar | Aralıkta çift sayılar, retry-on-invalid deseni | yayında |
+| 45 | ck0440_aralikTekSayilar | Aralıkta tek sayılar — ck0430 varyantı | yayında |
+| 46 | ck0450_qIleCikis | Pozitif/negatif/sıfır analizi, `"q"` ile çıkış | yayında |
+| 47 | ck0460_tekSatirYildiz | Tek döngüyle yan yana yıldız (Console.Write) | yayında |
+| 48 | ck0465_sabitDikdortgen | İç içe for ile dikdörtgen çizme | yayında |
+| 49 | ck0470_bosSatirDeseni | Desende bir satırı boş bırakma | yayında |
+| 50 | ck0475_dikdortgenBosluk | Dikdörtgende bir sütunu boş bırakma | yayında |
+| 51 | ck0480_dortgendeDelik | Dikdörtgende tek bir yeri boş bırakma | yayında |
+| 52 | ck0485_metindeYildizBiriktirme | Metinde yıldız biriktirme | yayında |
+| 53 | ck0490_artanUcgenFor | Döngü sınırıyla artan üçgen | yayında |
+| 54 | ck0495_artanUcgenString | Yıldız ekleyerek artan üçgen | yayında |
+| 55 | ck0499_azalanUcgen | Azalan yıldız üçgeni | yayında |
+| 56 | ck0500_carpimTablosuIcIce | Çarpım tablosu (iç içe for) | yayında |
+| 57 | ck0505_usluSayiDongu | Üslü sayı hesaplama (döngü ile) | yayında |
+| 58 | ck0510_bosluklaHizalanmisUcgen | Boşlukla sağa hizalanmış üçgen | yayında |
+| 59 | ck0515_simetrikPiramit | Simetrik piramit | yayında |
+| 60 | ck0520_acilanIkizUcgen | Açılan ikiz üçgen | yayında |
+| 61 | ck0525_baklavaDeseni | Baklava (elmas) deseni | yayında |
+| 62 | ck0530_randomaGiris | Random ile rastgele sayı üretme | yayında |
+| 63 | ck0535_whileGiris | while döngüsüne giriş | yayında |
+| 64 | ck0540_doWhileGiris | do-while döngüsüne giriş | yayında |
+| 65 | ck0545_whileKiraSabit | while ile kira hesabı (sabit değerler) | yayında |
+| 66 | ck0550_whileKiraKlavyeden | while ile kira hesabı (klavyeden) | yayında |
+| 67 | ck0555_doWhileBiriktirici | do-while ile biriktirici | yayında |
+| 68 | ck0560_doWhileCiftSayiFiltre | do-while + if: çift sayı süzgeci | yayında |
+| 69 | ck0565_doWhileFarkliSentinel | do-while: farklı bir çıkış değeri | yayında |
+| 70 | ck0570_doWhileLogin | do-while ile giriş doğrulama | yayında |
+| 71 | ck0575_doWhileRandomTahmin | do-while + Random: sayı tahmin oyunu | yayında |
+| 72 | ck0580_whileTekrarOyna | while ile "tekrar oyna" döngüsü | yayında |
+| 73 | ck0585_switchGiris | switch'e giriş | yayında |
+| 74 | ck0590_switchHesapMakinesiChar | switch ile hesap makinesi (char) | yayında |
+| 75 | ck0595_switchHesapMakinesiString | switch ile hesap makinesi (string) | yayında |
+| 76 | ck0600_doWhileSwitchSayininOkunusu | do-while + switch: sayının okunuşu | yayında |
+| 77 | ck0605_forSonsuzRandomTahmin | for(;;) + break ile sınırsız hakla tahmin | yayında |
+| 78 | ck0610_besRastgeleSayi | Döngüde N adet rastgele sayı | yayında |
+| 79 | ck0615_farkliArdisikSayi | Ardışık aynı sayıyı engelleme | yayında |
+| 80 | ck0620_randomAralikKlavyeden | Random aralığını klavyeden alma | yayında |
+| 81 | ck0625_zamanlamaGiris | Thread.Sleep ile zamanlanmış sayaç | yayında |
+| 82 | ck0630_zamanlamaHizlanan | Giderek hızlanan sayaç | yayında |
+| 83 | ck0635_zamanlamaIleriGeri | Sonsuz döngüde ileri-geri sayma | yayında |
+| 84 | ck0640_zamanlamaSonsuzSayma | En sade sonsuz sayaç | yayında |
+| 85 | ck0645_zamanlamaBaklava | Baklava deseni + zamanlama | yayında |
+| 86 | ck0650_renkGiris | ConsoleColor'a giriş (cast) | yayında |
+| 87 | ck0655_renkVeIf | ConsoleColor + if: tek/çift renk | yayında |
+| 88 | ck0660_diziyeGiris | Diziye giriş | yayında |
+| 89 | ck0665_diziLiteralBaslatma | Dizi literal ile başlatma | yayında |
+| 90 | ck0670_diziForIleGirOku | for ile diziye giriş/okuma | yayında |
+| 91 | ck0675_diziFarkliSayiZorlama | Farklı sayı zorlama (kusurlu, karşılaştırma) | yayında |
+| 92 | ck0680_diziFarkliSayiDuzeltilmis | Farklı sayı zorlama (düzeltilmiş) | yayında |
+| 93 | ck0685_diziRandomBasit | Dizi + Random: basit | yayında |
+| 94 | ck0690_diziRandomKosulluFiltre | Dizi + Random: koşullu filtre | yayında |
+| 95 | ck0695_diziRandomBiriktirme | Dizi + Random: biriktirme | yayında |
+| 96 | ck0700_dinamikBoyutluDizi | Dinamik boyutlu dizi | yayında |
+| 97 | ck0705_diziArama | Dizide arama | yayında |
+| 98 | ck0710_diziSilme | Dizide silme (Array.Clear) | yayında |
+| 99 | ck0715_diziyeElemanEkleme | Diziye eleman ekleme (Array.Resize) | yayında |
+| 100 | ck0720_diziyiPozitifYapma | Diziyi pozitif yapma | yayında |
+| 101 | ck0725_diziTersleme | Diziyi tersleme (Array.Reverse) | yayında |
+| 102 | ck0730_rastgeleDiziSiralama | Rastgele diziyi sıralama | yayında |
+| 103 | ck0735_ikiDiziRastgeleVeri | İki diziden eşleşen rastgele veri | yayında |
+| 104 | ck0740_stringSesliHarfSayma | String'te sesli harf sayma | yayında |
+| 105 | ck0745_stringTerstenYazdirma | String'i tersten yazdırma | yayında |
+| 106 | ck0750_diziFonksiyonKoprusu | Dizi + fonksiyon köprüsü | yayında |
+| 107 | ck0755_fonksiyonStringTersCevirme | Fonksiyon ile string ters çevirme | yayında |
+| 108 | ck0760_fonksiyonaGiris | Fonksiyona giriş (parametre, return) | yayında |
+| 109 | ck0765_fonksiyonDonguToplam | Fonksiyon + döngü: 1'den N'e toplam | yayında |
+| 110 | ck0770_fonksiyonCarpmaPekistirme | Fonksiyon pekiştirme: çarpma | yayında |
+| 111 | ck0775_fonksiyonFaktoriyel | Fonksiyon ile faktöriyel | yayında |
+| 112 | ck0780_fonksiyonUsluSayi | Fonksiyon ile üslü sayı | yayında |
+| 113 | ck0785_hazirMetotKarekok | Hazır kütüphane metodu (Math.Sqrt) | yayında |
+| 114 | ck0790_castPekistirme | Cast operatörü pekiştirmesi | yayında |
+| 115 | ck0795_ondalikliSayiGirisi | Ondalıklı sayı girişi (virgül/nokta) | yayında |
+| 116 | ck0800_doWhileBosGirdiKontrolu | do-while + boş girdi kontrolü | yayında |
+| 117 | ck0805_forNoktaliVirgulTuzagi | Tuzak: for sonrası noktalı virgül | yayında |
+| 118 | ck0810_baslangicAdimBitisKlavyeden | Başlangıç/adım/bitiş klavyeden | yayında |
+| 119 | ck0815_forSonsuzCiftToplama | for(;;)+break ile çift toplama | yayında |
+| 120 | ck0820_doWhileTekToplama | do-while ile tek sayı toplama | yayında |
+| 121 | ck0825_puanNotCokDalliKarar | Puan/not: çok dallı karar | yayında |
+| 122 | ck0830_foreachIleFarkliSayi | foreach'e giriş | yayında |
+| 123 | ck0835_foreachBesFarkliSayi | foreach ile 5 farklı sayı | yayında |
+| 124 | ck0840_donguTurleriBirArada | Dört döngü türü bir arada | yayında |
+| 125 | ck0845_diziArraySort | Hazır sıralama metodu (Array.Sort) | yayında |
+| 126 | ck0850_diziOrtalama | Dizi + ortalama | yayında |
+| 127 | ck0855_diziDagitmaTekCift | Diziyi ikiye dağıtma (tek/çift) | yayında |
+| 128 | ck0860_diziDondurenFonksiyon | Dizi döndüren fonksiyon | yayında |
+| 129 | ck0865_taban2ye10Naif | 10'dan 2 tabana (ilk deneme) | yayında |
+| 130 | ck0870_listeGiris | List<int>'e giriş | yayında |
+| 131 | ck0875_listeKendiTerslemesi | Listeyi kendi for'unla tersleme | yayında |
+| 132 | ck0880_ikiPointerTersleme | İki pointer ile tersleme | yayında |
+| 133 | ck0885_consoleKeyInfoGiris | ConsoleKeyInfo'ya giriş | yayında |
+| 134 | ck0890_tusaBasincaYaziIlerlet | Tuşa basınca yazı ilerlet | yayında |
+| 135 | ck0895_sifreMaskeleme | Şifre maskeleme (*) | yayında |
+| 136 | ck0900_sifreKontrolu | Şifre kontrolü | yayında |
+| 137 | ck0905_sonsuzTekrarUcgen | Sonsuz döngüde tekrar üçgen | yayında |
+| 138 | ck0910_boyutaGoreBaklava | Boyutu klavyeden alınan baklava | yayında |
+| 139 | ck0915_satrancTahtasiRenk | Satranç tahtası deseni + renk | yayında |
+| 140 | ck0920_asalSayiAnalizi | Asal sayı analizi | yayında |
 
 Bu tablo her yeni ders eklendiğinde güncellenir. "Sırada ne var" diye buraya bakın.

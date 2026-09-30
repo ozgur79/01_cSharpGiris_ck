@@ -184,3 +184,4 @@ Append-only. Hiçbir şey silinmez, sadece eklenir.
   Tüm bloklar commit+push edildi (dbd8c44, fd595cc, 0bcef13, 69016ea, 536e0a6, + Blok 6).
 - **01_cSharpGiris_ck için arşiv kuyruğu boşaldı** — yeni parça gelene kadar planlanmış
   ders yok. arsiv/14 (WinForms, 02_cSharpForm_ck için) geldi ama bu projenin kapsamı değil.
+- ck0075_kendiMetodumuYazmak (Özgür'ün verdiği kod, void + return) onaylandı, commit+push edildi. README yeniden numaralandı, ck0750 notu düzeltildi, ilk ReadKey kaldırıldı.
