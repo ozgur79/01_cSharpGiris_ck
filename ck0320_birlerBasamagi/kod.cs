@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, klavyeden bir tam sayı okur ve sayi % 10 ile birler basamağını bulur.
+// Bulduğu rakamı "Birler Basamağındaki Rakam : ..." diye yazar.
+
 // ck0320 — Birler basamağını bulma: sayi % 10
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: bir sayıyı 10'a bölünce kalan, o sayının birler basamağını verir —

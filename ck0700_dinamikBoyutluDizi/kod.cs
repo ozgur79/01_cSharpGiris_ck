@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, dizi boyutunu klavyeden okur ve o uzunlukta bir int dizisi oluşturur. Diziyi
+// klavyeden doldurur, sonra elemanları alt alta yazar.
+
 // ck0700 — Dinamik boyutlu dizi
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: Şimdiye kadar dizi boyutu (new int[3] gibi) kodun içinde sabitti.

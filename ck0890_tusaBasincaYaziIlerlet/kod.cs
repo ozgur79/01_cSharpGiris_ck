@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, ekrana bir cümle yazmak için tuşlara basmanı bekler. Her tuşa basışında, hangi tuş
+// olursa olsun, "C# öğreniyorum, her tuşa bastıkça bir harf ilerliyorum!" cümlesinin bir sonraki harfini yazar.
+
 // ck0890 — Tuşa basınca yazı ilerlet (yazma pratiği efekti)
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // NOT: Bu ders de tek tuş okur, Özgür'ün VS'te elle denemesi gerekir (ck0885'teki not).

@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, sonsuz döngüde sayı sorar. Girilen sayı kadar satırlık bir üçgen çizer; her
+// satırın başına satır numarasını yazar (1:*, 2:** ...). Program kendiliğinden bitmez.
+
 // ck0905 — Sonsuz döngüde tekrar tekrar üçgen çizme
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0490'daki artan üçgene her satırın başına numara (i:) ekliyoruz,

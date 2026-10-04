@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, kullanıcı adı "ogrenci" ve şifre "kalfa123" olana kadar do-while döngüsünde
+// tekrar sorar. Doğru girişte ekranı temizler ve "Tebrikler, başarılı giriş!" yazar.
+
 // ck0570 — do-while ile giriş doğrulama
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0210'daki || (VEYA) operatörünü burada do-while ile birlikte

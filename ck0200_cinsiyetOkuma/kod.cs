@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, "Cinsiyetinizi Girin (E/K)" diye sorar ve Convert.ToChar ile tek karakter okur.
+// 'e' ya da 'E' girilirse "Erkek", başka bir karakter girilirse "Kadın" yazar.
+
 // ck0200 — Cinsiyet okuma: Convert.ToChar ile klavyeden tek karakter
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: Convert.ToChar ile klavyeden okunan yazıyı char'a çevirmek (ck0100'de

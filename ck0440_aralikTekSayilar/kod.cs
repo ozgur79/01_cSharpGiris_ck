@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, iki sayı okur. İlk sayı çiftse bir artırır, sonra ikişer ikişer atlayarak iki
+// sayı arasındaki (ikisi dahil) tek sayıları alt alta yazar.
+
 // ck0440 — Aralıkta tek sayılar: başlangıcı ayarlama tekniği
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0430'un varyantı — bu kez tek sayılar isteniyor. s1 çiftse `s1++` ile

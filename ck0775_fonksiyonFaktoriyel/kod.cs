@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, klavyeden bir sayı okur ve FaktoriyelAl(sayi) fonksiyonuyla faktöriyelini
+// hesaplar. Sonucu "sayı! = sonuç" biçiminde yazar.
+
 // ck0775 — Fonksiyon ile faktöriyel
 // NASIL: Yeni bir Console Application aç. "1. BÖLÜM"ü Main() içine yapıştır;
 //        "2. BÖLÜM"deki FaktoriyelAl metodunu class Program içine, Main()'in

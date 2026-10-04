@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, sonsuz döngüde ekranda önce 0'dan 9'a, sonra 9'dan 1'e sayar. Her sayı 250 ms
+// görünür, sonra ekran temizlenir; sayaç ileri-geri gidip gelir.
+
 // ck0635 — Sonsuz döngüde ileri-geri sayma
 // NASIL: Dosyanın en üstüne `using System.Threading;` ekle. Sonra aşağıdakini
 //        Main() içine yapıştır.

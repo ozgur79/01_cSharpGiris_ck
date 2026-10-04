@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, 10 elemanlı diziyi 1-99 arası rastgele sayılarla doldurup yazar. İç içe döngüyle
+// iki elemanın yerini değiştirerek küçükten büyüğe sıralar ve sıralı hâli yazar.
+
 // ck0730 — Rastgele diziyi küçükten büyüğe sıralama
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: Diziyi kendi elimizle sıralamak — iç içe iki döngüyle her elemanı

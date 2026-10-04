@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, ürünün geliş fiyatını ve KDV oranını okur. Satış fiyatını
+// gelisFiyati + (kdvOrani / 100) * gelisFiyati ile hesaplar ve ekrana yazar.
+
 // ck0300 — KDV hesaplama: yüzde formülü
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: bir sayının yüzdesini bulma formülü — (oran / 100) * sayı; sonucu asıl

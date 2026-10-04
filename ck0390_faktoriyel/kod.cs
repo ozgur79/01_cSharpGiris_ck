@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, klavyeden bir sayı okur ve for döngüsüyle 1'den o sayıya kadar olan sayıları
+// çarparak faktöriyelini hesaplar. Sonucu "sayı! = sonuç" biçiminde yazar.
+
 // ck0390 — Faktöriyel: çarpımsal biriktirici + i++
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0350'deki biriktirici toplama (+=) yapıyordu, burada çarpma (*) ile

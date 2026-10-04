@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, klavyeden iki sayıyı string olarak okur (x ve y) ve x + y işlemini ekrana yazar.
+// + burada toplama değil birleştirme yapar: 3 ve 5 girilirse sonuç 8 değil "35" çıkar.
+
 // ck0080 — String toplama tuzağı
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: string + string, sayısal toplama değil BİRLEŞTİRMEdir —

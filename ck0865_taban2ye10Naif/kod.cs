@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, 10 tabanında bir sayı okur ve ikiye bölüp kalanları yazarak ikilik tabana
+// çevirmeyi dener. Kalanlar bulundukları sırayla yazılır.
+
 // ck0865 — 10 tabanından 2 tabanına: ilk deneme (bilerek ters sırada çıkar)
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: Bir sayıyı ikili tabana çevirmenin klasik yolu — 2'ye böl, kalanı

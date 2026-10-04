@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, 4 elemanlı bir diziyi doldurur: ilk üç eleman 0-9 arası rastgele sayıdır, dördüncü
+// eleman bu üçünün toplamıdır. Dizinin dört elemanını alt alta yazar.
+
 // ck0695 — Dizi + Random + biriktirme: toplamı son elemana koyma
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0350'deki biriktirici (toplam) tekniğini burada dizi doldururken

@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, sürekli sayı sorar. Çift sayıları toplar ve "Şimdiye kadar girilen ÇİFT sayıların
+// toplamı: ..." yazar. Tek bir sayı girilince break ile döngüden çıkar.
+
 // ck0815 — for(;;) + break ile çift sayı toplama
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0560'ta aynı fikri (çift topla, tek girilince dur) do-while'ın

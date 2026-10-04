@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, 10 tabanındaki bir sayıyı ikilik tabana çevirir. Kalanları listede biriktirir,
+// listeyi for ile kendi yazdığımız takasla tersine çevirir ve ikilik sayıyı yazar.
+
 // ck0875 — Listeyi kendi for'unla tersleme (ck0870'in ödevi)
 // NASIL: Yeni bir Console Application aç. Dosyanın en üstüne `using
 //        System.Collections.Generic;` ekle. Sonra aşağıdakini Main() içine yapıştır.

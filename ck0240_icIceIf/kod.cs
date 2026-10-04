@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, önce kullanıcı adını sorar. Ad "ogrenci" (Ogrenci/OGRENCI de olur) ise şifreyi
+// sorar; şifre "kalfa123" ise "Başarılı Giriş :)" yazar. Ad yanlışsa şifre hiç sorulmaz.
+
 // ck0240 — İç içe if (nested if): kullanıcı adı, sonra şifre
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: bir if bloğunun içine ikinci bir if yazmak (iç içe if) — dıştaki if

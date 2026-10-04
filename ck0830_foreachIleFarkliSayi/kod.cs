@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, 0-3 arasında birbirinden farklı 3 rastgele sayı seçip diziye koyar. Yeni sayıyı
+// foreach ile diziye bakarak kontrol eder; zaten varsa atlar. Sonunda 3 sayıyı yan yana yazar.
+
 // ck0830 — foreach'e giriş: dizide arama yapmanın kısa yolu
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: foreach, bir dizinin İÇİNDEKİ HER ELEMANI, indis (i) kullanmadan

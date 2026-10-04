@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, klavyeden bir sayı okur ve hazır Math.Sqrt metoduyla karekökünü hesaplar.
+// Sonucu "Karekök: ..." diye yazar.
+
 // ck0785 — Hazır kütüphane metodu: Math.Sqrt
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0760-ck0780'de KENDİ fonksiyonlarımızı yazdık. Math.Sqrt ise

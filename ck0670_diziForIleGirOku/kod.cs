@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, 3 elemanlı bir int dizisini for döngüsüyle klavyeden doldurur. İkinci bir
+// döngüyle dizinin elemanlarını "Dizinin n. elemanı: ..." diye yazar.
+
 // ck0670 — Dizi + for: 3 elemanı gir, sonra oku
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0660'ta her elemanı ayrı ayrı elle yazmıştık. Burada bir for

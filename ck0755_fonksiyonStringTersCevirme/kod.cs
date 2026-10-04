@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, klavyeden bir kelime okur ve cevir() fonksiyonuyla harflerini tersine çevirir.
+// Tersine çevrilmiş kelimeyi ekrana yazar.
+
 // ck0755 — Fonksiyon ile string ters çevirme
 // NASIL: Yeni bir Console Application aç. "1. BÖLÜM"ü Main() içine yapıştır;
 //        "2. BÖLÜM"deki cevir metodunu class Program içine, Main()'in DIŞINA ekle

@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, "Adınız nedir : " diye sorar ve klavyeden girilen ismi isim adlı string değişkene
+// alır. Sonra "Merhaba " + isim şeklinde yazıları birleştirip ekrana yazar.
+
 // ck0020 — Kullanıcıdan yazı (string) almak
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: string değişken tanımlamak, Console.ReadLine ile klavyeden yazı okumak,

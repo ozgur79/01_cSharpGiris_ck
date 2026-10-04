@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, ck0525'teki baklava desenini sonsuz döngüde tekrar tekrar çizer. Desen 500 ms
+// ekranda kalır, ekran temizlenir, 500 ms boş kalır ve yeniden çizilir; desen yanıp söner.
+
 // ck0645 — Baklava deseni + zamanlama: hareketli desen
 // NASIL: Dosyanın en üstüne `using System.Threading;` ekle. Sonra aşağıdakini
 //        Main() içine yapıştır.

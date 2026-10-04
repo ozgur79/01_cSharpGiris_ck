@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, klavyeden bir tam sayı okur ve sayi * sayi işlemiyle karesini hesaplar.
+// Sonucu "Girilen sayının karesi = ..." diye ekrana yazar.
+
 // ck0050 — Sayının karesi
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: bir sayıyı kendisiyle çarparak karesini almak

@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, 0-100 arası bir puan okur ve else if zinciriyle nota çevirir: 25 altı 0, 50 altı 1,
+// 60 altı 2, 70 altı 3, 85 altı 4, 100'e kadar 5. 0'dan küçük ve 100'den büyükse "Geçersiz Puan" yazar.
+
 // ck0180 — Puanı nota çevirme: sıralı aralık kontrolü
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: else if zincirinde koşullar sırayla denenir — bir koşula gelindiğinde

@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, 1000 TL başlangıç bakiyesiyle sonsuz döngüde çalışır. Her turda y (yatır) ya da
+// ç (çek) ve miktar sorar; bakiyeyi günceller ve yazar. Çekilen miktar bakiyeden büyükse "Yetersiz bakiye" der.
+
 // ck0340 — Banka hesabı: kalıcı bakiye, yatır/çek
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: döngü dışında tanımlanan bir değişken (bakiye), döngünün her turunda

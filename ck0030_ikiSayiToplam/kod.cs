@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, klavyeden iki tam sayı (s1 ve s2) okur, Convert.ToInt32 ile yazıdan sayıya çevirir.
+// İkisini toplayıp "Klavyeden girilen sayıların toplamı : ..." diye ekrana yazar.
+
 // ck0030 — İki sayının toplamı
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: int değişken tanımlamak, Convert.ToInt32 ile klavyeden okunan yazıyı

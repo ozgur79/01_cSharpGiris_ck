@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, 3 elemanlı bir diziyi 0-19 arası rastgele sayılarla while ile doldurur. do-while
+// ile diziyi yazar, for ile küçükten büyüğe sıralar, foreach ile sıralı hâlini yazar.
+
 // ck0840 — Dört döngü türü bir arada (döngü ailesinin kapanışı)
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: Şimdiye kadar öğrendiğin dört döngü türünü (while, do-while, for,

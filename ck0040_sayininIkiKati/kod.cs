@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, klavyeden bir tam sayı (x) okur, 2 * x işlemiyle iki katını y'ye atar.
+// Sonucu "Klavyeden girilen sayının iki katı : ..." diye ekrana yazar.
+
 // ck0040 — Sayının iki katı
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: * ile çarpma yapmak (bir önceki derste + ile toplama görmüştük)

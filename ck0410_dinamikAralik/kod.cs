@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, klavyeden iki sayı okur (s1 ve s2). s1'den s2'ye kadar (ikisi dahil) bütün tam
+// sayıları alt alta ekrana yazar.
+
 // ck0410 — İki sayı arasını yazdırma: dinamik aralık
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: for döngüsünün başlangıç ve bitiş değerleri sabit sayı olmak zorunda

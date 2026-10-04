@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, bilgisayarın tuttuğu 0-254 arası rastgele sayıyı 3 hakta bulmanı ister. Her
+// tahminden sonra "daha büyük" ya da "daha küçük" ipucu verir; bilinirse ya da hak biterse oyun biter.
+
 // ck0575 — do-while + Random: sayı tahmin oyunu
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0530'daki Random'ı ck0555'teki do-while ile birleştiriyoruz —

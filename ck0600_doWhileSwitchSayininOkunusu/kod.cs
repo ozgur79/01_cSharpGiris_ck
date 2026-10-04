@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, 0-9999 arası bir sayı okur (dışındaysa tekrar sorar) ve sayıyı Türkçe okunuşuyla
+// yazar (örn. 1234 için "binikiyüzotuzdört"). Binler, yüzler, onlar ve birler basamağı için ayrı switch kullanır.
+
 // ck0600 — do-while + switch: sayının okunuşu
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0430'daki doğrulama-tekrar (retry-on-invalid) deseni burada

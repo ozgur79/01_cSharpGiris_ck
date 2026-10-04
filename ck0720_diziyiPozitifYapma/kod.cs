@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, { -16, 71, -18, -4, 10, 0 } dizisindeki negatif sayıları -1 ile çarparak pozitif
+// yapar. Dizinin yeni hâlini [ sayı ] biçiminde yan yana yazar.
+
 // ck0720 — Diziyi pozitif yapma
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: Dizideki elemanları TEK TEK değiştirmek (mutasyon) — negatif olan

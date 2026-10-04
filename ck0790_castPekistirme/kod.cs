@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, x = 10 ve y = 4 ile bölme yapar. Önce int olarak (2), sonra (float) dönüşümünü
+// farklı yerlere koyarak dört şekilde böler (örn. (float)x / y = 2.5) ve her sonucu yazar.
+
 // ck0790 — Cast operatörü pekiştirmesi: (Tip)değer nereye konur?
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0650'de (ConsoleColor)renk ile cast'i görmüştük. Burada ck0060'a

@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, işlem tipini (1: toplama, 2: çıkarma, 3: çarpma, 4: bölme) sorar. Seçim 1-4
+// arasındaysa iki sayı okuyup işlemi yapar. Değilse sayıları sormadan "1-4 arası rakam gir" yazar.
+
 // ck0280 — Çok seçenekli menüde önce geçerlilik, sonra işlem
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: "doğrulama sarmalayıcısı" deseni — dış if önce seçimin 1-4 arası geçerli

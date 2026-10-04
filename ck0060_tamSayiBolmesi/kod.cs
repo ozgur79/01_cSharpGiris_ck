@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, x = 10 ve y = 4 sayılarını int, float ve double değişkenlere bölerek atar.
+// Üç sonuç da 2 çıkar, çünkü bölme int olarak yapılır ve küsurat atılır. Üç sonucu alt alta yazar.
+
 // ck0060 — Tam sayı bölmesi
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: iki int değişkeni böldüğümüzde sonucun küsuratı (ondalık kısmı) atılır —

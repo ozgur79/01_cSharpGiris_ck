@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, tuşları tek tek okuyup ekrana * yazar; Enter'a basılınca girilen şifreyi
+// doğru şifre "12345" ile karşılaştırır ve "Şifre doğru" ya da "Şifre yanlış" yazar.
+
 // ck0900 — Şifre kontrolü: girilen ile önceden belirlenmiş şifreyi karşılaştırma
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // NOT: Bu ders de gerçek klavye ister, ck headless ortamda test edemedi — sadece

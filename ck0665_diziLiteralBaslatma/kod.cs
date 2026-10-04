@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, 5 isimlik bir string dizisini (ali, veli, selim, ayşe, cansu) doğrudan değerlerle
+// oluşturur. Dizinin ilk (indis 0) ve son (indis 4) elemanını ekrana yazar.
+
 // ck0665 — Dizi literal ile başlatma
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0660'ta diziyi boş açıp elle dolduruyorduk. Burada elemanları

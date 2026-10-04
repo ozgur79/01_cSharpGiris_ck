@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, bilgisayarın tuttuğu 0-99 arası rastgele sayıyı hak sınırı olmadan tahmin etmeni
+// ister. Her tahminden sonra "daha büyük" ya da "daha küçük" der; bilince "Bildiniz!" yazıp break ile çıkar.
+
 // ck0605 — for(;;) + break: sınırsız hakla sayı tahmin
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0575'te do-while ile SINIRLI hakla tahmin ediyorduk. Burada

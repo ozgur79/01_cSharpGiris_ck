@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, iç içe iki for ile 10 satır ve her satırda 5 yıldızdan oluşan sabit bir
+// dikdörtgen çizer. Dış döngü satır sayısını, iç döngü sütun sayısını belirler.
+
 // ck0465 — İç içe for ile sabit dikdörtgen çizme
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: Bir for döngüsünün içine ikinci bir for döngüsü konabilir. Dıştaki döngü

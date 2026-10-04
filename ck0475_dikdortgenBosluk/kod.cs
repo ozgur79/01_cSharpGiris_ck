@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, 10 satırlık ve satırı 4 yıldız olan bir dikdörtgen çizer. Her satırda
+// i == 2 olduğunda araya bir boşluk koyarak üçüncü yıldızdan önce boş bir sütun bırakır.
+
 // ck0475 — Dikdörtgende bir sütunu boş bırakma
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0470'te karar satır bazındaydı (dış döngünün sayacına bakıyordu).

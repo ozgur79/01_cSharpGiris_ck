@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, ters (azalan) bir yıldız üçgeni çizer. k, 11'den 1'e doğru azalır; ilk satırda
+// 11, son satırda 1 yıldız yazılır.
+
 // ck0499 — Azalan sayaçla ters üçgen
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0490'da k artarak üçgeni büyütüyordu. Burada k azalarak (k--) başlıyor

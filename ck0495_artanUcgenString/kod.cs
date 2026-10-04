@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, tek döngüyle 5 satırlık artan bir yıldız üçgeni çizer. Her turda yildiz adlı
+// metne bir * ekler ve metni yazar; 1'den 5'e kadar yıldızlı satırlar çıkar.
+
 // ck0495 — Aynı üçgen, tek döngü ve string biriktirme ile
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0490'daki üçgen iç içe iki döngüyle çizilmişti. Burada aynı görsel

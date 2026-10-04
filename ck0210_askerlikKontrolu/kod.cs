@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, cinsiyeti (E/K) ve yaşı okur. Cinsiyet e ya da E olup yaş 18 ve üzeriyse
+// "Asker olabilir", aksi halde "Askerlik için uygun değil!" yazar.
+
 // ck0210 — Askerlik kontrolü: && (mantıksal VE)
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: && iki koşulun İKİSİ BİRDEN doğru olmasını ister (|| en az birini

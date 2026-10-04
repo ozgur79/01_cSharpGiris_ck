@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, ay numarasını (1-3) okur ve switch ile ayın adını yazar (OCAK, ŞUBAT, MART).
+// 1-3 dışındaki sayılarda "1-3 arası sayı girin" yazar.
+
 // ck0585 — switch'e giriş
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: Çok sayıda == karşılaştırmalı else if zincirini (ck0180) switch ile

@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, "Şairimiz Mehmet Akif'in soyadı nedir?" diye sorar. Girilen cevap tam olarak
+// "Ersoy" ise "Doğru cevap.", değilse "Yanlış cevap." yazar. Büyük/küçük harfe duyarlıdır.
+
 // ck0140 — İlk karar yapısı: if / else
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: if ile bir koşulu sınamak — koşul doğruysa (true) if'in altındaki satır,

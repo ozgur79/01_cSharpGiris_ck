@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, 1-5 arasında birbirinden farklı 5 rastgele sayı seçer. Her sayıyı foreach ile
+// dizide arar, yoksa ekler. Sonunda 5 sayıyı (1-5'in karışık sırası) yan yana yazar.
+
 // ck0835 — foreach ile 5 farklı sayı (ck0615'in tam çözümü)
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0615'te diziler henüz yoktu, sadece ARDIŞIK tekrarı

@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, sayac değişkenini 7'den 10'a kadar birer birer artıran bir for döngüsü yazar.
+// Ardından sayac'ı ekrana yazdırır.
+
 // ck0805 — Tuzak: for'dan sonraki fazladan noktalı virgül (10B'nin gerçekten takıldığı kod)
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: Bu ders BİLEREK hatalı — for(...) satırının hemen sonunda gizli bir

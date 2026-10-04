@@ -1,3 +1,8 @@
+// BU KOD NE YAPAR?
+// Bu kod, altı farklı veri tipinde birer değişken tanımlar: byte (255), int (5),
+// double (35.32), bool (true), char ('?') ve string ("Benim adım Ahmet"). Her birini
+// Console.WriteLine ile alt alta ekrana yazar.
+
 // ck0100 — Veri tipleriyle tanışma
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: her değişkenin bir veri tipi vardır — tip, değişkenin ne tür bilgi

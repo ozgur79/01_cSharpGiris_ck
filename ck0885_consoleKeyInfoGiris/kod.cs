@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, "Bir tuşa basınız!" der ve Console.ReadKey(true) ile tek bir tuş okur. Basılan
+// tuşun adını ekrana yazar (örn. "A tuşuna bastınız!"); tuş ekrana kendiliğinden yansımaz.
+
 // ck0885 — ConsoleKeyInfo'ya giriş: tek tuş okuma
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // NOT: Bu ders (ve ck0890/0895/0900) Console.ReadKey ile TEK TUŞ okur — Enter'a

@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, bir dörtgenin enini ve boyunu okur. İkisi eşitse "Karedir", değilse
+// "Dikdörtgendir" yazar.
+
 // ck0170 — Kare mi dikdörtgen mi: if/else ile sayısal eşitlik
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: if/else'i == ile sayısal eşitlik sınamada kullanmak (ck0110'daki

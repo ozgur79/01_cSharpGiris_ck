@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, Console.Read() ile klavyeden tek bir karakter okur. Metot int döndürdüğü için
+// ekrana karakterin kendisi değil ASCII kod karşılığı (örn. "a" için 97) yazılır.
+
 // ck0090 — Tek karakter okuma ve ASCII kodu
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: Console.Read() ile klavyeden tek karakter okumak — ReadLine'ın aksine

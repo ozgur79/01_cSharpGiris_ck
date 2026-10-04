@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, klavyeden bir dörtgenin enini ve boyunu okur. Çevreyi (en + boy) * 2, alanı
+// en * boy ile hesaplar ve ikisini ekrana yazar.
+
 // ck0110 — Dörtgenin çevresi ve alanı
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: parantez kullanarak işlem sırasını değiştirmek — (en + boy) * 2 önce

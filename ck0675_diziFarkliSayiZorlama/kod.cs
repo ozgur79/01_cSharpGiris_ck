@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, 5 elemanlı bir diziyi klavyeden doldururken aynı sayının ikinci kez girilmesini
+// engellemeyi amaçlar. Sonunda dizinin elemanlarını alt alta yazar.
+
 // ck0675 — Diziye farklı sayılar girmeye zorlama (bu ders bilerek kusurlu)
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: Bir öncekiyle AYNI sayı girilirse tekrar sormak için iç içe for +

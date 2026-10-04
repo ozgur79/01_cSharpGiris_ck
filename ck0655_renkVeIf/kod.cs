@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, bir sayı okur. Sayı çiftse ekranın arka planını mavi (9), tekse yeşil (10) yapar.
+// Sayıyı sormadan önce arka plan kırmızı (12) olarak başlar.
+
 // ck0655 — ConsoleColor + if: tek/çift sayıya göre renk
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0650'deki cast'i ck0270'teki tek/çift kontrolüyle birleştiriyoruz —

@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, bir sayı okur ve ToplaminiBul(sayi) fonksiyonuyla 1'den o sayıya kadar olan
+// sayıların toplamını hesaplar. Sonucu ekrana yazar.
+
 // ck0765 — Fonksiyon + döngü: 1'den N'e toplam
 // NASIL: Yeni bir Console Application aç. "1. BÖLÜM"ü Main() içine yapıştır;
 //        "2. BÖLÜM"deki ToplaminiBul metodunu class Program içine, Main()'in

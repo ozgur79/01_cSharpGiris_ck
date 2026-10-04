@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, 2 elemanlı bir int dizisi (sayilar) oluşturur. Klavyeden iki sayı alıp
+// dizinin 0. ve 1. elemanına yazar, her birini girilince ekrana yazdırır.
+
 // ck0660 — Diziye giriş
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: Birden fazla değeri TEK bir değişkende tutmak için dizi (array)

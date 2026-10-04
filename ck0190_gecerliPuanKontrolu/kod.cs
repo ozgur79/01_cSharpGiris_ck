@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, bir puan okur. puan < 0 || puan > 100 ise "Geçersiz puan!" yazar. Geçerliyse
+// puanı aralığa göre 0'dan 5'e kadar notlandırır ve "Not : ..." yazar.
+
 // ck0190 — Geçerli puan kontrolü: || (mantıksal VEYA)
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: || iki koşuldan EN AZ BİRİ doğruysa true döner. "puan < 0 VEYA

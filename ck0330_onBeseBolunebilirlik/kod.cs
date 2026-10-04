@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, sonsuz bir for(;;) döngüsünde tekrar tekrar sayı sorar. Sayı hem 3'e hem 5'e
+// kalansız bölünüyorsa "15'e kalansız bölünebilir", değilse "bölünemez" yazar. Program kendiliğinden bitmez.
+
 // ck0330 — 15'e bölünebilirlik: %3 + %5 + && bir arada
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: bir sayı 3'e VE 5'e aynı anda kalansız bölünüyorsa 15'e de kalansız

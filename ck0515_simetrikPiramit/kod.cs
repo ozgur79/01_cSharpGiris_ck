@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, 5 satırlık simetrik bir piramit çizer. Her satırda önce boşluk, sonra sol yarı
+// yıldızları, ardından sağ yarı yıldızları yazar; yıldız sayısı satır başına 2 artar.
+
 // ck0515 — Simetrik piramit
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0510'daki tek taraflı üçgene, aynı satırda ikinci bir yıldız bloğu

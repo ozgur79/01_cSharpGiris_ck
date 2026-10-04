@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, 0-9 arasında 5 rastgele sayı üretir ve aynı sayının arka arkaya gelmesini
+// engeller. Bir önceki sayıyla aynı çıkarsa while ile yeni sayı tutar; sonra sayıyı yazar.
+
 // ck0615 — Ardışık aynı sayıyı engelleme
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0610'da art arda üretilen sayılar birbirinin aynı olabiliyordu.

@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, a = 5 ve b = 3 için dört karşılaştırmanın sonucunu yazar: a > b, !(a > b),
+// a < b ve !(a < b). ! operatörü sonucu tersine çevirir, çıktı True/False/False/True olur.
+
 // ck0230 — ! (NOT/DEĞİL) operatörü
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ! operatörü bir koşulun (true/false) sonucunu tam tersine çevirir —

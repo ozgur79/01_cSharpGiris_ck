@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, başlangıç değerini, artış miktarını ve bitiş değerini klavyeden okur.
+// Başlangıçtan bitişe kadar (bitiş dahil) bu adımla sayıları yan yana yazar.
+
 // ck0810 — Başlangıç, adım ve bitiş hepsi klavyeden
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0370'teki adımlı artış (i += adim) ile ck0410'daki dinamik

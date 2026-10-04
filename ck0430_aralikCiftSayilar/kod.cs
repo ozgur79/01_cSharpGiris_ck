@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, iki sayı okur. İlk sayı ikinciden küçük değilse "Tekrar giriniz" der ve baştan
+// sorar. Geçerli girişte, iki sayı arasındaki (ikinci hariç) çift sayıları yan yana yazar.
+
 // ck0430 — Aralıkta çift sayılar + geçersiz girişte tekrar sorma
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: "geçersizse tekrar sor" deseni — dış for(;;) kullanıcı geçerli bir

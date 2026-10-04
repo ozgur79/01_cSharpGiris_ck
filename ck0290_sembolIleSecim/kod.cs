@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, işlem sembolünü (+ - * /) ve iki sayıyı okur (double). Sembole göre hesap
+// yapıp "s1 işlem s2 = sonuç" yazar; sembol listede yoksa uyarı mesajı yazar.
+
 // ck0290 — Sembol tabanlı seçim: char ile + - * / karşılaştırma
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: pekiştirme — Convert.ToChar (ck0200) ile okunan bir karakteri '+','-',

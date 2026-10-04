@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, 1'den 50'ye kadar olan sayıları yan yana yazar. i % 5 == 1 olduğunda araya boş
+// satır koyar; böylece sayılar 5'erli satırlar halinde ekrana dizilir.
+
 // ck0400 — Döngü içinde periyodik biçimlendirme: her 5 sayıda bir satır atlama
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: döngü sayacına % ile bakarak "her N turda bir" bir şey yapmak — burada

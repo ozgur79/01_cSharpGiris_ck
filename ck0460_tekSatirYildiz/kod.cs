@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, tek bir for döngüsüyle ekrana yan yana 10 tane * yazar. Console.Write kullandığı
+// için yıldızlar alt satıra geçmeden aynı satırda kalır.
+
 // ck0460 — Tek döngüyle yan yana yıldız
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: Şimdiye kadar Console.WriteLine ile her yazdırmadan sonra alt satıra

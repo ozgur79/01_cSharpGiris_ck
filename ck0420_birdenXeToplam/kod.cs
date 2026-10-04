@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, klavyeden bir sayı okur ve for döngüsüyle 1'den o sayıya kadar olan sayıları
+// toplar. Sonucu "1'den ... ya kadar olan sayıların toplamı : ..." diye yazar.
+
 // ck0420 — 1'den X'e kadar toplam
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: pekiştirme — ck0390'daki çarpımsal biriktiriciye benzer ama burada

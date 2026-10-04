@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, ck0240'taki giriş kontrolünün aynısını tek bir if ile yapar. Kullanıcı adı ve
+// şifre baştan sorulur; ad "ogrenci" (Ogrenci/OGRENCI de olur) ve şifre "kalfa123" ise giriş başarılıdır.
+
 // ck0250 — Aynı giriş kontrolü, tek if ile (&& ile indirgeme)
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0240'taki iç içe if ile yaptığımız kontrolü, && (ck0210'da görmüştük)

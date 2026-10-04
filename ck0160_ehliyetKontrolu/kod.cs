@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, yaşı sorar. Yaş 18'den küçükse "Sütünü iç gel!", değilse "Ehliyet alabilir"
+// yazar.
+
 // ck0160 — Ehliyet kontrolü: if/else ile sayısal karşılaştırma
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: if/else'i (ck0140'ta == ile görmüştük) şimdi < ile sayısal

@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, 10 tabanında bir sayıyı ikilik tabana çevirir. İkiye bölmenin kalanlarını
+// List<int> içinde biriktirir, listenin uzunluğunu yazar, Reverse ile çevirip ikilik sayıyı yazar.
+
 // ck0870 — List<int>'e giriş: ck0865'in sırasını .Reverse() ile düzeltme
 // NASIL: Yeni bir Console Application aç. Dosyanın en üstüne `using
 //        System.Collections.Generic;` ekle (List için gerekli). Sonra

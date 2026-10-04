@@ -1,3 +1,8 @@
+// BU KOD NE YAPAR?
+// Bu kod, kullanıcı adı ve şifreyi en fazla 3 kez sorar (for döngüsü, hak 3'ten 1'e iner).
+// Doğru giriş (ogrenci / kalfa123) olursa "Hoşgeldiniz" yazıp break ile çıkar. 3 hak da biterse
+// "Hesap bloke oldu!" yazar.
+
 // ck0260 — for döngüsüne giriş: sınırlı deneme hakkı
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: for döngüsü — parantez içinde üç parça var: başlangıç (bir kere

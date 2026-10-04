@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, 0-254 arası 10 rastgele sayı üretir. Çiftleri cift dizisine, tekleri tek dizisine
+// ayırır. Tüm sayıları, çiftleri ve tekleri ayrı satırlarda yazar.
+
 // ck0855 — Bir diziyi ikiye dağıtma: tek ve çift
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: Bir dizideki elemanları bir koşula göre İKİ AYRI diziye

@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, sayı sormaya devam eder ve yalnız çift sayıları toplar. Tek bir sayı girilince
+// döngü biter; toplanmış çift sayıların toplamını yazar.
+
 // ck0560 — do-while + if: çift sayı girildikçe devam
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0555'teki do-while biriktiriciye bir if süzgeci ekliyoruz — sadece

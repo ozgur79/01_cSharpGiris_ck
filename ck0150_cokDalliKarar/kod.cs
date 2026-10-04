@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, klavyeden iki sayı okur ve karşılaştırır. Birinci büyükse, ikinci büyükse ya da
+// ikisi eşitse buna uygun cümleyi yazar; if / else if / else zinciri kullanır.
+
 // ck0150 — Çok dallı karar: if / else if / else
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: else if ile birden fazla koşulu sırayla sınamak; >, < ile sayısal

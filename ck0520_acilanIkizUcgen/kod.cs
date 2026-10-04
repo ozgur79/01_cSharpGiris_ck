@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, 5 yıldızdan 1'e doğru azalan iki üçgeni aynı satırda yan yana yazar. Üçgenlerin
+// arası bos adlı metinle her satırda 2 boşluk genişler; 5 satır çıkar.
+
 // ck0520 — Açılan ikiz üçgen
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0510'daki tek üçgen burada aynı satırda iki kez yazdırılıyor

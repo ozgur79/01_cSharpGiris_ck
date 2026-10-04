@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, bir sayı sorar ve pozitif mü negatif mi olduğunu yazar; sonra yeni sayı sorup
+// bunu tekrarlar. 0 girilince break ile döngüden çıkar ve "Programdan çıkıldı" yazar.
+
 // ck0380 — Döngü içinde tekrar girdi isteme deseni
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: döngü başlamadan önce bir kez soru sorulur, döngü içinde her turun

@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, bir sayıyı ve bir kuvveti okur. for döngüsüyle sayıyı kuvvet kez kendisiyle
+// çarpıp üssünü hesaplar ve "Sonuç = ..." yazar.
+
 // ck0505 — Üslü sayı hesaplama (döngü ile)
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0390'daki faktöriyeldeki çarpımsal biriktirici (sonuc = sonuc * i)

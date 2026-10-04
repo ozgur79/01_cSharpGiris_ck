@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, 0-254 arası rastgele 3 TEK sayı seçip diziye koyar ve yazar. Array.Sort ile
+// diziyi küçükten büyüğe sıralar ve sıralı hâlini yazar.
+
 // ck0845 — Hazır bir sıralama metodu vardı: Array.Sort
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0730'da kendi sıralama mantığımızı kurmuştuk çünkü hazır bir

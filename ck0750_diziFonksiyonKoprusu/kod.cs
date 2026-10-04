@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, elemanEkle() fonksiyonuyla 4 elemanlık bir string dizisine "Ali" ve "Cemil" ekler.
+// listele() fonksiyonuyla bu iki elemanı alt alta yazar. Dizi ve sayaç fonksiyon dışında tutulur.
+
 // ck0750 — Dizi + fonksiyon köprüsü (dizi ailesinin kapanışı)
 // NASIL: Yeni bir Console Application aç. Bu ders İSTİSNA: aşağıdaki her şeyi
 //        Main() içine YAPIŞTIRMA. Main() içine sadece "1. BÖLÜM"ü yapıştır; "2. BÖLÜM"

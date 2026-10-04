@@ -1,3 +1,6 @@
+// BU KOD NE YAPAR?
+// Bu kod, klavyeden ondalıklı bir sayı okur (double). Sayının iki katını ekrana yazar.
+
 // ck0795 — Ondalıklı sayı girişi: virgül mü, nokta mı?
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: Türkçe ayarlarda ondalık ayracı NOKTA değil VİRGÜLDÜR. "3.5" yazarsan

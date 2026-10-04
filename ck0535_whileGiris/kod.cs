@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, while döngüsüyle sayı sorar. Her sayı için pozitif, negatif ya da sıfır
+// olduğunu yazar. q girilince döngü biter ve "Programdan çıkıldı." yazar.
+
 // ck0535 — while döngüsüne giriş
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0260'taki for döngüsü belli sayıda dönüyordu. while, şart doğru

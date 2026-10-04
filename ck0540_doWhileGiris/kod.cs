@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, do-while döngüsüyle i değerini 1'den 100'e kadar birer birer artırır ve her
+// değeri yazar. Bitince i'nin son değerini (100) yazar.
+
 // ck0540 — do-while döngüsüne giriş
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: while şartı ÖNCE kontrol eder, gövde belki hiç çalışmaz. do-while

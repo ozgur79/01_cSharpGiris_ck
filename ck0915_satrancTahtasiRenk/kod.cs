@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, X ve Y değerlerini okur. X satır, Y sütunluk bir satranç tahtası çizer;
+// kareler sarı ve beyaz arka planla dönüşümlü boyanır (satır + sütun çiftse sarı).
+
 // ck0915 — Satranç tahtası deseni (renk + iç içe döngü)
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0650/ck0655'teki ConsoleColor'ı iki boyutlu bir desene

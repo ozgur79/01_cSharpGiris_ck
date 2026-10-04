@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, klavyeden taban ve üs sayılarını okur. usAlma(taban, us) fonksiyonu tabanı üs kez
+// kendisiyle çarpar; sonuç "Sonuç = ..." diye yazılır.
+
 // ck0780 — Fonksiyon ile üslü sayı hesaplama
 // NASIL: Yeni bir Console Application aç. "1. BÖLÜM"ü Main() içine yapıştır;
 //        "2. BÖLÜM"deki usAlma metodunu class Program içine, Main()'in dışına ekle.

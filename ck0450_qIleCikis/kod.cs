@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, sürekli sayı sorar ve sayının pozitif, negatif ya da sıfır olduğunu yazar.
+// Sayı yerine q harfi girilince döngüden çıkar ve "Programdan çıkıldı" yazar.
+
 // ck0450 — Pozitif/negatif/sıfır analizi: çıkış 'q' harfiyle
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0380'de aynı analizi 0 girilince break ile bitirmiştik — burada çıkış

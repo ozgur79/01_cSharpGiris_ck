@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, maaşı okur ve aralığa göre kesinti uygular: 1000'e kadar %10, 3500'e kadar %15,
+// daha fazlasında %20. Kesintiden sonraki net maaşı ekrana yazar.
+
 // ck0310 — Maaş kesinti hesaplama: çok dallı yüzde
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0300'deki yüzde formülünü (oran/100)*sayı, farklı aralıklarda farklı

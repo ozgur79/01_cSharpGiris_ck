@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, 1-9 arası rastgele bir sayıyı tahmin etmeni ister ve bildin mi bilmedin mi yazar.
+// Sonra "Tekrar oynamak ister misiniz? (E/H)" diye sorar; H girilene kadar yeni tur oynar.
+
 // ck0580 — while ile "tekrar oyna" döngüsü
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0575'te do-while bir OYUN İÇİNDE tekrar tekrar tahmin almak için

@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, kaç adet tek sayı istendiğini okur ve rasgeleXtek(x) fonksiyonunu çağırır.
+// Fonksiyon 0-254 arası x tane rastgele tek sayı üretip dizi olarak döndürür; sayılar yan yana yazılır.
+
 // ck0860 — Dizi döndüren fonksiyon (fonksiyon + dizi kapanışı)
 // NASIL: Yeni bir Console Application aç. "1. BÖLÜM"ü Main() içine yapıştır;
 //        "2. BÖLÜM"deki rasgeleXtek metodunu class Program içine, Main()'in

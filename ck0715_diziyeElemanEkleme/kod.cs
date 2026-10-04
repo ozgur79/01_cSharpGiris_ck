@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, 3 isimli (ahmet, mehmet, veli) bir diziyi yazar, Array.Resize ile boyutunu 4 yapar.
+// Klavyeden okunan ismi yeni yere ekler ve dizinin son hâlini yazar.
+
 // ck0715 — Diziye eleman ekleme (Array.Resize)
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: Dizinin boyutu normalde SABİTTİR (new ile bir kez belirlenir).

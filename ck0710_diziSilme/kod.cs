@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, 0-9 sayılarından oluşan diziyi yazar, Array.Clear ile 2. indisten başlayarak 4
+// elemanı siler (0 yapar). Diziyi silmeden sonra tekrar yazar.
+
 // ck0710 — Dizide silme (Array.Clear)
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: Array.Clear(dizi, başlangıçİndisi, kaçEleman) belirtilen aralıktaki

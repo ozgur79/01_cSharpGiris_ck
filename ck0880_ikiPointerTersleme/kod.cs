@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, içinde 1, 2, 3 olan bir listeyi iki işaretçiyle (baştaki ve sondaki indis)
+// tersine çevirir. Listeyi önce normal, sonra ters hâliyle alt alta yazar.
+
 // ck0880 — İki pointer tekniğiyle tersleme
 // NASIL: Yeni bir Console Application aç. Dosyanın en üstüne `using
 //        System.Collections.Generic;` ekle. Sonra aşağıdakini Main() içine yapıştır.

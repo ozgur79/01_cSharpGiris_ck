@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, klavyeden iki sayı okur ve Topla(sayi1, sayi2) fonksiyonuna parametre olarak
+// gönderir. Fonksiyon toplamı return ile döndürür, "Toplam: ..." diye yazılır.
+
 // ck0760 — Fonksiyona giriş: parametre ve return
 // NASIL: Yeni bir Console Application aç. "1. BÖLÜM"ü Main() içine yapıştır;
 //        "2. BÖLÜM"deki Topla metodunu class Program içine, Main()'in dışına ekle.

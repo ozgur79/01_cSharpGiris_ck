@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, baklava (elmas) deseni çizer. Önce 5 satır boyunca küçülen ve arası açılan iki
+// üçgen, sonra 5 satır boyunca büyüyen ve arası kapanan iki üçgen yazar.
+
 // ck0525 — Baklava (elmas) deseni
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0520'deki açılan ikiz üçgenin simetriği eklenip iki blok art arda

@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, ekranda sayaç gösterir ve her adımda bekleme süresini kısaltır. Bekleme 1000 ms'de
+// başlar, her turda sayaç kadar azalır, 40 ms'nin altına inmez; sayaç giderek hızlanır.
+
 // ck0630 — Giderek hızlanan sayaç
 // NASIL: Dosyanın en üstüne `using System.Threading;` ekle. Sonra aşağıdakini
 //        Main() içine yapıştır.

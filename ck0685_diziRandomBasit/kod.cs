@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, 3 elemanlı bir diziyi 0-49 arası rastgele sayılarla doldurur. Elemanları
+// "Dizinin n. elemanı: ..." diye ekrana yazar.
+
 // ck0685 — Dizi + Random: 3 rastgele sayı
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0530'daki Random'ı diziyle birleştiriyoruz — klavyeden almak

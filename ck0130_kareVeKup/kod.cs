@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, klavyeden iki sayı okur: birinin karesini (s1 * s1), ötekinin küpünü
+// (s2 * s2 * s2) hesaplar. Her iki sonucu ayrı satırlarda ekrana yazar.
+
 // ck0130 — Kare ve küp alma
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: bir sayıyı kendisiyle üç kez çarparak küpünü almak (kare için iki

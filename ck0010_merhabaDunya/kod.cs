@@ -1,3 +1,8 @@
+// BU KOD NE YAPAR?
+// Bu kod, ekrana önce "Merhaba Dünya :)" yazar (Console.Write, imleç aynı satırda kalır),
+// bir tuşa basılınca aynı yazıyı WriteLine ile yazar (imleç alt satıra geçer). İki ReadKey
+// ile programı iki kez bekletir.
+
 // ck0010 — İlk program: ekrana yazı yazdırma
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: Console.Write ve Console.WriteLine ile ekrana yazı basmak,

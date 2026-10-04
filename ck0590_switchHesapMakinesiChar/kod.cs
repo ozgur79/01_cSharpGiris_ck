@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, işlem seçimini (1-4: toplama, çıkarma, çarpma, bölme) char olarak ve iki sayıyı
+// okur. switch ile işlemi yapar ve "sayi1 işlem sayi2 = sonuç" yazar; 1-4 dışında uyarı verir.
+
 // ck0590 — switch ile hesap makinesi (char seçim)
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: switch'i gerçek bir hesap makinesi menüsüne uyguluyoruz — kullanıcının

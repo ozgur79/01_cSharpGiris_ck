@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, klavyeden bir sayı okur ve % ile 2'ye bölümünden kalanı bulur. Kalan 0 ise
+// "çifttir", değilse "tektir" yazar.
+
 // ck0270 — % (mod) ile tek/çift kontrolü
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: % işareti bir bölmenin kalanını verir. Bir sayının 2'ye bölümünden

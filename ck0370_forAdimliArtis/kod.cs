@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, for döngüsüyle i değerini 2'den 20'ye kadar ikişer ikişer artırır (i += 2).
+// 2, 4, 6 ... 20 sayılarını alt alta ekrana yazar.
+
 // ck0370 — for ile adım belirleme: i += 2
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: for döngüsünün adım kısmı her zaman 1 artırmak (i++) zorunda değil —

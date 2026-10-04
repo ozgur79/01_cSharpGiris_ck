@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, kullanıcıdan bir n sayısı alır ve iç içe for ile 1'den n'e kadar çarpım tablosunu
+// yazar. Her sayının 1-10 ile çarpımı alt alta çıkar, aralarına çizgi konur.
+
 // ck0500 — Çarpım tablosu: iç içe for pekiştirme
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0465'teki iç içe for'u (dikdörtgen çizen) burada gerçek bir hesaplama

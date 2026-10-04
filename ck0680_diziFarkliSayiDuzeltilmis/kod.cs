@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, 5 elemanlı bir diziyi klavyeden doldururken aynı sayının ikinci kez girilmesini
+// engellemeyi amaçlar. Sonunda dizinin elemanlarını alt alta yazar.
+
 // ck0680 — Diziye farklı sayılar girmeye zorlama (düzeltilmiş)
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0675'teki i--/k-- yerine bir "tekrar" bayrağı (flag) ve k=-1

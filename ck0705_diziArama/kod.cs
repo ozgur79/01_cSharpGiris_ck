@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, 0-9 sayılarını tutan bir dizide klavyeden girilen sayıyı arar. Bulursa kaçıncı
+// indiste olduğunu yazar, bulamazsa "Aradığınız eleman bulunamadı." der.
+
 // ck0705 — Dizide arama
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: Dizide belirli bir değeri arayıp hangi indiste olduğunu bulmak —

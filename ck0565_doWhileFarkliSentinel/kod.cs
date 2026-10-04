@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, do-while döngüsüyle sayı sorar ve girilenleri toplar. Döngüyü bitiren özel
+// değer 10'dur (10 da toplama girer); bitince genel toplamı yazar.
+
 // ck0565 — do-while: farklı bir çıkış değeri (sentinel)
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0555'te döngüyü bitiren özel değer (sentinel) 0'dı. Burada aynı

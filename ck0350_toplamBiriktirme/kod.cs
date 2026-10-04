@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, kullanıcıdan sayı almaya devam eder ve girilenleri toplam değişkeninde biriktirir.
+// 0 girilince döngüden çıkar ve "Girilen sayıların toplamı: ..." yazar.
+
 // ck0350 — Toplam biriktirme: 0 girilince çıkış
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: "biriktirici" deseni — döngü dışında tanımlanan `toplam` her turda

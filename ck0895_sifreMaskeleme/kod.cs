@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, tuşları tek tek okuyup şifreyi sessizce biriktirir. Ekrana her tuş için bir *
+// yazar. Enter'a basılınca girilen şifreyi ekrana yazar.
+
 // ck0895 — Şifre maskeleme: her tuş yerine yıldız göster
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // NOT: ck0885'teki gibi bu ders de gerçek klavye ister, ck headless ortamda test

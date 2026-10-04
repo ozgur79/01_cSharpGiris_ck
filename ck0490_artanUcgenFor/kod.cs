@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, 10 satırlık artan bir yıldız üçgeni çizer. İç döngünün sınırı dış sayaca (k)
+// bağlıdır; 1. satırda 1, 10. satırda 10 yıldız yazılır.
+
 // ck0490 — İç döngü sınırını dış sayaca bağlayarak artan üçgen
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: Şimdiye kadar iç döngünün sınırı hep sabit bir sayıydı (5, 10...).

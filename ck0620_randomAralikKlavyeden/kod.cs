@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, kaç sayı tutulacağını, alt (min) ve üst (max) sınırı klavyeden okur. Bu aralıkta
+// istenen adet kadar rastgele sayı üretir ve alt alta yazar (üst sınır dahil değildir).
+
 // ck0620 — Random aralığını klavyeden alma
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0610'daki sabit aralığı (0-10) ve sabit adedi (5) burada

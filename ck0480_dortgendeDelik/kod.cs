@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, 11 satırlık ve satırı 5 yıldız olan bir dikdörtgen çizer. Yalnız k == 5 satırında
+// ve i == 2 sütununda bir boşluk bırakır; dörtgende tek bir delik açar.
+
 // ck0480 — Dikdörtgende tek bir yeri boş bırakma (satır + sütun birlikte)
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0470 satıra, ck0475 sütuna bakıyordu; burada && ile ikisi birden

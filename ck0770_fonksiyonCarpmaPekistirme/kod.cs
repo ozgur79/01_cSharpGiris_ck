@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, a = 5 ve b = 6 sayılarını carp() fonksiyonuna gönderir. Fonksiyonun döndürdüğü
+// çarpımı (30) ekrana yazar.
+
 // ck0770 — Fonksiyon pekiştirme: çarpma
 // NASIL: Yeni bir Console Application aç. "1. BÖLÜM"ü Main() içine yapıştır;
 //        "2. BÖLÜM"deki carp metodunu class Program içine, Main()'in dışına ekle.

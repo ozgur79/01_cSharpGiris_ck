@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, klavyeden bir metin okur ve sondan başa doğru harf harf yazarak metni tersten
+// yazdırır.
+
 // ck0745 — String'i tersten yazdırma
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0740'ta string'i indisle okumayı görmüştük. Burada aynı fikri

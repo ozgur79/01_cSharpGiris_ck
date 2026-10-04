@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, konsolun arka plan rengini 8 kez değiştirir. renk sayısı 0'dan 7'ye kadar
+// (ConsoleColor'a çevrilerek) arka plan yapılır, ekran temizlenir ve her renk 400 ms bekler.
+
 // ck0650 — ConsoleColor'a giriş: (Tip)değer dönüşümü (cast)
 // NASIL: Dosyanın en üstüne `using System.Threading;` ekle. Sonra aşağıdakini
 //        Main() içine yapıştır.

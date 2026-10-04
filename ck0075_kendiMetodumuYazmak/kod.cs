@@ -1,3 +1,8 @@
+// BU KOD NE YAPAR?
+// Bu kod, tanit() adlı kendi yazdığımız metodu çağırıp ekrana 3 satır yazdırır. Ardından
+// Topla() metodunu çağırır; Topla() 10 + 20'yi hesaplayıp sonucu (30) return ile geri
+// gönderir, sonuç a değişkenine yazılıp ekrana basılır.
+
 // ck0075 — Kendi metodumu yazmak: void ve return
 // NASIL: Yeni bir Console Application aç. "1. BÖLÜM"ü Main() içine yapıştır;
 //        "2. BÖLÜM"deki iki metodu class Program içine, Main()'in dışına ekle.

@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, 3 elemanlı bir diziyi 0-99 arası rastgele TEK sayılarla doldurur. Çift sayı
+// gelirse atlar ve yenisini tutar; kabul edilen her sayıyı ekrana yazar.
+
 // ck0690 — Dizi + Random: sadece tek sayıları toplama
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0685'te her üretilen sayı direkt diziye giriyordu. Burada bir

@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, 7 erkek ve 7 kadın ismi tutan iki diziden aynı rastgele indisteki isimleri çeker.
+// Bir erkek ve bir kadın ismini alt alta ekrana yazar.
+
 // ck0735 — İki diziden rastgele veri çekme
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: AYNI rastgele indisi iki farklı diziye uygulayarak "eşleşen" iki

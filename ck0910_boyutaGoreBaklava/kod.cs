@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, boyut sayısını okur ve baklava (elmas) deseni çizer. Önce büyüyen üst yarıyı,
+// sonra küçülen alt yarıyı boşluk ve yıldızlarla yazar; boyut büyüdükçe baklava büyür.
+
 // ck0910 — Boyutu klavyeden alınan baklava
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0525/ck0645'teki baklava deseni sabit (5 satırlık) boyuttaydı.

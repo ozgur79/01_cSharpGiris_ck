@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, 2022'den 2031'e kadar her yıl için kirayı yazar. Kiranın başlangıç değerini ve
+// yıllık zam yüzdesini klavyeden okur (while döngüsü).
+
 // ck0550 — while ile kira hesabı (klavyeden değerler)
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0545'teki sabit kira ve zam oranı burada kullanıcıdan alınıyor —

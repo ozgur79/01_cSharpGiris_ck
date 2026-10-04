@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, 0-254 arası 3 rastgele tek sayı seçer. Üçünün toplamını bulur, 3'e bölerek
+// ortalamayı hesaplar, ortalamayı dizinin 4. elemanına koyar ve ekrana yazar.
+
 // ck0850 — Dizi + ortalama: 4. eleman ilk üçün ortalaması
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0695'te toplamı son elemana koymuştuk. Burada TOPLAM yerine

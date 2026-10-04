@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, döngüyle 0-9 arasında 5 rastgele sayı üretir. Her sayıyı
+// "Bilgisayarın tuttuğu sayı: ..." diye alt alta yazar.
+
 // ck0610 — Döngüde N adet rastgele sayı üretme
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0530'daki tek seferlik Random kullanımını bir for döngüsüne

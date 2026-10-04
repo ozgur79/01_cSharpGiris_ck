@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, x = 10 ve y = 5 sayılarıyla dört işlemi yapar. Dört satırı "10+5=15", "10-5=5",
+// "10*5=50", "10/5=2" biçiminde yazıyla sayıyı birleştirerek ekrana yazar.
+
 // ck0220 — Dört işlem: formatlı sonuç yazdırma
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: pekiştirme — +, -, *, / işlemlerini aynı programda art arda kullanmak;

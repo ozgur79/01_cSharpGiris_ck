@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, do-while döngüsüyle sayı sorar ve girilenleri toplar. 0 girilince döngü biter
+// (0 da toplamaya girer, değeri etkilemez) ve genel toplamı yazar.
+
 // ck0555 — do-while ile biriktirici (0 girilene kadar)
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0350'deki biriktirici (+=) tekniği burada do-while ile birlikte —

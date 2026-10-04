@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, Console.WriteLine ile ekrana "dene" yazar ve bir tuşa basılana kadar bekler.
+// Asıl iş yorumlardadır: metot ve sınıf terimlerini bu satır üzerinden anlatır.
+
 // ck0070 — Metot ve sınıf nedir?
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: "metot" ve "sınıf" terimleri, Console.WriteLine örneğiyle

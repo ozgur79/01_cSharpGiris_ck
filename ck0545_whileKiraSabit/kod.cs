@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, 2022'den 2031'e kadar her yıl için kirayı yazar. Kira 1000 TL'den başlar ve
+// her yıl %10 artar (while döngüsü, sabit değerlerle).
+
 // ck0545 — while ile kira hesabı (sabit değerler)
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: while'ı gerçek bir hesaplama problemine uyguluyoruz — yıl sabit bir

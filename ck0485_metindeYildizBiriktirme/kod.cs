@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, 10 satırlık, her satırı 10 yıldız olan bir kare çizer. Yıldızları ekrana tek tek
+// yazmaz; önce yildiz adlı metinde biriktirir, satır bitince tek seferde yazar.
+
 // ck0485 — Bir satırın yıldızlarını metinde biriktirme
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: Şimdiye kadar yıldızları doğrudan ekrana yazdırıyorduk (Console.Write).

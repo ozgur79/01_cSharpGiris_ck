@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, bir puan okur ve notunu yazar: 0-49 Kaldı, 50-69 Orta, 70-84 İyi, 85-100 Pek iyi.
+// Puan bu aralıkların dışındaysa "Geçersiz puan, tekrar girin" der ve geçerli olana kadar tekrar sorar.
+
 // ck0825 — Puan/not: çok dallı karar + geçersizse tekrar sorma
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0150'deki çok dallı karar (if/else if) ile ck0430'daki

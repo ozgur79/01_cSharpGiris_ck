@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, klavyeden bir kelime okur ve içindeki sesli harfleri (a e ı i u ü o ö) sayar.
+// Sonucu "Kelimedeki ünlü harf sayısı: ..." diye yazar.
+
 // ck0740 — String'te sesli harf sayma (char dizisi)
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: Bir string aslında karakterlerin dizisi gibi davranır (kelime[i]

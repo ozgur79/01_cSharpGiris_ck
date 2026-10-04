@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, ck0590'daki hesap makinesinin aynısıdır; seçimi char yerine string olarak okur.
+// 1-4 seçimine göre iki sayıyı toplar, çıkarır, çarpar ya da böler ve sonucu yazar.
+
 // ck0595 — switch ile hesap makinesi (string seçim)
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0590'daki aynı hesap makinesi burada char yerine string ile —

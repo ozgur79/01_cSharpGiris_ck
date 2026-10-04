@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, klavyeden üç tam sayı okur ve (s1 + s2 + s3) / 3 ile ortalamasını hesaplar.
+// Hepsi int olduğu için sonucun küsuratı atılır; ortalama ekrana tam sayı olarak yazılır.
+
 // ck0120 — Üç sayının ortalaması
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: pekiştirme — üç sayıyı toplayıp parantez içine alarak 3'e bölme, ck0060'ta

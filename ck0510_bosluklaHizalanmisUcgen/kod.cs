@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, 5 satırlık, sağa hizalanmış bir yıldız üçgeni çizer. Her satırın başına önce
+// boşluk (5 - k tane), sonra yıldız yazar; yıldızlar satır başına birer artar.
+
 // ck0510 — Boşlukla sağa hizalanmış üçgen
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0490'daki artan üçgeni sütun sayısıyla hizalıyorduk. Burada aynı

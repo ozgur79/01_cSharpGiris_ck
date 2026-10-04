@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, sonsuz döngüde 1'den başlayarak sayar. Sayıları yan yana yazar ve her sayıdan
+// sonra 200 ms bekler; program kendiliğinden bitmez.
+
 // ck0640 — Sonsuza kadar sayma
 // NASIL: Dosyanın en üstüne `using System.Threading;` ekle. Sonra aşağıdakini
 //        Main() içine yapıştır.

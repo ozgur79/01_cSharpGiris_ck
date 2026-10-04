@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, sonsuz döngüde bir sayı sorar. 1'den o sayıya kadar kaç sayıya kalansız
+// bölündüğünü sayar; tam 2 ise "asaldır", değilse "asal değildir" yazar.
+
 // ck0920 — Asal sayı analizi (arsiv/13'ün kapanışı)
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: Bir sayının asal olup olmadığını anlamanın klasik yolu —

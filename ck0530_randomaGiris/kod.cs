@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, Random sınıfıyla 0-254 arasında rastgele bir sayı üretir (byte tipinde tutulur).
+// Sayıyı "Bilgisayarın tuttuğu sayı: ..." diye ekrana yazar. Her çalışmada sayı değişir.
+
 // ck0530 — Random'a giriş
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: Rastgele sayı üretmek için Random sınıfından bir üretici oluşturuyoruz

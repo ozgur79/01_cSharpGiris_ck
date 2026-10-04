@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, sürekli sayı sorar ve yalnız tek sayıları toplar; toplamı her turda yazar. Çift
+// sayı girilirse uyarı verir. 0 girilince döngü biter ve "Programdan çıkıldı." yazar.
+
 // ck0820 — do-while ile tek sayı toplama, 0'da çıkış
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0815'in aynası — bu kez SADECE tek sayılar toplanıyor, çift

@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, 10 satırlık, satırı 5 yıldız olan bir dikdörtgen çizer. i == 4 olan satırı
+// (beşinci satır) yıldız yazmadan boş bırakır.
+
 // ck0470 — Desende bir satırı boş bırakma
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0465'teki dikdörtgene bir karar ekleniyor — dış döngünün sayacı

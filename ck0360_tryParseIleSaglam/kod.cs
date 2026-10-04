@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, ck0350'deki toplamı int.TryParse ile korur. Sayı yerine harf girilirse çökmez,
+// "Geçersiz bir sayı girdiniz" der ve tekrar sorar. "0" girilince girilen sayıların toplamını yazar.
+
 // ck0360 — Aynı program, int.TryParse ile hatalı girdiye dayanıklı hâle getirme
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: int.TryParse bir yazıyı sayıya çevirmeyi "dener" — başarılıysa true

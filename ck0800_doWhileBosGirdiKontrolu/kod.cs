@@ -1,3 +1,7 @@
+// BU KOD NE YAPAR?
+// Bu kod, "Veri girin: " diye sorar. Boş ya da yalnız boşluk girilirse tekrar sorar;
+// dolu bir değer girilince "Girilen veri: ..." diye yazar.
+
 // ck0800 — do-while ile boş girdi kontrolü
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: ck0555'teki do-while retry-deseni burada YENİ bir geçerlilik
