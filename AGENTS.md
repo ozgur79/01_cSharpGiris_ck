@@ -27,9 +27,15 @@ parçadır, tam dosya değil. **Kendi ortamında (`dotnet` CLI, geçici klasörd
 çalıştırılmadan "bitti" sayılmaz** — örnek girdi ver, çıktıyı gör. O geçici iskelet asla
 commit'e girmez, sadece `kod.cs` girer.
 
-Dosya dört parçadan oluşur: **başlık** · **KAVRAM** · **SEN YAP** · **MERAK KÖŞESİ**.
+Dosya beş parçadan oluşur: **BU KOD NE YAPAR?** bloğu · **başlık** · **KAVRAM** · **SEN YAP** ·
+**MERAK KÖŞESİ**. Blok en üsttedir, başlık yorumundan önce gelir (kural: üst klasördeki kimlik
+dosyası, "Sert sınırlar").
 
 ```csharp
+// BU KOD NE YAPAR?
+// Bu kod, klavyeden bir tam sayı okur ve 2 * x ile iki katını hesaplar.
+// Sonucu "Klavyeden girilen sayının iki katı : ..." diye ekrana yazar.
+
 // ck0040 — Sayının iki katı
 // NASIL: Yeni bir Console Application aç, aşağıdakini Main() içine yapıştır.
 // Ne öğreneceğiz: * ile çarpma yapmak (bir önceki derste + ile toplama görmüştük)
