@@ -22,6 +22,9 @@ Console.ReadKey();
 // --- SEN YAP ---
 // Toplamı 3'e tam bölünmeyen üç sayı gir (örn. 7, 8, 10). Çıkan sonucu hesap makineniyle
 // bulduğun gerçek ortalamayla karşılaştır — ck0060'ı hatırlayarak aradaki farkı açıkla.
+// 2) Aynı programı bu sefer s1, s2, s3 yerine yalnızca TEK değişkenle (sayi) yaz: her sayıyı
+//    okuyunca eski değerin üstüne ekle (sayi = sayi + ...). Sonunda toplamı 3'e böl, ortalamayı
+//    yazdır. Neden tek değişken yetiyor, ilk sayıyı nerede kaybetmiyoruz? Düşün.
 
 // --- MERAK KÖŞESİ ---
 // static Main içindeki satırlar hep yukarıdan aşağı mı çalışır?
